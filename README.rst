@@ -16,6 +16,8 @@ related to each of these subworkflows can be identified by their labels in the G
 
 <Subworkflow number> ) <Plugin> - <Task performed>
 
+Images are added in this document to localize the subworkflows, but note that the protocols might appear dissordered.
+
 These subworkflows are:
 
 1) Main VDS workflow
@@ -115,14 +117,17 @@ Finally, this demo project also includes several examples of molecular dynamics 
 .. figure:: images/subworkflow4.png
    :alt: md workflow
 
-1) **On a docked molecule**: as described in the "Main VDS workflow" section, a molecular dynamics simulation is
+1) **On a docked molecule**
+As described in the "Main VDS workflow" section, a molecular dynamics simulation is
 performed using Desmond over the most promising docked molecule.
 
-2) **On the original ligand**: the project includes an example the performs a MD simulation on the actual ligand of
+2) **On the original ligand**
+The project includes an example the performs a MD simulation on the actual ligand of
 4ERF (OR3) together with its receptor. This simulation is again performed on Desmond, since MD simulations with ligands
 are not yet supported in gromacs or amber (they will hopefully come soon).
 
-3) **Only on the receptor**: finally, a MD simulation is performed on the receptor only, this time using Gromacs. As for
+3) **Only on the receptor**
+Finally, a MD simulation is performed on the receptor only, this time using Gromacs. As for
 the previous cases, a first protocol is used to define the system, with the water box, ions and force fields; and a
 second protocol actually executes the simulation, which can be visualized using PyMol or VMD (recommended). Moreover,
 several Gromacs trajectory analysis can be executed from the Scipion GUI in the Analyze results option.
