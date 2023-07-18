@@ -23,7 +23,7 @@ These subworkflows are:
 
 Principal workflow that includes protocols following the "Virtual Drug Screening workflow" section:
 
-.. figure:: images/subworkflow1.gif
+.. figure:: images/subworkflow1.png
    :alt: vds workflow
 
 1) **Molecules import**
