@@ -70,6 +70,9 @@ Principal workflow that includes protocols following the "Virtual Drug Screening
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This Scipion project also includes several examples on how to determine the structural ROIs discussed in the paper.
 
+.. figure:: images/subworkflow2.png
+   :alt: rois workflow
+
 1) **Manual definition**
 We show a manual structural ROI definition in the 4ERF-A structure based on the area of its own ligand.
 
@@ -90,7 +93,11 @@ that predict these protein concavities we call pockets.
 3) Pharmacophore-based workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 As described in the paper, Scipion-chem includes some features to perform pharmacophore-based virtual screening. In this
-project, an example of that is shown.
+project, an example is shown.
+
+.. figure:: images/subworkflow3.png
+   :alt: pharmacophore workflow
+
 To do so, the actual ligand of 4ERF is first extracted and a pharmacophore is generated from it. This resulting
 pharmacophore is slightly modified to be more flexible using another Scipion-chem protocol, and this modified
 pharmacophore is finally used as a filter for out set of 4 small molecules. In this example, as the pharmacophore
@@ -104,6 +111,10 @@ prepared with OpenBabel would not be parsed properly with RDKit and the protocol
 4) Molecular dynamics (MD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Finally, this demo project also includes several examples of molecular dynamics simulations.
+
+.. figure:: images/subworkflow4.png
+   :alt: md workflow
+
 1) **On a docked molecule**: as described in the "Main VDS workflow" section, a molecular dynamics simulation is
 performed using Desmond over the most promising docked molecule.
 
