@@ -1,0 +1,132 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 64302
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/002997_ProtChemOBabelPrepareLigands
+runMode: Continue
+          MPI: 1
+      threads: 4
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: addChargesStep, step 1, time 2023-04-25 15:50:54.064909
+[35mSTARTED[0m: addChargesStep, step 2, time 2023-04-25 15:50:54.073038
+[35mSTARTED[0m: addChargesStep, step 3, time 2023-04-25 15:50:54.090178
+[35mFINISHED[0m: addChargesStep, step 1, time 2023-04-25 15:50:54.317891
+[35mFINISHED[0m: addChargesStep, step 2, time 2023-04-25 15:50:54.321431
+[35mFINISHED[0m: addChargesStep, step 3, time 2023-04-25 15:50:54.551014
+[35mSTARTED[0m: conformersStep, step 4, time 2023-04-25 15:50:54.637349
+[35mSTARTED[0m: conformersStep, step 5, time 2023-04-25 15:50:54.643566
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate plip-env && obabel   '/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001019_prep.mol2' --conformer --nconf 2 --score rmsd --writeconformers -O 'ZINC00001019_conformers.mol2'[0m
+[35mSTARTED[0m: conformersStep, step 6, time 2023-04-25 15:50:54.655076
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate plip-env && obabel   '/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00000480_prep.mol2' --conformer --nconf 2 --score rmsd --writeconformers -O 'ZINC00000480_conformers.mol2'[0m
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate plip-env && obabel   '/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001453_prep.mol2' --conformer --nconf 2 --score rmsd --writeconformers -O 'ZINC00001453_conformers.mol2'[0m
+Initial conformer does not pass filter!
+Initial conformer count: 2
+12 attempts,  2 duplicates, 8 failed filter.
+0 6 0 2 
+3 5 0 1 
+
+=====> Starting conformers search with a Genetic Algorithm <=====
+Perform elitist generation replacement with mutation only
+Mutation probability: 0.2
+Will stop after 5 generations without improvement.
+
+Generation #1  1.2739
+Generation #2  1.95873
+Initial conformer does not pass filter!
+Initial conformer count: 2
+17 attempts,  0 duplicates, 15 failed filter.
+8 2 
+7 0 
+
+=====> Starting conformers search with a Genetic Algorithm <=====
+Perform elitist generation replacement with mutation only
+Mutation probability: 0.2
+Will stop after 5 generations without improvement.
+
+Generation #3  1.95873
+Generation #4  1.95873
+Generation #1  1.61905
+Generation #5  1.95873
+Generation #2  1.61905
+Initial conformer count: 2
+1 attempts,  0 duplicates, 0 failed filter.
+0 0 0 
+0 8 0 
+
+=====> Starting conformers search with a Genetic Algorithm <=====
+Perform elitist generation replacement with mutation only
+Mutation probability: 0.2
+Will stop after 5 generations without improvement.
+
+Generation #6  1.95873
+Generation #1  1.13541
+Generation #7  1.95873
+Generation #3  1.61905
+Generation #2  1.13541
+Generation #8  1.95873
+3 10 0 1 
+10 0 0 3 
+GetConformers:
+3 10 0 1 
+10 0 0 3 
+Generation #3  1.13541
+Generation #4  1.61905
+Generation #4  1.13541
+Generation #5  1.13541
+Generation #5  1.61905
+Generation #6  1.13541
+2 8 0 
+0 6 0 
+GetConformers:
+2 8 0 
+0 6 0 
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate plip-env && obabel   '/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001099_prep.mol2' --conformer --nconf 2 --score rmsd --writeconformers -O 'ZINC00001099_conformers.mol2'[0m
+Generation #6  1.61905
+2 2 
+7 0 
+GetConformers:
+2 2 
+7 0 
+Initial conformer count: 2
+4 attempts,  3 duplicates, 0 failed filter.
+0 0 
+0 1 
+
+=====> Starting conformers search with a Genetic Algorithm <=====
+Perform elitist generation replacement with mutation only
+Mutation probability: 0.2
+Will stop after 5 generations without improvement.
+
+Generation #1  0.119849
+Generation #2  0.119849
+Generation #3  0.119849
+Generation #4  0.119849
+Generation #5  0.119849
+Generation #6  0.119849
+3 1 
+3 0 
+GetConformers:
+3 1 
+3 0 
+[35mFINISHED[0m: conformersStep, step 4, time 2023-04-25 15:50:54.905945
+[35mFINISHED[0m: conformersStep, step 5, time 2023-04-25 15:50:54.912311
+[35mFINISHED[0m: conformersStep, step 6, time 2023-04-25 15:50:55.134021
+[35mSTARTED[0m: createOutput, step 7, time 2023-04-25 15:50:55.219768
+Look for  Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001019_prep.mol2
+Look for  Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00000480_prep.mol2
+Look for  Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001453_prep.mol2
+Look for  Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001099_prep.mol2
+[35mFINISHED[0m: createOutput, step 7, time 2023-04-25 15:50:55.293853
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

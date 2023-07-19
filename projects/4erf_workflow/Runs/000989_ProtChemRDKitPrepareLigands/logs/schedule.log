@@ -1,0 +1,8 @@
+Scheduling protocol 989, PID: 17848,prerequisites: [], works in streaming: False.
+Waiting 30 seconds before start checking inputs 
+Checking input data...
+Updated protocol: 947 (pwchem - import small mols)
+SetOfSmallMolecules (4 items, Standard class) is not blocking this protocol. All ready.
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/4erf_demo" "Runs/000989_ProtChemRDKitPrepareLigands/logs/run.db" 989 "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000989_ProtChemRDKitPrepareLigands/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000989_ProtChemRDKitPrepareLigands/logs/run.stderr"[0m'

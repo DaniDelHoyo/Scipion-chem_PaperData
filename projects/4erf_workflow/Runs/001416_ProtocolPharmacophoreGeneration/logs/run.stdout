@@ -1,0 +1,28 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001416_ProtocolPharmacophoreGeneration/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001416_ProtocolPharmacophoreGeneration/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 20304
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/001416_ProtocolPharmacophoreGeneration
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: convertStep, step 1, time 2023-04-24 15:40:54.126582
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate plip-env && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/obabel_IO.py  --multiFiles -iD "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001416_ProtocolPharmacophoreGeneration/extra/inputSmallMolecules" --pattern "*" -of smi --outputDir "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001416_ProtocolPharmacophoreGeneration/extra/inputSmallMoleculesSMI"[0m
+[35mFINISHED[0m: convertStep, step 1, time 2023-04-24 15:40:54.413169
+[35mSTARTED[0m: generationStep, step 2, time 2023-04-24 15:40:54.433997
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate rdkit-env && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/pharmacophore_generation.py  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001416_ProtocolPharmacophoreGeneration/extra/inputParams.txt /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001416_ProtocolPharmacophoreGeneration[0m
+[35mFINISHED[0m: generationStep, step 2, time 2023-04-24 15:40:55.164180
+[35mSTARTED[0m: createOutputStep, step 3, time 2023-04-24 15:40:55.183449
+[35mFINISHED[0m: createOutputStep, step 3, time 2023-04-24 15:40:55.236362
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

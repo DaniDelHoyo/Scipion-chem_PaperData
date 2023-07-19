@@ -1,0 +1,38 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 71026
+pyworkflow: 3.1.0
+plugin: p2rank
+plugin binary v: 2.3
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/001225_P2RankFindPockets
+runMode: Restart
+          MPI: 1
+      threads: 4
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: convertInputStep, step 1, time 2023-04-25 16:06:53.898654
+[35mFINISHED[0m: convertInputStep, step 1, time 2023-04-25 16:06:53.907149
+[35mSTARTED[0m: P2RankStep, step 2, time 2023-04-25 16:06:54.428978
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/p2rank-2.3/prank predict "-f" "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/extra/4erf_prep.pdb" "-o" "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/extra" "-threads" "4"[0m
+----------------------------------------------------------------------------------------------
+ P2Rank 2.3
+----------------------------------------------------------------------------------------------
+
+predicting pockets for proteins from dataset [4erf_prep.pdb]
+processing [4erf_prep.pdb] (1/1)
+predicting pockets finished in 0 hours 0 minutes 5.887 seconds
+results saved to directory [/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/extra]
+
+----------------------------------------------------------------------------------------------
+ finished successfully in 0 hours 0 minutes 6.607 seconds
+----------------------------------------------------------------------------------------------
+[35mFINISHED[0m: P2RankStep, step 2, time 2023-04-25 16:07:01.756882
+[35mSTARTED[0m: createOutputStep, step 3, time 2023-04-25 16:07:01.973587
+[35mFINISHED[0m: createOutputStep, step 3, time 2023-04-25 16:07:02.189967
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

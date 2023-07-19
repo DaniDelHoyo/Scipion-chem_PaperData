@@ -1,0 +1,7 @@
+outputPath:: results.tsv
+pharmDic:: {1: {'type': 'Donor', 'coords': (-36.4595, 11.8, -50.4845), 'radius': 1.7215349255824026}, 2: {'type': 'Acceptor', 'coords': (-37.79, 9.96, -57.07), 'radius': 2.0}, 3: {'type': 'Hydrophobe', 'coords': (-34.84375, 12.259625, -53.59012500000001), 'radius': 3.5209767776499152}}
+downSample:: False
+optimize:: False
+nAlignments:: 5
+maxSSD:: 20.0
+ligandFiles:: /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001506_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/ZINC00000480.sdf /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001506_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/ZINC00001453.sdf /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001506_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/ZINC00001099.sdf /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001506_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/ZINC00001019.sdf

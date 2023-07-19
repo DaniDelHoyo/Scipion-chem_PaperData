@@ -1,0 +1,164 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 33109
+pyworkflow: 3.1.0
+plugin: gromacs
+plugin binary v: 2021.5
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/004338_GromacsMDSimulation
+runMode: Restart
+          MPI: 1
+      threads: 8
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: simulateStageStep, step 1, time 2023-07-18 16:20:06.579000
+Running:  printf "1
+" | /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx  genrestr -f /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004266_GromacsSystemPrep/4erf_prepared.gro -n /home/danieldh/ScipionUserData/projects/4erf_demo/14714_custom_indexes.ndx -o posre_protein_stg1.itp -fc 50 50 50
+0 warnings in stage 1
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx grompp -f /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_1/stage_1.mdp -c /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004266_GromacsSystemPrep/4erf_prepared.gro -r /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004266_GromacsSystemPrep/4erf_prepared.gro -p /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_1/4erf_prepared.top  -o stage_1.tpr[0m
+Setting the LD random seed to 2144821183
+
+Generated 2211 of the 2211 non-bonded parameter combinations
+
+Generated 2211 of the 2211 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Excluding 1 bonded neighbours molecule type 'CL'
+Analysing residue names:
+There are:    92    Protein residues
+There are:  5203      Water residues
+There are:     4        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+This run will generate roughly 1 Mb of data
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx mdrun -v -deffnm stage_1 -gpu_id 0 -nt 8 -pin on -cpi -cpt 15.0[0m
+[35mFINISHED[0m: simulateStageStep, step 1, time 2023-07-18 16:20:08.223256
+[35mSTARTED[0m: simulateStageStep, step 2, time 2023-07-18 16:20:08.241182
+Running:  printf "4
+" | /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx  genrestr -f /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004266_GromacsSystemPrep/4erf_prepared.gro -n /home/danieldh/ScipionUserData/projects/4erf_demo/14714_custom_indexes.ndx -o posre_backbone_stg2.itp -fc 50 50 50
+Number of frames:  50.0
+0 warnings in stage 2
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx grompp -f /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_2/stage_2.mdp -c /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_1/stage_1.gro -r /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_1/stage_1.gro -p /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_2/4erf_prepared.top  -o stage_2.tpr[0m
+Setting the LD random seed to 1328472031
+
+Generated 2211 of the 2211 non-bonded parameter combinations
+
+Generated 2211 of the 2211 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+
+Setting gen_seed to -537985121
+
+Velocities were taken from a Maxwell distribution at 300 K
+Analysing residue names:
+There are:    92    Protein residues
+There are:  5203      Water residues
+There are:     4        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 36x40x36, spacing 0.158 0.146 0.147
+
+Estimate for the relative computational load of the PME mesh part: 0.22
+
+This run will generate roughly 21 Mb of data
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx mdrun -v -deffnm stage_2 -gpu_id 0 -nt 8 -pin on -cpi -cpt 15.0[0m
+[35mFINISHED[0m: simulateStageStep, step 2, time 2023-07-18 16:20:12.598970
+[35mSTARTED[0m: simulateStageStep, step 3, time 2023-07-18 16:20:12.609523
+Number of frames:  50.0
+0 warnings in stage 3
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx grompp -f /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_3/stage_3.mdp -c /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_2/stage_2.gro -r /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_2/stage_2.gro -p /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_2/4erf_prepared.top -t /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_2/stage_2.cpt -o stage_3.tpr[0m
+Setting the LD random seed to -4199721
+
+Generated 2211 of the 2211 non-bonded parameter combinations
+
+Generated 2211 of the 2211 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+Analysing residue names:
+There are:    92    Protein residues
+There are:  5203      Water residues
+There are:     4        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+Reading Coordinates, Velocities and Box size from old trajectory
+
+Will read whole trajectory
+
+Using frame at t = 10 ps
+
+Starting time for run is 0 ps
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 36x40x36, spacing 0.158 0.146 0.147
+
+Estimate for the relative computational load of the PME mesh part: 0.22
+
+This run will generate roughly 21 Mb of data
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx mdrun -v -deffnm stage_3 -gpu_id 0 -nt 8 -pin on -cpi -cpt 15.0[0m
+[35mFINISHED[0m: simulateStageStep, step 3, time 2023-07-18 16:20:16.930232
+[35mSTARTED[0m: createOutputStep, step 4, time 2023-07-18 16:20:16.940516
+Running:  printf "c
+c
+" | /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx  trjcat -f /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_2/stage_2.trr /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_3/stage_3.trr -settime -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/tmp/concatenated.xtc -cat
+Running:  printf "Protein
+System
+Protein
+System
+" | /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx  trjconv -s /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra/stage_3/stage_3.tpr -f /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/tmp/concatenated.xtc -center -ur compact -pbc mol -o outputTrajectory.xtc
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx check -f /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/outputTrajectory.xtc[0m
+Checking file /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/outputTrajectory.xtc
+[35mFINISHED[0m: createOutputStep, step 4, time 2023-07-18 16:20:17.544479
+*** Last status is finished 
+Cleaning temp folder....
+Nothing to clean up
+[32m------------------- PROTOCOL FINISHED[0m

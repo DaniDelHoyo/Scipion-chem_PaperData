@@ -1,0 +1,26 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/modellerIssue/Runs/000568_ProtImportPdb/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/modellerIssue/Runs/000568_ProtImportPdb/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 65163
+pyworkflow: 3.0.29
+plugin: pwem
+plugin v: 3.0.25
+currentDir: /home/danieldh/ScipionUserData/projects/modellerIssue
+workingDir: Runs/000568_ProtImportPdb
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: pdbDownloadStep, step 1, time 2023-03-01 17:59:08.976506
+retrieving atomic structure with ID = 4erf
+Downloading PDB structure '4erf'...
+Structure exists: 'Runs/000568_ProtImportPdb/extra/4erf.cif' 
+Structure exists: 'Runs/000568_ProtImportPdb/extra/4erf.cif' 
+Structure exists: 'Runs/000568_ProtImportPdb/extra/4erf.cif' 
+Structure exists: 'Runs/000568_ProtImportPdb/extra/4erf.cif' 
+[35mFINISHED[0m: pdbDownloadStep, step 1, time 2023-03-01 17:59:10.298818
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

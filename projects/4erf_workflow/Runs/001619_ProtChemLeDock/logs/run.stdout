@@ -1,0 +1,36 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001619_ProtChemLeDock/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001619_ProtChemLeDock/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 71427
+pyworkflow: 3.1.0
+plugin: lephar
+plugin binary v: 1.0
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/001619_ProtChemLeDock
+runMode: Restart
+          MPI: 1
+      threads: 4
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: convertStep, step 1, time 2023-04-25 16:07:53.562929
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/lepro_linux_x86 /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000687_FpocketFindPockets/extra/4erf_prep.pdb[0m
+[35mFINISHED[0m: convertStep, step 1, time 2023-04-25 16:07:53.581035
+[35mSTARTED[0m: dockStep, step 2, time 2023-04-25 16:07:54.086551
+[35mSTARTED[0m: dockStep, step 3, time 2023-04-25 16:07:54.091656
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001619_ProtChemLeDock/extra/pocket_1/dock_0.in[0m
+[35mSTARTED[0m: dockStep, step 4, time 2023-04-25 16:07:54.100952
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001619_ProtChemLeDock/extra/pocket_2/dock_0.in[0m
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001619_ProtChemLeDock/extra/pocket_3/dock_0.in[0m
+[35mFINISHED[0m: dockStep, step 4, time 2023-04-25 16:08:29.236675
+[35mFINISHED[0m: dockStep, step 3, time 2023-04-25 16:08:34.606619
+[35mFINISHED[0m: dockStep, step 2, time 2023-04-25 16:08:35.818963
+[35mSTARTED[0m: createOutputStep, step 5, time 2023-04-25 16:08:36.205569
+[35mFINISHED[0m: createOutputStep, step 5, time 2023-04-25 16:08:36.385310
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

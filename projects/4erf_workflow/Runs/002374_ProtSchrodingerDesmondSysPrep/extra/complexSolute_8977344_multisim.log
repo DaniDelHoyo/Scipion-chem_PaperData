@@ -1,0 +1,117 @@
+Job launching command:
+$SCHRODINGER/utilities/multisim -m complexSolute.msj /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002374_ProtSchrodingerDesmondSysPrep/extra/complexSolute.mae -WAIT -o complexSolute_8977344-out.cms -JOBNAME complexSolute_8977344
+
+Booting the multisim workflow engine...
+           multisim version: 3.8.5.19
+            mmshare version: 5.5
+                    Jobname: complexSolute_8977344
+                   Username: danieldh
+            Master job host: undetected
+                Subjob host: localhost
+                     Job ID: euclides-0-6447e0cc
+            multisim script: complexSolute.msj
+       Structure input file: complexSolute.mae
+            CPUs per subjob: "1"
+             Job start time: Tue Apr 25 16:16:46 2023
+           Launch directory: /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002374_ProtSchrodingerDesmondSysPrep/extra
+               $SCHRODINGER: /home/danieldh/scipion3/software/em/Schrodinger2021-3
+               $OPLS_DIR: <empty>
+
+Parsing the multisim script file...
+
+Summary of user stages:
+  stage 1 - task
+  stage 2 - build_geometry
+  stage 3 - assign_forcefield
+(3 stages in total)
+
+Workflow is started now.
+
+Stage 1 - task
+stage[1] task: Detecting system type...
+stage[1] task:   It seems a raw geometry for regular molecular dynamics simulations
+stage[1] task: Recognizing traits of system...
+stage[1] task:   (none)
+
+Stage 1 completed successfully.
+Stage 1 duration: 0h 0' 0"
+
+
+Stage 2 - build_geometry
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  3
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  euclides-0-6447e0d1 complexSolute_8977344_2-in localhost [euclides]
+1 0 0 | finished  euclides-0-6447e0d1 complexSolute_8977344_2-in localhost [euclides]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+
+Job("euclides-0-6447e0d1") was successfully finished.
+  Host       : localhost
+  Launch time: Tue Apr 25 16:16:49 2023
+  Start time : Tue Apr 25 16:16:49 2023
+  End time   : Tue Apr 25 16:16:53 2023
+  Duration   : 0h 0' 4"
+  CPUs       : 1
+  CPU time   : 0h 0' 4"
+  Exit code  : 0
+  Jobname    : complexSolute_8977344_2
+  Stage      : 2 (build_geometry)
+
+Stage 2 completed successfully.
+Stage 2 duration: 0h 0' 7"
+
+
+Stage 3 - assign_forcefield
+Running force_field_builder version 55123
+
+OPLS Version: S-OPLS
+FEP mode: 2
+FEP retain angle: 2
+Skip creating the fepio_fep block
+Reading input structures.
+Creating New ffio_ff block...
+Creating molsym
+Creating New ffio_ff block...
+Creating molsym
+Creating New ffio_ff block...
+Creating molsym
+Creating New ffio_ff block...
+Creating molsym
+Creating New ffio_ff block...
+Creating molsym
+Creating New ffio_ff block...
+Creating molsym
+
+force_field_builder: job successfully run
+
+
+Stage 3 completed successfully.
+Stage 3 duration: 0h 0' 4"
+
+Cleaning up files...
+
+Multisim summary (Tue Apr 25 16:16:58 2023):
+  Stage 1 completed.
+  Stage 2 completed.
+  Stage 3 completed.
+  Total duration: 0h 0' 12"
+Multisim completed.

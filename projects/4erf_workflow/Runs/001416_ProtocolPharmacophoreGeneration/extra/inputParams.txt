@@ -1,0 +1,10 @@
+method:: DBSCAN
+kNumber:: 3
+eps:: 4.0
+minType:: Molecules proportion
+minSize:: 0.3
+topClusters:: 1
+propRadii:: 0.5
+features:: Donor Acceptor Hydrophobe Aromatic 
+ligandSmiles:: {'4erf_0R3-1': 'c1c(Cl)cccc1[C@H]1C[C@@](CC(=O)O)(C)C(=O)N([C@@H](CC)[C@@H](O)C)[C@@H]1c1ccc(Cl)cc1'}
+ligandFiles:: /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001416_ProtocolPharmacophoreGeneration/extra/inputSmallMolecules/4erf_0R3-1.pdb

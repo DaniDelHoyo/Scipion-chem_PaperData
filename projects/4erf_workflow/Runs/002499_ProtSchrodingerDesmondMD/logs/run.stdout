@@ -1,0 +1,26 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002499_ProtSchrodingerDesmondMD/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002499_ProtSchrodingerDesmondMD/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 76447
+pyworkflow: 3.1.0
+plugin: schrodingerScipion
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/002499_ProtSchrodingerDesmondMD
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: simulationStep, step 1, time 2023-04-25 16:22:25.693785
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/Schrodinger2021-3/utilities/multisim  -m /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002499_ProtSchrodingerDesmondMD/tmp/simulation_5011009.msj /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002438_ProtSchrodingerDesmondMD/complexSolute_8977344-out-MD.cms -o unmerged-simulation.cms -WAIT -JOBNAME simulation_5011009[0m
+WARNING: You did not specify for '-maxjob'. Remember its default value is 1.
+JobId: euclides-0-6447e224
+[35mFINISHED[0m: simulationStep, step 1, time 2023-04-25 16:35:31.712746
+[35mSTARTED[0m: createOutputStep, step 2, time 2023-04-25 16:35:31.732423
+[35mFINISHED[0m: createOutputStep, step 2, time 2023-04-25 16:35:31.944151
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

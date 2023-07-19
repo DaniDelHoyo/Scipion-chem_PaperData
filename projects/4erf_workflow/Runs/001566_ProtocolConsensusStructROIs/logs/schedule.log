@@ -1,0 +1,12 @@
+Scheduling protocol 1566, PID: 70506,prerequisites: [], works in streaming: False.
+Waiting 30 seconds before start checking inputs 
+Checking input data...
+The protocol 687 (fpocket - Find pockets) is up to date
+The protocol 1268 (autodock - AutoSite) is up to date
+Updated protocol: 1225 (p2rank - Find pockets)
+SetOfStructROIs (6 items, FPocket class) is not blocking this protocol. All ready.
+SetOfStructROIs (4 items, AutoSite class) is not blocking this protocol. All ready.
+SetOfStructROIs (4 items, P2Rank class) is not blocking this protocol. All ready.
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/4erf_demo" "Runs/001566_ProtocolConsensusStructROIs/logs/run.db" 1566 "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001566_ProtocolConsensusStructROIs/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001566_ProtocolConsensusStructROIs/logs/run.stderr"[0m'

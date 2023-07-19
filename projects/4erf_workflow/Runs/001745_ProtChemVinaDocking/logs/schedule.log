@@ -1,0 +1,10 @@
+Scheduling protocol 1745, PID: 70570,prerequisites: [], works in streaming: False.
+Waiting 60 seconds before start checking inputs 
+Checking input data...
+Updated protocol: 1566 (pwchem - Consensus structural ROIs)
+The protocol 2997 (pwchem - OBabel Ligand preparation) is up to date
+SetOfStructROIs (3 items, Mixed class) is not blocking this protocol. All ready.
+SetOfSmallMolecules (8 items, Standard class) is not blocking this protocol. All ready.
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/4erf_demo" "Runs/001745_ProtChemVinaDocking/logs/run.db" 1745 "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/logs/run.stderr"[0m'

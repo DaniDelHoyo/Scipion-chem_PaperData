@@ -1,0 +1,41 @@
+; Parameters describing what to do, when to stop and what to save
+; position restrains
+define = -DPOSRES_PROTEIN_STG1  
+
+; Run parameters
+integrator  = steep         ; Algorithm 
+nsteps      = 2000         ; Maximum number of steps to perform
+; Time Step Control
+emtol = 1000.0        ; Stop minimization when the maximum force < x kJ/mol/nm
+emstep = 0.002          ; Minimization step size                       
+
+; Nonbonded settings 
+nstlist         = 10         ; Frequency to update the neighbor list and long range forces (fs)
+cutoff-scheme   = Verlet    ; Buffered neighbor searching
+rcoulomb        = 1.0       ; Short-range electrostatic cut-off (nm)
+rvdw            = 1.0       ; Short-range Van der Waals cut-off (nm)
+pbc             = xyz       ; Periodic Boundary Conditions in all 3 dimensions
+
+; Disp Corr
+
+
+; Trajectory output control
+nstxout                 = 0       ; save coordinates every x * tStep ps
+nstvout                 = 0       ; save velocities every x * tStep ps
+nstlog                  = 500       ; update log file every x * tStep ps
+
+; Bond parameters
+
+
+; Electrostatics
+
+
+; Temperature coupling 
+
+
+; Pressure coupling 
+
+
+; Velocity generation
+gen_vel                 = no       ; assign velocities from Maxwell distribution
+

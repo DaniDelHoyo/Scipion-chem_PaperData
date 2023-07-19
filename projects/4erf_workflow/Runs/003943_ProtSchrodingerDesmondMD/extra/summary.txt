@@ -1,0 +1,1 @@
+1) Sim. time: 2000.0 ps, NPT ensemble with MTK method, 300.0 K

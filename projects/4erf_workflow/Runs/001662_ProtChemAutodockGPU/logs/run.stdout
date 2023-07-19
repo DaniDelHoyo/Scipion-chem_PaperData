@@ -1,0 +1,1235 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 71466
+pyworkflow: 3.1.0
+plugin: autodock
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/001662_ProtChemAutodockGPU
+runMode: Restart
+          MPI: 1
+      threads: 4
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: convertStep, step 1, time 2023-04-25 16:07:54.218618
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001019_prep/ZINC00001019-1.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/ligands/ZINC00001019-1.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001019_prep/ZINC00001019-2.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/ligands/ZINC00001019-2.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00000480_prep/ZINC00000480-1.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/ligands/ZINC00000480-1.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00000480_prep/ZINC00000480-2.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/ligands/ZINC00000480-2.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001453_prep/ZINC00001453-1.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/ligands/ZINC00001453-1.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001453_prep/ZINC00001453-2.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/ligands/ZINC00001453-2.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001099_prep/ZINC00001099-1.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/ligands/ZINC00001099-1.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001099_prep/ZINC00001099-2.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/ligands/ZINC00001099-2.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_receptor4.py -v -r /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000687_FpocketFindPockets/extra/4erf_prep.pdb -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/4erf_prep.pdbqt[0m
+setting PYTHONHOME environment
+set verbose to  True
+set receptor_filename to  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000687_FpocketFindPockets/extra/4erf_prep.pdb
+set outputfilename to  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/4erf_prep.pdbqt
+read  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000687_FpocketFindPockets/extra/4erf_prep.pdb
+setting up RPO with mode= automatic and outputfilename=  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/4erf_prep.pdbqt
+charges_to_add= gasteiger
+delete_single_nonstd_residues= None
+adding gasteiger charges to peptide
+[35mFINISHED[0m: convertStep, step 1, time 2023-04-25 16:07:55.373148
+[35mSTARTED[0m: generateGridsStep, step 2, time 2023-04-25 16:07:55.738522
+[35mSTARTED[0m: generateGridsStep, step 4, time 2023-04-25 16:07:55.743614
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/autodock-4.2.6/autogrid4 -p /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/pocket_1/4erf_prep.gpf -l 4erf_prep.glg[0m
+[35mSTARTED[0m: generateGridsStep, step 6, time 2023-04-25 16:07:55.753372
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/autodock-4.2.6/autogrid4 -p /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/pocket_2/4erf_prep.gpf -l 4erf_prep.glg[0m
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/autodock-4.2.6/autogrid4 -p /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/pocket_3/4erf_prep.gpf -l 4erf_prep.glg[0m
+[35mFINISHED[0m: generateGridsStep, step 6, time 2023-04-25 16:07:56.127805
+[35mSTARTED[0m: dockStep, step 7, time 2023-04-25 16:07:56.287785
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/AutoDock-GPU/bin/autodock_gpu_64wi -B /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/pocket_3/batchFile.txt -D 1 -n 5 --rmstol 2.0 -C 1 --output-cluster-poses auto -H 1 -E 12000000 -A 1 -a 5 --stopstd 0.15 -s 44 [0m
+AutoDock-GPU version: v1.5.3-46-g49b20530bd9ac3c27a48930eeff316cf6ede2042
+
+Using 8 OpenMP threads
+
+Running 8 docking calculations (contact analysis cutoffs: R=2.1 Å, H=3.7 Å, V=4.0 Å)
+
+Cuda device:                              NVIDIA GeForce RTX 2060
+Available memory on device:               4923 MB (total: 5934 MB)
+
+CUDA Setup time 0.109042s
+(Thread 11 is setting up Job #1)
+(Thread 12 is setting up Job #6)
+(Thread 8 is setting up Job #2)
+(Thread 10 is setting up Job #5)
+(Thread 13 is setting up Job #7)
+(Thread 14 is setting up Job #4)
+(Thread 15 is setting up Job #8)
+(Thread 9 is setting up Job #3)
+
+Running Job #7:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001099-1.pdbqt
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.001636s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |   -0.75 kcal/mol |   -1.62 +/-    0.23 kcal/mol |       4 |   -1.90 kcal/mol
+          5 |        44110 |   -0.75 kcal/mol |   -3.15 +/-    0.77 kcal/mol |     225 |   -4.80 kcal/mol
+         10 |        91209 |   -3.10 kcal/mol |   -4.65 +/-    0.11 kcal/mol |      18 |   -4.80 kcal/mol
+         15 |       145023 |   -4.56 kcal/mol |   -4.71 +/-    0.07 kcal/mol |      18 |   -4.82 kcal/mol
+         20 |       204466 |   -4.59 kcal/mol |   -4.74 +/-    0.04 kcal/mol |      17 |   -4.82 kcal/mol
+         25 |       266403 |   -4.61 kcal/mol |   -4.75 +/-    0.04 kcal/mol |      19 |   -4.82 kcal/mol
+         30 |       328889 |   -4.63 kcal/mol |   -4.73 +/-    0.06 kcal/mol |      18 |   -4.82 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -4.73 +/-    0.06 kcal/mol combined.
+                                72 samples, best energy    -4.82 kcal/mol.
+
+Docking time 0.184492s
+
+Shutdown time 0.000083s
+
+Job #7 took 0.186 sec after waiting 0.171 sec for setup
+
+(Thread 13 is processing Job #7)
+
+Running Job #8:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001099-2.pdbqt
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.001488s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |   -0.97 kcal/mol |   -1.68 +/-    0.19 kcal/mol |       4 |   -1.82 kcal/mol
+          5 |        44310 |   -0.97 kcal/mol |   -3.04 +/-    0.72 kcal/mol |     223 |   -4.61 kcal/mol
+         10 |        90730 |   -2.99 kcal/mol |   -4.59 +/-    0.11 kcal/mol |      14 |   -4.73 kcal/mol
+         15 |       144067 |   -4.47 kcal/mol |   -4.65 +/-    0.09 kcal/mol |      17 |   -4.76 kcal/mol
+         20 |       202552 |   -4.57 kcal/mol |   -4.70 +/-    0.08 kcal/mol |      23 |   -4.78 kcal/mol
+         25 |       265776 |   -4.64 kcal/mol |   -4.74 +/-    0.03 kcal/mol |      17 |   -4.78 kcal/mol
+         30 |       327927 |   -4.61 kcal/mol |   -4.75 +/-    0.03 kcal/mol |      18 |   -4.78 kcal/mol
+         35 |       389451 |   -4.62 kcal/mol |   -4.72 +/-    0.05 kcal/mol |      20 |   -4.78 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -4.72 +/-    0.06 kcal/mol combined.
+                                78 samples, best energy    -4.78 kcal/mol.
+
+Docking time 0.142597s
+
+Shutdown time 0.000076s
+
+Job #8 took 0.144 sec after waiting 0.000 sec for setup
+
+(Thread 15 is processing Job #8)
+
+Running Job #5:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001453-1.pdbqt
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.001155s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |    1.55 kcal/mol |   -1.61 +/-    0.84 kcal/mol |       4 |   -2.52 kcal/mol
+[35mFINISHED[0m: generateGridsStep, step 2, time 2023-04-25 16:07:56.728959
+[35mFINISHED[0m: generateGridsStep, step 4, time 2023-04-25 16:07:56.528535
+[35mSTARTED[0m: dockStep, step 3, time 2023-04-25 16:07:56.826898
+          5 |        33888 |    1.55 kcal/mol |   -3.67 +/-    1.36 kcal/mol |     125 |   -5.94 kcal/mol
+[35mSTARTED[0m: dockStep, step 5, time 2023-04-25 16:07:56.834530
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/AutoDock-GPU/bin/autodock_gpu_64wi -B /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/pocket_1/batchFile.txt -D 1 -n 5 --rmstol 2.0 -C 1 --output-cluster-poses auto -H 1 -E 12000000 -A 1 -a 5 --stopstd 0.15 -s 44 [0m
+         10 |        67139 |   -3.51 kcal/mol |   -5.93 +/-    0.12 kcal/mol |       9 |   -6.03 kcal/mol
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/AutoDock-GPU/bin/autodock_gpu_64wi -B /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/pocket_2/batchFile.txt -D 1 -n 5 --rmstol 2.0 -C 1 --output-cluster-poses auto -H 1 -E 12000000 -A 1 -a 5 --stopstd 0.15 -s 44 [0m
+         15 |       101001 |   -5.73 kcal/mol |   -6.14 +/-    0.11 kcal/mol |       7 |   -6.28 kcal/mol
+         20 |       138613 |   -5.89 kcal/mol |   -6.19 +/-    0.11 kcal/mol |      11 |   -6.31 kcal/mol
+         25 |       178142 |   -6.04 kcal/mol |   -6.22 +/-    0.09 kcal/mol |      12 |   -6.31 kcal/mol
+         30 |       218042 |   -6.11 kcal/mol |   -6.22 +/-    0.07 kcal/mol |      12 |   -6.31 kcal/mol
+         35 |       259439 |   -6.03 kcal/mol |   -6.19 +/-    0.08 kcal/mol |      11 |   -6.31 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -6.20 +/-    0.09 kcal/mol combined.
+                                46 samples, best energy    -6.31 kcal/mol.
+
+Docking time 0.156356s
+
+Shutdown time 0.000154s
+
+Job #5 took 0.158 sec after waiting 0.000 sec for setup
+
+(Thread 10 is processing Job #5)
+
+Running Job #1:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001019-1.pdbqt
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.001479s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |224962.12 kcal/mol |59968.36 +/-54560.68 kcal/mol |       5 |  878.68 kcal/mol
+          5 |        24939 |223650.39 kcal/mol |20577.54 +/-32241.56 kcal/mol |      43 |   -5.13 kcal/mol
+AutoDock-GPU version: v1.5.3-46-g49b20530bd9ac3c27a48930eeff316cf6ede2042
+
+Using 8 OpenMP threads
+
+Running 8 docking calculations (contact analysis cutoffs: R=2.1 Å, H=3.7 Å, V=4.0 Å)
+
+Cuda device:                              NVIDIA GeForce RTX 2060
+Available memory on device:               3101 MB (total: 5934 MB)
+
+CUDA Setup time 0.119468s
+(Thread 6 is setting up Job #1)
+(Thread 15 is setting up Job #2)
+(Thread 11 is setting up Job #3)
+(Thread 0 is setting up Job #4)
+(Thread 1 is setting up Job #5)
+(Thread 3 is setting up Job #6)
+AutoDock-GPU version: v1.5.3-46-g49b20530bd9ac3c27a48930eeff316cf6ede2042
+
+Using 8 OpenMP threads
+
+Running 8 docking calculations (contact analysis cutoffs: R=2.1 Å, H=3.7 Å, V=4.0 Å)
+
+Cuda device:                              NVIDIA GeForce RTX 2060
+Available memory on device:               3103 MB (total: 5934 MB)
+
+CUDA Setup time 0.111040s
+(Thread 15 is setting up Job #1)
+(Thread 2 is setting up Job #5)
+(Thread 3 is setting up Job #6)
+(Thread 0 is setting up Job #8)
+(Thread 10 is setting up Job #7)
+(Thread 12 is setting up Job #2)
+(Thread 13 is setting up Job #4)
+(Thread 14 is setting up Job #3)
+(Thread 9 is setting up Job #7)
+(Thread 5 is setting up Job #8)
+         10 |        48784 |31824.60 kcal/mol |   27.64 +/-   56.29 kcal/mol |      27 |   -5.18 kcal/mol
+         15 |        72514 |   58.91 kcal/mol |   -5.16 +/-    0.22 kcal/mol |       6 |   -5.45 kcal/mol
+         20 |        96303 |   -4.62 kcal/mol |   -5.45 +/-    0.02 kcal/mol |       5 |   -5.48 kcal/mol
+         25 |       120233 |   -5.00 kcal/mol |   -5.54 +/-    0.11 kcal/mol |       5 |   -5.68 kcal/mol
+         30 |       144033 |   -5.22 kcal/mol |   -5.59 +/-    0.13 kcal/mol |       6 |   -5.72 kcal/mol
+         35 |       167731 |   -5.25 kcal/mol |   -5.59 +/-    0.16 kcal/mol |       5 |   -5.73 kcal/mol
+         40 |       191229 |   -5.12 kcal/mol |   -5.54 +/-    0.15 kcal/mol |       5 |   -5.73 kcal/mol
+
+Running Job #7:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001099-1.pdbqt
+         45 |       214900 |   -5.09 kcal/mol |   -5.66 +/-    0.15 kcal/mol |      12 |   -5.84 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.011183s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |   -0.85 kcal/mol |   -1.87 +/-    0.32 kcal/mol |       6 |   -2.43 kcal/mol
+         50 |       238606 |   -5.48 kcal/mol |   -5.75 +/-    0.05 kcal/mol |       5 |   -5.84 kcal/mol
+          5 |        65878 |   -1.06 kcal/mol |   -3.55 +/-    0.84 kcal/mol |     408 |   -6.06 kcal/mol
+         55 |       262431 |   -5.30 kcal/mol |   -5.68 +/-    0.16 kcal/mol |       4 |   -5.84 kcal/mol
+
+Running Job #5:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001453-1.pdbqt
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.019280s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |   -0.80 kcal/mol |   -2.58 +/-    0.58 kcal/mol |       5 |   -3.61 kcal/mol
+         10 |       143510 |   -3.51 kcal/mol |   -5.80 +/-    0.25 kcal/mol |      26 |   -6.06 kcal/mol
+         60 |       286297 |   -5.09 kcal/mol |   -5.58 +/-    0.17 kcal/mol |       7 |   -5.84 kcal/mol
+         65 |       309976 |   -5.22 kcal/mol |   -5.62 +/-    0.20 kcal/mol |       6 |   -5.84 kcal/mol
+          5 |        65439 |   -0.85 kcal/mol |   -4.97 +/-    1.16 kcal/mol |     298 |   -7.18 kcal/mol
+         15 |       233609 |   -5.65 kcal/mol |   -5.99 +/-    0.05 kcal/mol |      22 |   -6.07 kcal/mol
+         70 |       333441 |   -5.13 kcal/mol |   -5.77 +/-    0.04 kcal/mol |       4 |   -5.84 kcal/mol
+         10 |       138919 |   -4.91 kcal/mol |   -7.06 +/-    0.15 kcal/mol |      15 |   -7.42 kcal/mol
+         20 |       330215 |   -5.89 kcal/mol |   -6.02 +/-    0.04 kcal/mol |      18 |   -6.07 kcal/mol
+         75 |       357050 |   -5.21 kcal/mol |   -5.57 +/-    0.18 kcal/mol |       5 |   -5.84 kcal/mol
+         15 |       225831 |   -6.91 kcal/mol |   -7.13 +/-    0.13 kcal/mol |      21 |   -7.44 kcal/mol
+         25 |       425026 |   -5.90 kcal/mol |   -6.03 +/-    0.03 kcal/mol |      20 |   -6.08 kcal/mol
+         80 |       380977 |   -5.02 kcal/mol |   -5.64 +/-    0.17 kcal/mol |       6 |   -5.84 kcal/mol
+         85 |       404936 |   -5.21 kcal/mol |   -5.83 +/-    0.13 kcal/mol |       6 |   -6.11 kcal/mol
+         20 |       325183 |   -7.04 kcal/mol |   -7.27 +/-    0.15 kcal/mol |      16 |   -7.59 kcal/mol
+         30 |       517330 |   -5.92 kcal/mol |   -6.05 +/-    0.02 kcal/mol |      19 |   -6.08 kcal/mol
+         90 |       428832 |   -5.50 kcal/mol |   -5.82 +/-    0.16 kcal/mol |       6 |   -6.13 kcal/mol
+         35 |       606281 |   -5.93 kcal/mol |   -6.06 +/-    0.02 kcal/mol |      20 |   -6.08 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -6.04 +/-    0.03 kcal/mol combined.
+                                77 samples, best energy    -6.08 kcal/mol.
+
+Docking time 0.484045s
+
+Shutdown time 0.000087s
+
+Job #7 took 0.495 sec after waiting 0.247 sec for setup
+
+(Thread 9 is processing Job #7)
+
+Running Job #5:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001453-1.pdbqt
+         25 |       433890 |   -7.12 kcal/mol |   -7.28 +/-    0.14 kcal/mol |      14 |   -7.60 kcal/mol
+         95 |       452701 |   -5.41 kcal/mol |   -5.93 +/-    0.17 kcal/mol |       5 |   -6.13 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.023021s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |   -0.56 kcal/mol |   -1.90 +/-    0.46 kcal/mol |       9 |   -3.06 kcal/mol
+        100 |       476689 |   -5.44 kcal/mol |   -5.99 +/-    0.16 kcal/mol |       5 |   -6.18 kcal/mol
+         30 |       540554 |   -7.13 kcal/mol |   -7.31 +/-    0.14 kcal/mol |      21 |   -7.60 kcal/mol
+          5 |        70119 |   -1.12 kcal/mol |   -5.73 +/-    1.18 kcal/mol |     395 |   -8.01 kcal/mol
+        105 |       500645 |   -5.50 kcal/mol |   -5.90 +/-    0.18 kcal/mol |       4 |   -6.18 kcal/mol
+         10 |       152204 |   -5.68 kcal/mol |   -7.67 +/-    0.12 kcal/mol |      30 |   -8.01 kcal/mol
+         35 |       647484 |   -7.22 kcal/mol |   -7.52 +/-    0.13 kcal/mol |      10 |   -7.64 kcal/mol
+        110 |       524363 |   -5.23 kcal/mol |   -5.90 +/-    0.16 kcal/mol |       7 |   -6.18 kcal/mol
+         15 |       247552 |   -7.61 kcal/mol |   -7.78 +/-    0.15 kcal/mol |      26 |   -8.08 kcal/mol
+        115 |       548139 |   -5.55 kcal/mol |   -5.91 +/-    0.19 kcal/mol |       4 |   -6.18 kcal/mol
+         40 |       755290 |   -7.33 kcal/mol |   -7.58 +/-    0.11 kcal/mol |      12 |   -7.66 kcal/mol
+        120 |       571978 |   -5.20 kcal/mol |   -5.84 +/-    0.20 kcal/mol |       8 |   -6.18 kcal/mol
+         20 |       350085 |   -7.69 kcal/mol |   -7.93 +/-    0.13 kcal/mol |      26 |   -8.13 kcal/mol
+         45 |       860712 |   -7.45 kcal/mol |   -7.61 +/-    0.05 kcal/mol |      20 |   -7.67 kcal/mol
+        125 |       595950 |   -5.46 kcal/mol |   -6.08 +/-    0.24 kcal/mol |       3 |   -6.30 kcal/mol
+         25 |       455659 |   -7.86 kcal/mol |   -8.02 +/-    0.07 kcal/mol |      16 |   -8.13 kcal/mol
+        130 |       619757 |   -4.90 kcal/mol |   -6.00 +/-    0.34 kcal/mol |       5 |   -6.30 kcal/mol
+         50 |       967310 |   -7.50 kcal/mol |   -7.63 +/-    0.04 kcal/mol |      19 |   -7.67 kcal/mol
+        135 |       643836 |   -4.98 kcal/mol |   -6.05 +/-    0.21 kcal/mol |       5 |   -6.30 kcal/mol
+         30 |       558636 |   -7.88 kcal/mol |   -8.08 +/-    0.06 kcal/mol |       6 |   -8.14 kcal/mol
+         55 |      1073417 |   -7.51 kcal/mol |   -7.62 +/-    0.05 kcal/mol |      10 |   -7.67 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -7.61 +/-    0.06 kcal/mol combined.
+                                61 samples, best energy    -7.67 kcal/mol.
+
+Docking time 1.031301s
+
+Shutdown time 0.000092s
+
+Job #5 took 1.051 sec after waiting 0.332 sec for setup
+
+(Thread 1 is processing Job #5)
+
+Running Job #7:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001099-1.pdbqt
+        140 |       667775 |   -5.41 kcal/mol |   -6.00 +/-    0.24 kcal/mol |       4 |   -6.30 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.022389s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |    0.51 kcal/mol |   -1.41 +/-    0.59 kcal/mol |      12 |   -2.99 kcal/mol
+         35 |       660882 |   -7.71 kcal/mol |   -7.89 +/-    0.17 kcal/mol |      24 |   -8.14 kcal/mol
+        145 |       691750 |   -5.08 kcal/mol |   -6.32 +/-    0.27 kcal/mol |       5 |   -6.66 kcal/mol
+          5 |        64484 |   -0.68 kcal/mol |   -3.53 +/-    0.96 kcal/mol |     323 |   -5.88 kcal/mol
+        150 |       715298 |   -5.51 kcal/mol |   -6.41 +/-    0.39 kcal/mol |       4 |   -6.81 kcal/mol
+         40 |       761885 |   -7.78 kcal/mol |   -8.01 +/-    0.11 kcal/mol |      16 |   -8.15 kcal/mol
+        155 |       738843 |   -4.94 kcal/mol |   -6.27 +/-    0.36 kcal/mol |       7 |   -6.81 kcal/mol
+         10 |       135225 |   -3.48 kcal/mol |   -5.72 +/-    0.19 kcal/mol |      27 |   -6.09 kcal/mol
+         45 |       862405 |   -7.91 kcal/mol |   -8.08 +/-    0.07 kcal/mol |      17 |   -8.15 kcal/mol
+        160 |       762574 |   -5.51 kcal/mol |   -6.26 +/-    0.34 kcal/mol |       4 |   -6.81 kcal/mol
+         15 |       220395 |   -5.61 kcal/mol |   -5.91 +/-    0.14 kcal/mol |      21 |   -6.09 kcal/mol
+         50 |       964704 |   -7.95 kcal/mol |   -8.10 +/-    0.06 kcal/mol |      19 |   -8.15 kcal/mol
+        165 |       786070 |   -5.00 kcal/mol |   -6.15 +/-    0.41 kcal/mol |       4 |   -6.81 kcal/mol
+         20 |       312674 |   -5.81 kcal/mol |   -6.02 +/-    0.11 kcal/mol |      18 |   -6.20 kcal/mol
+        170 |       809922 |   -4.61 kcal/mol |   -6.44 +/-    0.34 kcal/mol |       8 |   -6.83 kcal/mol
+         55 |      1064368 |   -7.98 kcal/mol |   -8.10 +/-    0.06 kcal/mol |       8 |   -8.15 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -8.07 +/-    0.09 kcal/mol combined.
+                                60 samples, best energy    -8.15 kcal/mol.
+
+Docking time 0.977080s
+
+Shutdown time 0.000079s
+
+Job #5 took 1.000 sec after waiting 0.000 sec for setup
+
+(Thread 2 is processing Job #5)
+
+Running Job #6:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001453-2.pdbqt
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.022333s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |    0.52 kcal/mol |   -1.94 +/-    0.87 kcal/mol |       8 |   -3.93 kcal/mol
+         25 |       406856 |   -5.93 kcal/mol |   -6.07 +/-    0.07 kcal/mol |      16 |   -6.20 kcal/mol
+        175 |       833597 |   -5.79 kcal/mol |   -6.31 +/-    0.41 kcal/mol |       3 |   -6.86 kcal/mol
+        180 |       857201 |   -4.26 kcal/mol |   -6.07 +/-    0.59 kcal/mol |       8 |   -6.86 kcal/mol
+          5 |        68312 |   -0.31 kcal/mol |   -5.69 +/-    1.13 kcal/mol |     364 |   -7.88 kcal/mol
+         30 |       500935 |   -5.93 kcal/mol |   -6.09 +/-    0.07 kcal/mol |      11 |   -6.20 kcal/mol
+        185 |       880722 |   -4.96 kcal/mol |   -6.26 +/-    0.37 kcal/mol |       4 |   -6.86 kcal/mol
+         10 |       147839 |   -5.64 kcal/mol |   -7.83 +/-    0.11 kcal/mol |      22 |   -8.03 kcal/mol
+         35 |       595628 |   -5.89 kcal/mol |   -6.04 +/-    0.11 kcal/mol |      12 |   -6.21 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -6.05 +/-    0.10 kcal/mol combined.
+                                57 samples, best energy    -6.21 kcal/mol.
+
+Docking time 0.534470s
+
+Shutdown time 0.000076s
+
+Job #7 took 0.557 sec after waiting 0.000 sec for setup
+
+(Thread 10 is processing Job #7)
+
+Running Job #4:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00000480-2.pdbqt
+        190 |       904623 |   -4.88 kcal/mol |   -6.42 +/-    0.41 kcal/mol |       4 |   -6.86 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.026086s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |    0.71 kcal/mol |   -0.77 +/-    0.42 kcal/mol |       8 |   -1.82 kcal/mol
+         15 |       244965 |   -7.76 kcal/mol |   -7.92 +/-    0.07 kcal/mol |      23 |   -8.03 kcal/mol
+        195 |       928322 |   -4.90 kcal/mol |   -6.14 +/-    0.46 kcal/mol |       4 |   -6.86 kcal/mol
+          5 |        69949 |    0.01 kcal/mol |   -4.21 +/-    1.19 kcal/mol |     361 |   -7.41 kcal/mol
+        200 |       952090 |   -4.42 kcal/mol |   -6.03 +/-    0.59 kcal/mol |       4 |   -6.86 kcal/mol
+         20 |       345960 |   -7.82 kcal/mol |   -7.99 +/-    0.07 kcal/mol |      18 |   -8.09 kcal/mol
+         10 |       152618 |   -4.16 kcal/mol |   -7.13 +/-    0.25 kcal/mol |      15 |   -7.42 kcal/mol
+        205 |       975655 |   -3.81 kcal/mol |   -5.69 +/-    0.57 kcal/mol |       8 |   -6.86 kcal/mol
+        210 |       998987 |   -4.63 kcal/mol |   -6.17 +/-    0.43 kcal/mol |       4 |   -6.86 kcal/mol
+         25 |       450645 |   -7.87 kcal/mol |   -8.04 +/-    0.05 kcal/mol |      20 |   -8.11 kcal/mol
+         15 |       245036 |   -6.88 kcal/mol |   -7.31 +/-    0.12 kcal/mol |      17 |   -7.42 kcal/mol
+        215 |      1022912 |   -4.56 kcal/mol |   -6.28 +/-    0.36 kcal/mol |       4 |   -6.86 kcal/mol
+         30 |       555532 |   -7.93 kcal/mol |   -8.06 +/-    0.03 kcal/mol |      19 |   -8.11 kcal/mol
+         20 |       341702 |   -7.20 kcal/mol |   -7.40 +/-    0.02 kcal/mol |      20 |   -7.42 kcal/mol
+        220 |      1046681 |   -4.93 kcal/mol |   -6.20 +/-    0.41 kcal/mol |       8 |   -6.86 kcal/mol
+        225 |      1070512 |   -5.43 kcal/mol |   -6.46 +/-    0.38 kcal/mol |       4 |   -6.86 kcal/mol
+         25 |       441529 |   -7.29 kcal/mol |   -7.40 +/-    0.02 kcal/mol |      20 |   -7.42 kcal/mol
+         35 |       659255 |   -7.94 kcal/mol |   -8.05 +/-    0.05 kcal/mol |      16 |   -8.11 kcal/mol
+        230 |      1093937 |   -5.05 kcal/mol |   -6.62 +/-    0.38 kcal/mol |       7 |   -6.86 kcal/mol
+         30 |       542523 |   -7.29 kcal/mol |   -7.40 +/-    0.03 kcal/mol |      19 |   -7.42 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -7.38 +/-    0.07 kcal/mol combined.
+                                76 samples, best energy    -7.42 kcal/mol.
+
+Docking time 0.504719s
+
+Shutdown time 0.000077s
+
+Job #4 took 0.531 sec after waiting 0.000 sec for setup
+
+(Thread 0 is processing Job #4)
+
+Running Job #3:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00000480-1.pdbqt
+         40 |       763764 |   -7.91 kcal/mol |   -8.06 +/-    0.04 kcal/mol |      23 |   -8.11 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -8.05 +/-    0.04 kcal/mol combined.
+                                78 samples, best energy    -8.11 kcal/mol.
+
+Docking time 0.710117s
+
+Shutdown time 0.000128s
+
+Job #6 took 0.733 sec after waiting 0.000 sec for setup
+
+(Thread 3 is processing Job #6)
+
+Running Job #4:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00000480-2.pdbqt
+        235 |      1117508 |   -5.80 kcal/mol |   -6.31 +/-    0.42 kcal/mol |       5 |   -6.86 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.016149s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |   -1.45 kcal/mol |   -2.07 +/-    0.16 kcal/mol |       4 |   -2.30 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.014492s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |    2.25 kcal/mol |   -0.92 +/-    0.97 kcal/mol |       5 |   -2.42 kcal/mol
+        240 |      1140987 |   -5.06 kcal/mol |   -6.32 +/-    0.40 kcal/mol |       6 |   -6.86 kcal/mol
+          5 |        71658 |   -1.45 kcal/mol |   -4.51 +/-    1.13 kcal/mol |     365 |   -7.40 kcal/mol
+          5 |        72820 |    2.00 kcal/mol |   -5.51 +/-    1.31 kcal/mol |     390 |   -8.74 kcal/mol
+        245 |      1164478 |   -5.32 kcal/mol |   -6.08 +/-    0.53 kcal/mol |       4 |   -6.86 kcal/mol
+         10 |       148112 |   -4.46 kcal/mol |   -7.26 +/-    0.21 kcal/mol |      20 |   -7.42 kcal/mol
+        250 |      1188220 |   -4.07 kcal/mol |   -5.84 +/-    0.58 kcal/mol |       6 |   -6.86 kcal/mol
+         10 |       160548 |   -5.46 kcal/mol |   -8.49 +/-    0.25 kcal/mol |      20 |   -8.74 kcal/mol
+        255 |      1211848 |   -4.39 kcal/mol |   -6.25 +/-    0.49 kcal/mol |       5 |   -6.86 kcal/mol
+         15 |       238106 |   -7.10 kcal/mol |   -7.36 +/-    0.08 kcal/mol |      17 |   -7.42 kcal/mol
+         15 |       258705 |   -8.30 kcal/mol |   -8.70 +/-    0.08 kcal/mol |      26 |   -8.75 kcal/mol
+        260 |      1235608 |   -4.78 kcal/mol |   -6.30 +/-    0.39 kcal/mol |       6 |   -6.86 kcal/mol
+         20 |       338290 |   -7.29 kcal/mol |   -7.41 +/-    0.02 kcal/mol |      17 |   -7.42 kcal/mol
+        265 |      1259325 |   -5.33 kcal/mol |   -6.57 +/-    0.30 kcal/mol |       4 |   -6.86 kcal/mol
+         20 |       362328 |   -8.66 kcal/mol |   -8.74 +/-    0.01 kcal/mol |      26 |   -8.75 kcal/mol
+         25 |       439407 |   -7.28 kcal/mol |   -7.40 +/-    0.02 kcal/mol |      23 |   -7.42 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -7.36 +/-    0.13 kcal/mol combined.
+                                77 samples, best energy    -7.42 kcal/mol.
+
+Docking time 0.406661s
+
+Shutdown time 0.000081s
+
+Job #3 took 0.423 sec after waiting 0.000 sec for setup
+
+(Thread 11 is processing Job #3)
+
+Running Job #6:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001453-2.pdbqt
+        270 |      1283199 |   -5.45 kcal/mol |   -6.35 +/-    0.42 kcal/mol |       5 |   -6.86 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.024735s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |    0.13 kcal/mol |   -2.49 +/-    0.87 kcal/mol |       5 |   -3.79 kcal/mol
+         25 |       465554 |   -8.65 kcal/mol |   -8.73 +/-    0.01 kcal/mol |      35 |   -8.75 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -8.68 +/-    0.15 kcal/mol combined.
+                               107 samples, best energy    -8.75 kcal/mol.
+
+Docking time 0.437990s
+
+Shutdown time 0.000097s
+
+Job #4 took 0.453 sec after waiting 0.000 sec for setup
+
+(Thread 13 is processing Job #4)
+
+Running Job #3:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00000480-1.pdbqt
+        275 |      1306742 |   -5.10 kcal/mol |   -6.39 +/-    0.31 kcal/mol |       7 |   -6.86 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.020324s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |    0.34 kcal/mol |   -2.22 +/-    0.68 kcal/mol |       4 |   -2.91 kcal/mol
+          5 |        65457 |    0.13 kcal/mol |   -4.79 +/-    1.16 kcal/mol |     298 |   -7.61 kcal/mol
+        280 |      1330449 |   -5.72 kcal/mol |   -6.71 +/-    0.20 kcal/mol |       4 |   -6.86 kcal/mol
+          5 |        73787 |    0.34 kcal/mol |   -5.44 +/-    1.31 kcal/mol |     408 |   -8.74 kcal/mol
+        285 |      1353964 |   -5.97 kcal/mol |   -6.48 +/-    0.29 kcal/mol |       5 |   -6.86 kcal/mol
+         10 |       136777 |   -4.73 kcal/mol |   -7.24 +/-    0.22 kcal/mol |      10 |   -7.63 kcal/mol
+         10 |       159681 |   -5.40 kcal/mol |   -8.45 +/-    0.29 kcal/mol |      39 |   -8.75 kcal/mol
+        290 |      1377974 |   -5.61 kcal/mol |   -6.57 +/-    0.30 kcal/mol |       4 |   -6.86 kcal/mol
+         15 |       222141 |   -6.91 kcal/mol |   -7.21 +/-    0.17 kcal/mol |      23 |   -7.63 kcal/mol
+        295 |      1401732 |   -5.45 kcal/mol |   -6.34 +/-    0.34 kcal/mol |       4 |   -6.86 kcal/mol
+         15 |       258227 |   -8.34 kcal/mol |   -8.70 +/-    0.08 kcal/mol |      28 |   -8.75 kcal/mol
+         20 |       318178 |   -7.10 kcal/mol |   -7.39 +/-    0.15 kcal/mol |      22 |   -7.63 kcal/mol
+        300 |      1425330 |   -5.08 kcal/mol |   -6.31 +/-    0.31 kcal/mol |       5 |   -6.86 kcal/mol
+         20 |       359021 |   -8.66 kcal/mol |   -8.74 +/-    0.00 kcal/mol |      46 |   -8.75 kcal/mol
+        305 |      1448969 |   -5.39 kcal/mol |   -6.38 +/-    0.26 kcal/mol |       5 |   -6.86 kcal/mol
+         25 |       419636 |   -7.29 kcal/mol |   -7.46 +/-    0.13 kcal/mol |      20 |   -7.63 kcal/mol
+        310 |      1472700 |   -5.59 kcal/mol |   -6.56 +/-    0.31 kcal/mol |       6 |   -6.86 kcal/mol
+         25 |       462256 |   -8.69 kcal/mol |   -8.73 +/-    0.01 kcal/mol |      74 |   -8.75 kcal/mol
+         30 |       521811 |   -7.37 kcal/mol |   -7.57 +/-    0.06 kcal/mol |      13 |   -7.65 kcal/mol
+        315 |      1496441 |   -5.78 kcal/mol |   -6.55 +/-    0.28 kcal/mol |       4 |   -6.86 kcal/mol
+         30 |       559502 |   -8.70 kcal/mol |   -8.73 +/-    0.01 kcal/mol |      88 |   -8.75 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -8.73 +/-    0.03 kcal/mol combined.
+                               236 samples, best energy    -8.75 kcal/mol.
+
+Docking time 0.569866s
+
+Shutdown time 0.000093s
+
+Job #3 took 0.590 sec after waiting 0.000 sec for setup
+
+(Thread 14 is processing Job #3)
+
+Running Job #2:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001019-2.pdbqt
+        320 |      1520073 |   -5.51 kcal/mol |   -6.23 +/-    0.32 kcal/mol |       6 |   -6.86 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.023390s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |   95.34 kcal/mol |   10.87 +/-   22.53 kcal/mol |       4 |   -3.11 kcal/mol
+         35 |       627003 |   -7.39 kcal/mol |   -7.57 +/-    0.06 kcal/mol |      15 |   -7.65 kcal/mol
+        325 |      1543881 |   -5.43 kcal/mol |   -6.43 +/-    0.23 kcal/mol |       5 |   -6.86 kcal/mol
+        330 |      1567507 |   -5.75 kcal/mol |   -6.59 +/-    0.28 kcal/mol |       4 |   -6.86 kcal/mol
+          5 |        55215 |   95.34 kcal/mol |   -5.25 +/-    6.77 kcal/mol |     289 |  -10.13 kcal/mol
+         40 |       730186 |   -7.42 kcal/mol |   -7.58 +/-    0.04 kcal/mol |      18 |   -7.65 kcal/mol
+        335 |      1591496 |   -5.52 kcal/mol |   -6.44 +/-    0.20 kcal/mol |       6 |   -6.86 kcal/mol
+         10 |       121262 |   -4.90 kcal/mol |   -9.91 +/-    0.16 kcal/mol |      11 |  -10.17 kcal/mol
+         45 |       829682 |   -7.45 kcal/mol |   -7.62 +/-    0.03 kcal/mol |      19 |   -7.66 kcal/mol
+        340 |      1615728 |   -5.93 kcal/mol |   -6.72 +/-    0.18 kcal/mol |       7 |   -6.86 kcal/mol
+         15 |       200447 |   -9.69 kcal/mol |  -10.00 +/-    0.12 kcal/mol |      25 |  -10.19 kcal/mol
+        345 |      1639664 |   -6.33 kcal/mol |   -6.65 +/-    0.21 kcal/mol |       2 |   -6.86 kcal/mol
+         50 |       927667 |   -7.51 kcal/mol |   -7.63 +/-    0.01 kcal/mol |      21 |   -7.66 kcal/mol
+        350 |      1663296 |   -5.06 kcal/mol |   -6.34 +/-    0.45 kcal/mol |       8 |   -6.86 kcal/mol
+         20 |       285824 |   -9.93 kcal/mol |  -10.12 +/-    0.05 kcal/mol |      20 |  -10.19 kcal/mol
+         55 |      1022819 |   -7.53 kcal/mol |   -7.63 +/-    0.01 kcal/mol |      21 |   -7.66 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -7.62 +/-    0.03 kcal/mol combined.
+                                79 samples, best energy    -7.66 kcal/mol.
+
+Docking time 1.018265s
+
+Shutdown time 0.000079s
+
+Job #6 took 1.043 sec after waiting 0.000 sec for setup
+
+(Thread 3 is processing Job #6)
+
+Running Job #2:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001019-2.pdbqt
+        355 |      1687279 |   -5.49 kcal/mol |   -6.71 +/-    0.19 kcal/mol |       6 |   -6.86 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.025837s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |    0.47 kcal/mol |   -2.12 +/-    0.69 kcal/mol |       4 |   -3.24 kcal/mol
+        360 |      1710829 |   -6.23 kcal/mol |   -6.71 +/-    0.19 kcal/mol |       3 |   -6.86 kcal/mol
+         25 |       376465 |  -10.01 kcal/mol |  -10.17 +/-    0.09 kcal/mol |      17 |  -10.30 kcal/mol
+          5 |        61872 |    0.47 kcal/mol |   -5.07 +/-    1.50 kcal/mol |     304 |   -8.39 kcal/mol
+        365 |      1734846 |   -5.76 kcal/mol |   -6.59 +/-    0.28 kcal/mol |       4 |   -6.86 kcal/mol
+         30 |       469681 |  -10.08 kcal/mol |  -10.23 +/-    0.06 kcal/mol |      22 |  -10.31 kcal/mol
+         10 |       129679 |   -5.00 kcal/mol |   -8.37 +/-    0.16 kcal/mol |      14 |   -8.57 kcal/mol
+        370 |      1758841 |   -5.54 kcal/mol |   -6.44 +/-    0.26 kcal/mol |       4 |   -6.86 kcal/mol
+        375 |      1782475 |   -5.46 kcal/mol |   -6.37 +/-    0.33 kcal/mol |       4 |   -6.86 kcal/mol
+         35 |       562258 |  -10.13 kcal/mol |  -10.28 +/-    0.02 kcal/mol |      18 |  -10.31 kcal/mol
+         15 |       209678 |   -8.20 kcal/mol |   -8.45 +/-    0.12 kcal/mol |      11 |   -8.58 kcal/mol
+        380 |      1806261 |   -5.15 kcal/mol |   -6.29 +/-    0.33 kcal/mol |       5 |   -6.86 kcal/mol
+         40 |       658552 |  -10.15 kcal/mol |  -10.27 +/-    0.03 kcal/mol |      19 |  -10.31 kcal/mol
+        385 |      1830224 |   -5.29 kcal/mol |   -6.37 +/-    0.33 kcal/mol |       4 |   -6.86 kcal/mol
+         20 |       297529 |   -8.28 kcal/mol |   -8.46 +/-    0.09 kcal/mol |      21 |   -8.59 kcal/mol
+        390 |      1854353 |   -5.15 kcal/mol |   -6.29 +/-    0.37 kcal/mol |       9 |   -6.86 kcal/mol
+         45 |       751998 |  -10.16 kcal/mol |  -10.28 +/-    0.02 kcal/mol |      23 |  -10.31 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                  -10.26 +/-    0.04 kcal/mol combined.
+                                82 samples, best energy   -10.31 kcal/mol.
+
+Docking time 0.924487s
+
+Shutdown time 0.000080s
+
+Job #2 took 0.948 sec after waiting 0.000 sec for setup
+
+(Thread 12 is processing Job #2)
+
+Running Job #8:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001099-2.pdbqt
+         25 |       389361 |   -8.39 kcal/mol |   -8.57 +/-    0.10 kcal/mol |      14 |   -8.88 kcal/mol
+        395 |      1878148 |   -5.68 kcal/mol |   -6.65 +/-    0.21 kcal/mol |       4 |   -6.86 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.023579s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |   -0.64 kcal/mol |   -1.95 +/-    0.38 kcal/mol |       6 |   -2.57 kcal/mol
+        400 |      1901834 |   -5.86 kcal/mol |   -6.38 +/-    0.33 kcal/mol |       4 |   -6.87 kcal/mol
+          5 |        65845 |   -1.00 kcal/mol |   -3.61 +/-    0.75 kcal/mol |     411 |   -5.98 kcal/mol
+         30 |       485386 |   -8.46 kcal/mol |   -8.62 +/-    0.13 kcal/mol |      14 |   -8.88 kcal/mol
+        405 |      1925792 |   -5.15 kcal/mol |   -6.26 +/-    0.29 kcal/mol |       8 |   -6.87 kcal/mol
+         10 |       144883 |   -3.58 kcal/mol |   -5.59 +/-    0.33 kcal/mol |      25 |   -6.07 kcal/mol
+        410 |      1949994 |   -5.71 kcal/mol |   -6.60 +/-    0.28 kcal/mol |       4 |   -6.87 kcal/mol
+         35 |       583825 |   -8.47 kcal/mol |   -8.70 +/-    0.16 kcal/mol |      13 |   -8.88 kcal/mol
+         15 |       236694 |   -5.39 kcal/mol |   -5.98 +/-    0.09 kcal/mol |      18 |   -6.08 kcal/mol
+        415 |      1974540 |   -5.54 kcal/mol |   -6.41 +/-    0.22 kcal/mol |       6 |   -6.87 kcal/mol
+         40 |       677752 |   -8.52 kcal/mol |   -8.75 +/-    0.12 kcal/mol |      26 |   -8.90 kcal/mol
+        420 |      1999087 |   -5.86 kcal/mol |   -6.69 +/-    0.22 kcal/mol |       5 |   -6.87 kcal/mol
+         20 |       332370 |   -5.90 kcal/mol |   -6.03 +/-    0.04 kcal/mol |      21 |   -6.08 kcal/mol
+        425 |      2023732 |   -6.04 kcal/mol |   -6.59 +/-    0.27 kcal/mol |       4 |   -6.87 kcal/mol
+         45 |       767075 |   -8.68 kcal/mol |   -8.87 +/-    0.03 kcal/mol |      11 |   -8.90 kcal/mol
+         25 |       429004 |   -5.93 kcal/mol |   -6.04 +/-    0.04 kcal/mol |      19 |   -6.08 kcal/mol
+        430 |      2048217 |   -5.56 kcal/mol |   -6.38 +/-    0.33 kcal/mol |       4 |   -6.87 kcal/mol
+         50 |       857150 |   -8.66 kcal/mol |   -8.84 +/-    0.07 kcal/mol |      16 |   -8.90 kcal/mol
+         30 |       521385 |   -5.92 kcal/mol |   -6.06 +/-    0.02 kcal/mol |      18 |   -6.09 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -6.03 +/-    0.06 kcal/mol combined.
+                                76 samples, best energy    -6.09 kcal/mol.
+
+Docking time 0.546930s
+
+Shutdown time 0.000094s
+
+Job #8 took 0.571 sec after waiting 0.000 sec for setup
+
+(Thread 0 is processing Job #8)
+
+Running Job #1:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001019-1.pdbqt
+        435 |      2072863 |   -5.15 kcal/mol |   -6.34 +/-    0.32 kcal/mol |       8 |   -6.87 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.023526s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |  264.08 kcal/mol |   85.04 +/-   60.38 kcal/mol |       6 |    2.02 kcal/mol
+        440 |      2097749 |   -5.74 kcal/mol |   -6.62 +/-    0.22 kcal/mol |       7 |   -6.87 kcal/mol
+         55 |       945519 |   -8.70 kcal/mol |   -8.85 +/-    0.05 kcal/mol |      14 |   -8.90 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -8.81 +/-    0.10 kcal/mol combined.
+                                67 samples, best energy    -8.90 kcal/mol.
+
+Docking time 1.178257s
+
+Shutdown time 0.000080s
+
+Job #2 took 1.204 sec after waiting 0.000 sec for setup
+
+(Thread 15 is processing Job #2)
+
+Running Job #8:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001099-2.pdbqt
+          5 |        57365 |  235.98 kcal/mol |   -1.65 +/-   19.61 kcal/mol |     308 |  -10.04 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.030071s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |   -0.25 kcal/mol |   -1.41 +/-    0.34 kcal/mol |       8 |   -2.24 kcal/mol
+        445 |      2123365 |   -6.16 kcal/mol |   -6.65 +/-    0.22 kcal/mol |       4 |   -6.87 kcal/mol
+          5 |        63692 |   -0.77 kcal/mol |   -3.47 +/-    1.06 kcal/mol |     322 |   -5.89 kcal/mol
+         10 |       123232 |   -0.69 kcal/mol |   -9.91 +/-    0.18 kcal/mol |      14 |  -10.31 kcal/mol
+        450 |      2148898 |   -5.83 kcal/mol |   -6.53 +/-    0.17 kcal/mol |       5 |   -6.87 kcal/mol
+         10 |       135134 |   -3.42 kcal/mol |   -5.85 +/-    0.19 kcal/mol |      13 |   -6.20 kcal/mol
+        455 |      2174094 |   -6.01 kcal/mol |   -6.59 +/-    0.19 kcal/mol |       5 |   -6.87 kcal/mol
+         15 |       202777 |   -9.72 kcal/mol |  -10.06 +/-    0.15 kcal/mol |      26 |  -10.31 kcal/mol
+        460 |      2198797 |   -6.02 kcal/mol |   -6.59 +/-    0.27 kcal/mol |       4 |   -6.87 kcal/mol
+         15 |       217458 |   -5.63 kcal/mol |   -5.90 +/-    0.12 kcal/mol |      18 |   -6.21 kcal/mol
+         20 |       291116 |   -9.98 kcal/mol |  -10.18 +/-    0.11 kcal/mol |      20 |  -10.31 kcal/mol
+        465 |      2223725 |   -5.56 kcal/mol |   -6.52 +/-    0.30 kcal/mol |       5 |   -6.87 kcal/mol
+         20 |       305417 |   -5.80 kcal/mol |   -5.95 +/-    0.11 kcal/mol |      20 |   -6.21 kcal/mol
+        470 |      2248351 |   -5.63 kcal/mol |   -6.61 +/-    0.25 kcal/mol |       7 |   -6.87 kcal/mol
+         25 |       387424 |  -10.10 kcal/mol |  -10.23 +/-    0.07 kcal/mol |      13 |  -10.32 kcal/mol
+         25 |       396189 |   -5.87 kcal/mol |   -6.00 +/-    0.10 kcal/mol |      14 |   -6.21 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -5.93 +/-    0.14 kcal/mol combined.
+                                65 samples, best energy    -6.21 kcal/mol.
+
+Docking time 0.416514s
+
+Shutdown time 0.000091s
+
+Job #8 took 0.447 sec after waiting 0.000 sec for setup
+
+(Thread 5 is processing Job #8)
+
+Running Job #1:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001019-1.pdbqt
+        475 |      2272759 |   -6.07 kcal/mol |   -6.62 +/-    0.19 kcal/mol |       4 |   -6.87 kcal/mol
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.026980s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |    0.39 kcal/mol |   -1.29 +/-    0.56 kcal/mol |       9 |   -2.66 kcal/mol
+         30 |       479578 |  -10.05 kcal/mol |  -10.24 +/-    0.06 kcal/mol |      19 |  -10.32 kcal/mol
+        480 |      2296425 |   -5.92 kcal/mol |   -6.39 +/-    0.26 kcal/mol |       5 |   -6.87 kcal/mol
+          5 |        59101 |   -0.36 kcal/mol |   -5.30 +/-    1.42 kcal/mol |     255 |   -8.53 kcal/mol
+        485 |      2320394 |   -5.62 kcal/mol |   -6.36 +/-    0.24 kcal/mol |       6 |   -6.87 kcal/mol
+         35 |       576628 |  -10.12 kcal/mol |  -10.28 +/-    0.03 kcal/mol |      17 |  -10.32 kcal/mol
+         10 |       126924 |   -5.21 kcal/mol |   -8.26 +/-    0.16 kcal/mol |      18 |   -8.53 kcal/mol
+        490 |      2344511 |   -5.76 kcal/mol |   -6.61 +/-    0.21 kcal/mol |       5 |   -6.87 kcal/mol
+         40 |       673013 |  -10.15 kcal/mol |  -10.28 +/-    0.03 kcal/mol |      17 |  -10.32 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                  -10.26 +/-    0.05 kcal/mol combined.
+                                66 samples, best energy   -10.32 kcal/mol.
+
+Docking time 0.809829s
+
+Shutdown time 0.000090s
+
+Job #1 took 0.833 sec after waiting 0.000 sec for setup
+
+(Thread 15 is processing Job #1)
+        495 |      2368502 |   -5.98 kcal/mol |   -6.62 +/-    0.25 kcal/mol |       4 |   -6.87 kcal/mol
+         15 |       203613 |   -8.13 kcal/mol |   -8.40 +/-    0.12 kcal/mol |      24 |   -8.61 kcal/mol
+Run time of entire job set (8 files): 5.905 sec
+Savings from multithreading: 0.774 sec
+Idle time of execution thread: 1.055 sec
+
+All jobs ran without errors.
+        500 |      2392210 |   -5.70 kcal/mol |   -6.45 +/-    0.23 kcal/mol |      10 |   -6.87 kcal/mol
+        505 |      2416112 |   -6.11 kcal/mol |   -6.51 +/-    0.27 kcal/mol |       3 |   -6.87 kcal/mol
+         20 |       291454 |   -8.32 kcal/mol |   -8.51 +/-    0.08 kcal/mol |      23 |   -8.63 kcal/mol
+        510 |      2440141 |   -5.15 kcal/mol |   -6.39 +/-    0.32 kcal/mol |       4 |   -6.87 kcal/mol
+[35mFINISHED[0m: dockStep, step 5, time 2023-04-25 16:08:02.790392
+         25 |       383191 |   -8.46 kcal/mol |   -8.57 +/-    0.07 kcal/mol |      17 |   -8.67 kcal/mol
+        515 |      2464532 |   -5.19 kcal/mol |   -6.39 +/-    0.30 kcal/mol |       9 |   -6.87 kcal/mol
+        520 |      2489164 |   -5.89 kcal/mol |   -6.76 +/-    0.15 kcal/mol |       4 |   -6.87 kcal/mol
+         30 |       473259 |   -8.43 kcal/mol |   -8.64 +/-    0.08 kcal/mol |      18 |   -8.83 kcal/mol
+        525 |      2513440 |   -6.19 kcal/mol |   -6.51 +/-    0.27 kcal/mol |       3 |   -6.87 kcal/mol
+         35 |       566796 |   -8.58 kcal/mol |   -8.72 +/-    0.11 kcal/mol |       7 |   -8.89 kcal/mol
+        530 |      2537485 |   -5.15 kcal/mol |   -6.27 +/-    0.44 kcal/mol |       7 |   -6.87 kcal/mol
+        535 |      2561206 |   -5.32 kcal/mol |   -6.19 +/-    0.30 kcal/mol |       8 |   -6.87 kcal/mol
+         40 |       658622 |   -8.48 kcal/mol |   -8.61 +/-    0.08 kcal/mol |      18 |   -8.89 kcal/mol
+        540 |      2584825 |   -5.64 kcal/mol |   -6.53 +/-    0.19 kcal/mol |       7 |   -6.87 kcal/mol
+         45 |       743929 |   -8.54 kcal/mol |   -8.68 +/-    0.11 kcal/mol |      20 |   -8.89 kcal/mol
+        545 |      2608588 |   -6.12 kcal/mol |   -6.51 +/-    0.27 kcal/mol |       3 |   -6.87 kcal/mol
+        550 |      2632084 |   -5.15 kcal/mol |   -6.30 +/-    0.29 kcal/mol |       9 |   -6.87 kcal/mol
+         50 |       828147 |   -8.60 kcal/mol |   -8.69 +/-    0.10 kcal/mol |      14 |   -8.89 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -8.67 +/-    0.11 kcal/mol combined.
+                                59 samples, best energy    -8.89 kcal/mol.
+
+Docking time 0.764049s
+
+Shutdown time 0.000076s
+
+Job #1 took 0.791 sec after waiting 0.000 sec for setup
+
+(Thread 6 is processing Job #1)
+        555 |      2655603 |   -5.82 kcal/mol |   -6.39 +/-    0.32 kcal/mol |       4 |   -6.87 kcal/mol
+        560 |      2679358 |   -5.19 kcal/mol |   -6.41 +/-    0.36 kcal/mol |       9 |   -6.87 kcal/mol
+        565 |      2703377 |   -5.81 kcal/mol |   -6.85 +/-    0.02 kcal/mol |       4 |   -6.87 kcal/mol
+Run time of entire job set (8 files): 6.411 sec
+Savings from multithreading: 1.256 sec
+Idle time of execution thread: 1.621 sec
+
+All jobs ran without errors.
+        570 |      2727368 |   -6.29 kcal/mol |   -6.66 +/-    0.21 kcal/mol |       2 |   -6.87 kcal/mol
+        575 |      2751544 |   -5.06 kcal/mol |   -6.07 +/-    0.40 kcal/mol |      10 |   -6.87 kcal/mol
+        580 |      2775399 |   -5.47 kcal/mol |   -6.39 +/-    0.32 kcal/mol |       4 |   -6.87 kcal/mol
+        585 |      2799117 |   -5.19 kcal/mol |   -6.35 +/-    0.30 kcal/mol |       5 |   -6.87 kcal/mol
+        590 |      2822814 |   -5.46 kcal/mol |   -6.43 +/-    0.24 kcal/mol |       5 |   -6.87 kcal/mol
+        595 |      2846465 |   -5.70 kcal/mol |   -6.38 +/-    0.27 kcal/mol |       5 |   -6.87 kcal/mol
+        600 |      2870272 |   -5.57 kcal/mol |   -6.55 +/-    0.28 kcal/mol |       6 |   -6.87 kcal/mol
+[35mFINISHED[0m: dockStep, step 3, time 2023-04-25 16:08:03.299804
+        605 |      2894110 |   -5.86 kcal/mol |   -6.53 +/-    0.20 kcal/mol |       4 |   -6.87 kcal/mol
+        610 |      2918301 |   -5.79 kcal/mol |   -6.63 +/-    0.26 kcal/mol |       5 |   -6.87 kcal/mol
+        615 |      2942448 |   -5.85 kcal/mol |   -6.60 +/-    0.22 kcal/mol |       4 |   -6.87 kcal/mol
+        620 |      2966471 |   -5.79 kcal/mol |   -6.69 +/-    0.22 kcal/mol |       5 |   -6.87 kcal/mol
+        625 |      2990448 |   -6.03 kcal/mol |   -6.73 +/-    0.17 kcal/mol |       4 |   -6.87 kcal/mol
+        630 |      3014669 |   -6.10 kcal/mol |   -6.52 +/-    0.30 kcal/mol |       5 |   -6.87 kcal/mol
+        635 |      3038786 |   -5.63 kcal/mol |   -6.59 +/-    0.23 kcal/mol |       5 |   -6.87 kcal/mol
+        640 |      3062920 |   -5.88 kcal/mol |   -6.59 +/-    0.19 kcal/mol |       5 |   -6.87 kcal/mol
+        645 |      3086765 |   -6.02 kcal/mol |   -6.51 +/-    0.27 kcal/mol |       3 |   -6.87 kcal/mol
+        650 |      3110926 |   -5.15 kcal/mol |   -6.35 +/-    0.36 kcal/mol |      12 |   -6.87 kcal/mol
+        655 |      3134760 |   -5.90 kcal/mol |   -6.39 +/-    0.21 kcal/mol |       7 |   -6.87 kcal/mol
+        660 |      3158719 |   -5.94 kcal/mol |   -6.53 +/-    0.20 kcal/mol |       4 |   -6.87 kcal/mol
+        665 |      3182581 |   -5.80 kcal/mol |   -6.44 +/-    0.27 kcal/mol |       4 |   -6.87 kcal/mol
+        670 |      3206295 |   -5.43 kcal/mol |   -6.27 +/-    0.31 kcal/mol |       6 |   -6.87 kcal/mol
+        675 |      3229927 |   -5.49 kcal/mol |   -6.38 +/-    0.27 kcal/mol |       5 |   -6.87 kcal/mol
+        680 |      3253570 |   -5.58 kcal/mol |   -6.61 +/-    0.25 kcal/mol |       6 |   -6.87 kcal/mol
+        685 |      3277407 |   -5.98 kcal/mol |   -6.75 +/-    0.18 kcal/mol |       4 |   -6.87 kcal/mol
+        690 |      3301022 |   -6.09 kcal/mol |   -6.51 +/-    0.27 kcal/mol |       3 |   -6.87 kcal/mol
+        695 |      3325074 |   -5.15 kcal/mol |   -6.39 +/-    0.32 kcal/mol |       4 |   -6.87 kcal/mol
+        700 |      3348858 |   -5.19 kcal/mol |   -6.35 +/-    0.29 kcal/mol |       5 |   -6.87 kcal/mol
+        705 |      3372702 |   -5.47 kcal/mol |   -6.50 +/-    0.29 kcal/mol |       6 |   -6.87 kcal/mol
+        710 |      3396460 |   -5.78 kcal/mol |   -6.56 +/-    0.17 kcal/mol |       5 |   -6.87 kcal/mol
+        715 |      3420174 |   -6.05 kcal/mol |   -6.55 +/-    0.18 kcal/mol |       4 |   -6.87 kcal/mol
+        720 |      3443727 |   -5.86 kcal/mol |   -6.39 +/-    0.32 kcal/mol |       4 |   -6.87 kcal/mol
+        725 |      3467438 |   -5.19 kcal/mol |   -6.38 +/-    0.32 kcal/mol |       8 |   -6.87 kcal/mol
+        730 |      3491003 |   -5.78 kcal/mol |   -6.44 +/-    0.27 kcal/mol |       4 |   -6.87 kcal/mol
+        735 |      3514580 |   -5.43 kcal/mol |   -6.31 +/-    0.26 kcal/mol |       8 |   -6.87 kcal/mol
+        739 |      3533470 |   -5.82 kcal/mol |   -6.41 +/-    0.28 kcal/mol |      14 |   -6.87 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                          3533470 evaluations. Best energy    -6.87 kcal/mol.
+
+Docking time 6.809150s
+
+Shutdown time 0.000097s
+
+Job #1 took 6.811 sec after waiting 0.000 sec for setup
+
+(Thread 11 is processing Job #1)
+
+Running Job #3:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00000480-1.pdbqt
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.000943s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |   38.80 kcal/mol |   10.15 +/-    7.64 kcal/mol |       4 |    1.71 kcal/mol
+          5 |        36548 |   38.80 kcal/mol |   -2.06 +/-    4.56 kcal/mol |     142 |   -6.52 kcal/mol
+         10 |        72658 |   -1.58 kcal/mol |   -6.30 +/-    0.16 kcal/mol |       8 |   -6.53 kcal/mol
+         15 |       110068 |   -6.00 kcal/mol |   -6.70 +/-    0.14 kcal/mol |       7 |   -6.82 kcal/mol
+         20 |       147658 |   -6.40 kcal/mol |   -6.88 +/-    0.05 kcal/mol |       6 |   -6.99 kcal/mol
+         25 |       187607 |   -6.50 kcal/mol |   -6.91 +/-    0.06 kcal/mol |       6 |   -6.99 kcal/mol
+         30 |       226281 |   -6.53 kcal/mol |   -6.90 +/-    0.04 kcal/mol |       7 |   -6.99 kcal/mol
+         35 |       264423 |   -6.58 kcal/mol |   -6.91 +/-    0.05 kcal/mol |       5 |   -6.99 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -6.90 +/-    0.05 kcal/mol combined.
+                                24 samples, best energy    -6.99 kcal/mol.
+
+Docking time 0.123909s
+
+Shutdown time 0.000079s
+
+Job #3 took 0.125 sec after waiting 0.000 sec for setup
+
+(Thread 9 is processing Job #3)
+
+Running Job #2:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001019-2.pdbqt
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.001198s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 | 3856.99 kcal/mol | 3854.74 +/-    0.00 kcal/mol |       1 | 3854.74 kcal/mol
+          5 |        24807 | 3856.99 kcal/mol |  922.31 +/- 1185.47 kcal/mol |      24 |   -3.26 kcal/mol
+         10 |        48457 | 1663.23 kcal/mol |   -0.70 +/-    3.72 kcal/mol |       7 |   -3.26 kcal/mol
+         15 |        71922 |    7.27 kcal/mol |   -2.97 +/-    1.32 kcal/mol |       8 |   -5.40 kcal/mol
+         20 |        95374 |   -0.49 kcal/mol |   -4.31 +/-    0.54 kcal/mol |       9 |   -5.40 kcal/mol
+         25 |       118777 |   -3.42 kcal/mol |   -4.68 +/-    0.43 kcal/mol |       4 |   -5.40 kcal/mol
+         30 |       142011 |   -3.08 kcal/mol |   -4.65 +/-    0.45 kcal/mol |       8 |   -5.40 kcal/mol
+         35 |       165359 |   -3.82 kcal/mol |   -4.81 +/-    0.38 kcal/mol |       5 |   -5.40 kcal/mol
+         40 |       188630 |   -3.67 kcal/mol |   -4.91 +/-    0.43 kcal/mol |       7 |   -5.74 kcal/mol
+         45 |       212082 |   -4.00 kcal/mol |   -5.35 +/-    0.29 kcal/mol |      13 |   -5.74 kcal/mol
+         50 |       235683 |   -5.02 kcal/mol |   -5.86 +/-    0.22 kcal/mol |       4 |   -6.25 kcal/mol
+         55 |       259322 |   -5.02 kcal/mol |   -5.79 +/-    0.30 kcal/mol |       4 |   -6.25 kcal/mol
+         60 |       283112 |   -4.64 kcal/mol |   -5.65 +/-    0.45 kcal/mol |       4 |   -6.25 kcal/mol
+         65 |       306828 |   -3.94 kcal/mol |   -5.55 +/-    0.56 kcal/mol |       7 |   -6.30 kcal/mol
+         70 |       330251 |   -4.35 kcal/mol |   -5.91 +/-    0.21 kcal/mol |       5 |   -6.30 kcal/mol
+         75 |       353524 |   -5.28 kcal/mol |   -5.95 +/-    0.22 kcal/mol |       4 |   -6.30 kcal/mol
+         80 |       377186 |   -5.13 kcal/mol |   -5.77 +/-    0.37 kcal/mol |       4 |   -6.30 kcal/mol
+         85 |       400665 |   -4.38 kcal/mol |   -5.58 +/-    0.37 kcal/mol |       7 |   -6.30 kcal/mol
+         90 |       424105 |   -4.79 kcal/mol |   -5.89 +/-    0.28 kcal/mol |       7 |   -6.30 kcal/mol
+         95 |       447800 |   -5.29 kcal/mol |   -5.88 +/-    0.30 kcal/mol |       4 |   -6.35 kcal/mol
+        100 |       471241 |   -4.75 kcal/mol |   -5.82 +/-    0.38 kcal/mol |       7 |   -6.35 kcal/mol
+        105 |       494691 |   -5.01 kcal/mol |   -6.03 +/-    0.19 kcal/mol |       4 |   -6.35 kcal/mol
+        110 |       518195 |   -5.34 kcal/mol |   -6.05 +/-    0.22 kcal/mol |       6 |   -6.35 kcal/mol
+        115 |       541713 |   -5.49 kcal/mol |   -6.08 +/-    0.18 kcal/mol |       4 |   -6.40 kcal/mol
+        120 |       565368 |   -5.40 kcal/mol |   -6.02 +/-    0.16 kcal/mol |       7 |   -6.40 kcal/mol
+        125 |       588943 |   -5.68 kcal/mol |   -6.17 +/-    0.23 kcal/mol |       5 |   -6.44 kcal/mol
+        130 |       612465 |   -5.49 kcal/mol |   -6.18 +/-    0.23 kcal/mol |       5 |   -6.47 kcal/mol
+        135 |       636039 |   -5.49 kcal/mol |   -6.19 +/-    0.17 kcal/mol |       4 |   -6.47 kcal/mol
+        140 |       659553 |   -5.55 kcal/mol |   -6.10 +/-    0.26 kcal/mol |       4 |   -6.47 kcal/mol
+        145 |       683036 |   -5.14 kcal/mol |   -6.09 +/-    0.22 kcal/mol |       6 |   -6.48 kcal/mol
+        150 |       706486 |   -5.54 kcal/mol |   -6.17 +/-    0.16 kcal/mol |       6 |   -6.48 kcal/mol
+        155 |       730184 |   -5.78 kcal/mol |   -6.22 +/-    0.22 kcal/mol |       5 |   -6.48 kcal/mol
+        160 |       753803 |   -5.57 kcal/mol |   -6.04 +/-    0.27 kcal/mol |       5 |   -6.48 kcal/mol
+        165 |       777465 |   -5.23 kcal/mol |   -6.19 +/-    0.27 kcal/mol |       5 |   -6.48 kcal/mol
+        170 |       800947 |   -5.39 kcal/mol |   -5.99 +/-    0.29 kcal/mol |       7 |   -6.48 kcal/mol
+        175 |       824260 |   -5.37 kcal/mol |   -6.41 +/-    0.24 kcal/mol |       4 |   -6.58 kcal/mol
+        180 |       847504 |   -5.50 kcal/mol |   -6.39 +/-    0.23 kcal/mol |       4 |   -6.58 kcal/mol
+        185 |       870783 |   -5.52 kcal/mol |   -6.38 +/-    0.23 kcal/mol |       4 |   -6.58 kcal/mol
+        190 |       894213 |   -5.53 kcal/mol |   -6.37 +/-    0.19 kcal/mol |       6 |   -6.58 kcal/mol
+        195 |       917644 |   -5.91 kcal/mol |   -6.25 +/-    0.28 kcal/mol |       4 |   -6.58 kcal/mol
+        200 |       941126 |   -5.20 kcal/mol |   -6.23 +/-    0.31 kcal/mol |       4 |   -6.58 kcal/mol
+        205 |       964783 |   -5.08 kcal/mol |   -6.27 +/-    0.27 kcal/mol |       4 |   -6.58 kcal/mol
+        210 |       988210 |   -5.27 kcal/mol |   -6.27 +/-    0.27 kcal/mol |       4 |   -6.58 kcal/mol
+        215 |      1011757 |   -5.27 kcal/mol |   -6.29 +/-    0.25 kcal/mol |       7 |   -6.59 kcal/mol
+        220 |      1035413 |   -5.74 kcal/mol |   -6.39 +/-    0.22 kcal/mol |       4 |   -6.59 kcal/mol
+        225 |      1059148 |   -5.55 kcal/mol |   -6.36 +/-    0.22 kcal/mol |       4 |   -6.59 kcal/mol
+        230 |      1082839 |   -5.55 kcal/mol |   -6.37 +/-    0.20 kcal/mol |      10 |   -6.59 kcal/mol
+        235 |      1106374 |   -6.08 kcal/mol |   -6.51 +/-    0.05 kcal/mol |       3 |   -6.59 kcal/mol
+        240 |      1129874 |   -5.76 kcal/mol |   -6.36 +/-    0.15 kcal/mol |       9 |   -6.59 kcal/mol
+        245 |      1153440 |   -6.10 kcal/mol |   -6.56 +/-    0.05 kcal/mol |       4 |   -6.59 kcal/mol
+        250 |      1176961 |   -6.00 kcal/mol |   -6.36 +/-    0.25 kcal/mol |       3 |   -6.59 kcal/mol
+        255 |      1200391 |   -5.11 kcal/mol |   -6.27 +/-    0.27 kcal/mol |       4 |   -6.59 kcal/mol
+        260 |      1223982 |   -5.26 kcal/mol |   -6.27 +/-    0.27 kcal/mol |       4 |   -6.59 kcal/mol
+        265 |      1247838 |   -5.26 kcal/mol |   -6.34 +/-    0.25 kcal/mol |       6 |   -6.59 kcal/mol
+        270 |      1271309 |   -5.71 kcal/mol |   -6.42 +/-    0.24 kcal/mol |       4 |   -6.59 kcal/mol
+        275 |      1294572 |   -5.52 kcal/mol |   -6.32 +/-    0.25 kcal/mol |       5 |   -6.59 kcal/mol
+        280 |      1317857 |   -5.56 kcal/mol |   -6.37 +/-    0.23 kcal/mol |       4 |   -6.59 kcal/mol
+        285 |      1341189 |   -5.50 kcal/mol |   -6.25 +/-    0.27 kcal/mol |      10 |   -6.59 kcal/mol
+        290 |      1364604 |   -5.84 kcal/mol |   -6.42 +/-    0.24 kcal/mol |       4 |   -6.59 kcal/mol
+        295 |      1388446 |   -5.53 kcal/mol |   -6.39 +/-    0.19 kcal/mol |       7 |   -6.59 kcal/mol
+        300 |      1412015 |   -5.98 kcal/mol |   -6.58 +/-    0.02 kcal/mol |       4 |   -6.59 kcal/mol
+        305 |      1435544 |   -6.02 kcal/mol |   -6.40 +/-    0.21 kcal/mol |       4 |   -6.59 kcal/mol
+        310 |      1459094 |   -5.62 kcal/mol |   -6.35 +/-    0.27 kcal/mol |       5 |   -6.59 kcal/mol
+        315 |      1482881 |   -5.53 kcal/mol |   -6.43 +/-    0.14 kcal/mol |       4 |   -6.59 kcal/mol
+        320 |      1506545 |   -5.89 kcal/mol |   -6.16 +/-    0.26 kcal/mol |       7 |   -6.59 kcal/mol
+        325 |      1530163 |   -5.60 kcal/mol |   -6.29 +/-    0.29 kcal/mol |       4 |   -6.59 kcal/mol
+        330 |      1553525 |   -5.22 kcal/mol |   -6.30 +/-    0.26 kcal/mol |       9 |   -6.59 kcal/mol
+        335 |      1576882 |   -5.86 kcal/mol |   -6.44 +/-    0.24 kcal/mol |       4 |   -6.59 kcal/mol
+        340 |      1600347 |   -5.54 kcal/mol |   -6.40 +/-    0.26 kcal/mol |       6 |   -6.59 kcal/mol
+        345 |      1623904 |   -5.74 kcal/mol |   -6.43 +/-    0.24 kcal/mol |       4 |   -6.59 kcal/mol
+        350 |      1647628 |   -5.55 kcal/mol |   -6.44 +/-    0.19 kcal/mol |       7 |   -6.59 kcal/mol
+        355 |      1670991 |   -6.04 kcal/mol |   -6.55 +/-    0.04 kcal/mol |       4 |   -6.59 kcal/mol
+        360 |      1694404 |   -5.99 kcal/mol |   -6.59 +/-    0.01 kcal/mol |       4 |   -6.59 kcal/mol
+        365 |      1717936 |   -6.02 kcal/mol |   -6.50 +/-    0.11 kcal/mol |       5 |   -6.59 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -6.51 +/-    0.14 kcal/mol combined.
+                                20 samples, best energy    -6.59 kcal/mol.
+
+Docking time 0.968554s
+
+Shutdown time 0.000080s
+
+Job #2 took 0.970 sec after waiting 0.000 sec for setup
+
+(Thread 8 is processing Job #2)
+
+Running Job #6:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00001453-2.pdbqt
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.001169s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |   -0.05 kcal/mol |   -1.45 +/-    0.37 kcal/mol |       4 |   -2.08 kcal/mol
+          5 |        34976 |   -0.05 kcal/mol |   -3.41 +/-    1.28 kcal/mol |     118 |   -5.82 kcal/mol
+         10 |        68946 |   -3.25 kcal/mol |   -5.66 +/-    0.13 kcal/mol |      14 |   -5.82 kcal/mol
+         15 |       104577 |   -5.52 kcal/mol |   -5.71 +/-    0.12 kcal/mol |      14 |   -5.97 kcal/mol
+         20 |       140880 |   -5.58 kcal/mol |   -5.83 +/-    0.12 kcal/mol |      17 |   -6.00 kcal/mol
+         25 |       178297 |   -5.73 kcal/mol |   -5.91 +/-    0.08 kcal/mol |       9 |   -6.00 kcal/mol
+         30 |       214198 |   -5.78 kcal/mol |   -5.91 +/-    0.07 kcal/mol |      15 |   -6.00 kcal/mol
+         35 |       249230 |   -5.76 kcal/mol |   -5.94 +/-    0.08 kcal/mol |       6 |   -6.00 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -5.89 +/-    0.10 kcal/mol combined.
+                                47 samples, best energy    -6.00 kcal/mol.
+
+Docking time 0.126595s
+
+Shutdown time 0.000076s
+
+Job #6 took 0.128 sec after waiting 0.000 sec for setup
+
+(Thread 12 is processing Job #6)
+
+Running Job #4:
+    Device: NVIDIA GeForce RTX 2060
+    Grid map file: 4erf_prep.maps.fld
+    Ligand file: ZINC00000480-2.pdbqt
+    Using heuristics: (capped) number of evaluations set to 3529412
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.001137s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 3529412 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples |    Best energy
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |   21.92 kcal/mol |    5.48 +/-    5.15 kcal/mol |       5 |   -1.82 kcal/mol
+          5 |        36569 |   20.92 kcal/mol |   -2.38 +/-    3.31 kcal/mol |     124 |   -6.58 kcal/mol
+         10 |        71021 |   -1.98 kcal/mol |   -6.55 +/-    0.18 kcal/mol |       4 |   -6.72 kcal/mol
+         15 |       106286 |   -5.88 kcal/mol |   -6.49 +/-    0.21 kcal/mol |      11 |   -6.88 kcal/mol
+         20 |       145615 |   -6.20 kcal/mol |   -6.57 +/-    0.13 kcal/mol |       8 |   -6.88 kcal/mol
+         25 |       185129 |   -6.33 kcal/mol |   -6.64 +/-    0.10 kcal/mol |       7 |   -6.88 kcal/mol
+         30 |       223487 |   -6.42 kcal/mol |   -6.93 +/-    0.04 kcal/mol |       5 |   -6.98 kcal/mol
+         35 |       262933 |   -6.48 kcal/mol |   -6.92 +/-    0.06 kcal/mol |       5 |   -6.98 kcal/mol
+         40 |       305910 |   -6.47 kcal/mol |   -6.80 +/-    0.14 kcal/mol |       9 |   -6.98 kcal/mol
+         45 |       349275 |   -6.56 kcal/mol |   -6.89 +/-    0.10 kcal/mol |      11 |   -6.98 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   -6.87 +/-    0.11 kcal/mol combined.
+                                30 samples, best energy    -6.98 kcal/mol.
+
+Docking time 0.182109s
+
+Shutdown time 0.000081s
+
+Job #4 took 0.183 sec after waiting 0.000 sec for setup
+
+(Thread 14 is processing Job #4)
+Run time of entire job set (8 files): 8.905 sec
+Savings from multithreading: 0.347 sec
+Idle time of execution thread: 0.547 sec
+
+All jobs ran without errors.
+[35mFINISHED[0m: dockStep, step 7, time 2023-04-25 16:08:05.247605
+[35mSTARTED[0m: createOutputStep, step 8, time 2023-04-25 16:08:05.409013
+[35mFINISHED[0m: createOutputStep, step 8, time 2023-04-25 16:08:05.476679
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

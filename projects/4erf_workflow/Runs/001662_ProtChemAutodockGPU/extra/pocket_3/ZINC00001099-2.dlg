@@ -1,0 +1,285 @@
+AutoDock-GPU version: v1.5.3-46-g49b20530bd9ac3c27a48930eeff316cf6ede2042
+
+**********************************************************
+**    AutoDock-GPU AUTODOCKTOOLS-COMPATIBLE DLG FILE    **
+**********************************************************
+
+
+    DOCKING PARAMETERS
+    ________________________
+
+
+Ligand file:                               ZINC00001099-2.pdbqt
+Grid fld file:                             4erf_prep.maps.fld
+
+Random seed:                               44
+Number of runs:                            5
+Number of energy evaluations:              3529412
+Number of generations:                     42000
+Size of population:                        150
+Rate of crossover:                         80.000000%
+Tournament selection probability limit:    60.000000%
+Rate of mutation:                          2.000000%
+Maximal allowed delta movement:            +/- 6.000000A
+Maximal allowed delta angle:               +/- 90.000000
+
+Rate of local search:                      100.000000%
+Maximal number of local search iterations: 300
+Rho lower bound:                           0.010000
+Spread of local search delta movement:     2.000000A
+Spread of local search delta angle:        74.999999
+Limit of consecutive successes/failures:   4
+
+Handle symmetry during clustering:         YES
+RMSD tolerance:                            2.000000A
+
+Program call in command line was:          /home/danieldh/scipion3/software/em/AutoDock-GPU/bin/autodock_gpu_64wi -B /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/pocket_3/batchFile.txt -D 1 -n 5 --rmstol 2.0 -C 1 --output-cluster-poses auto -H 1 -E 12000000 -A 1 -a 5 --stopstd 0.15 -s 44 
+
+
+    GRID PARAMETERS
+    ________________________
+
+
+Receptor name:                             /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/4erf_prep
+Number of grid points (x, y, z):           23, 23, 23
+Grid center (x, y, z):                     1.703000, -0.247000, -19.780000A
+Grid size (x, y, z):                       11.000000, 11.000000, 11.000000A
+Grid spacing:                              0.500000A
+
+
+    LIGAND PARAMETERS
+    ________________________
+
+
+Ligand name:                               ZINC00001099-2
+Number of atoms:                           15
+Number of rotatable bonds:                 3
+Number of atom types:                      6
+
+
+    DUMMY DATA (only for ADT-compatibility)
+    ________________________
+
+
+DPF> outlev 1
+DPF> ga_run 5
+DPF> fld 4erf_prep.maps.fld
+DPF> move ZINC00001099-2.pdbqt
+
+
+    COUNTER STATES
+    ________________________
+
+
+Number of energy evaluations performed:    389451
+Number of generations used:                35
+
+
+    INPUT LIGAND PDBQT FILE:
+    ________________________
+
+
+ANALYSIS: COUNT 0
+INPUT-LIGAND-PDBQT: REMARK  3 active torsions:
+INPUT-LIGAND-PDBQT: REMARK  status: ('A' for Active; 'I' for Inactive)
+INPUT-LIGAND-PDBQT: REMARK    1  A    between atoms: C3_3  and  S1_15 
+INPUT-LIGAND-PDBQT: REMARK    2  A    between atoms: C6_6  and  C7_7 
+INPUT-LIGAND-PDBQT: REMARK    3  A    between atoms: S1_15  and  N1_10 
+INPUT-LIGAND-PDBQT: ROOT
+INPUT-LIGAND-PDBQT: ATOM      1  C1  <0> d  11      -1.326   3.328   0.032  0.00  0.00     0.020 A 
+INPUT-LIGAND-PDBQT: ATOM      2  C2  <0> d  11      -2.534   3.995   0.036  0.00  0.00     0.026 A 
+INPUT-LIGAND-PDBQT: ATOM      3  C3  <0> d  11      -3.720   3.284   0.037  0.00  0.00     0.079 A 
+INPUT-LIGAND-PDBQT: ATOM      4  C4  <0> d  11      -3.705   1.900   0.030  0.00  0.00     0.026 A 
+INPUT-LIGAND-PDBQT: ATOM      5  C5  <0> d  11      -2.505   1.220   0.021  0.00  0.00     0.020 A 
+INPUT-LIGAND-PDBQT: ATOM      6  C6  <0> d  11      -1.304   1.932   0.019  0.00  0.00     0.040 A 
+INPUT-LIGAND-PDBQT: ENDROOT
+INPUT-LIGAND-PDBQT: BRANCH   3   7
+INPUT-LIGAND-PDBQT: ATOM      7  S1  <0> d  11      -5.258   4.144   0.049  0.00  0.00     0.256 S 
+INPUT-LIGAND-PDBQT: ATOM      8  O2  <0> d  11      -5.887   3.868  -1.195  0.00  0.00    -0.201 OA
+INPUT-LIGAND-PDBQT: ATOM      9  O3  <0> d  11      -5.876   3.855   1.296  0.00  0.00    -0.201 OA
+INPUT-LIGAND-PDBQT: BRANCH   7  10
+INPUT-LIGAND-PDBQT: ATOM     10  N1  <0> d  11      -4.913   5.763   0.056  0.00  0.00    -0.324 N 
+INPUT-LIGAND-PDBQT: ATOM     11  H5  <0> d  11      -5.526   6.391  -0.358  0.00  0.00     0.169 HD
+INPUT-LIGAND-PDBQT: ATOM     12  H6  <0> d  11      -4.099   6.084   0.474  0.00  0.00     0.169 HD
+INPUT-LIGAND-PDBQT: ENDBRANCH   7  10
+INPUT-LIGAND-PDBQT: ENDBRANCH   3   7
+INPUT-LIGAND-PDBQT: BRANCH   6  13
+INPUT-LIGAND-PDBQT: ATOM     13  C7  <0> d  11      -0.014   1.210   0.009  0.00  0.00     0.209 C 
+INPUT-LIGAND-PDBQT: ATOM     14  O1  <0> d  11       1.029   1.832   0.012  0.00  0.00    -0.644 OA
+INPUT-LIGAND-PDBQT: ATOM     15  O4  <0> d  11       0.004  -0.137   0.001  0.00  0.00    -0.644 OA
+INPUT-LIGAND-PDBQT: ENDBRANCH   6  13
+INPUT-LIGAND-PDBQT: TORSDOF 3
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   1 / 5
+Time taken for this run:   0.032s
+
+ANALYSIS: COUNT 20
+ANALYSIS: TYPE    {   "H",   "H",   "H",   "H",   "H",   "H",   "H",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V"}
+ANALYSIS: LIGID   {    8 ,    9 ,   11 ,   12 ,   14 ,   14 ,   14 ,    1 ,    1 ,    1 ,    2 ,    2 ,    6 ,    7 ,    7 ,   10 ,   10 ,   10 ,   10 ,   13 }
+ANALYSIS: LIGNAME {  "O2",  "O3",  "H5",  "H6",  "O1",  "O1",  "O1",  "C1",  "C1",  "C1",  "C2",  "C2",  "C6",  "S1",  "S1",  "N1",  "N1",  "N1",  "N1",  "C7"}
+ANALYSIS: RECID   {  569 ,  491 ,  522 ,  522 ,  463 ,  460 ,  457 ,  459 ,  454 ,  494 ,  494 ,  495 ,  454 ,  579 ,  475 ,  573 ,  580 ,  521 ,  579 ,  454 }
+ANALYSIS: RECNAME {   "N",   "N", "OE1", "OE1", "NH2", "NH1",  "NE",  "CZ",  "CB",  "CB",  "CB",  "CG",  "CB", "CD2",   "C",  "CG", "CE2",  "CD", "CD2",  "CB"}
+ANALYSIS: RESIDUE { "TYR", "ASP", "GLN", "GLN", "ARG", "ARG", "ARG", "ARG", "ARG", "ASP", "ASP", "ASP", "ARG", "TYR", "LEU", "TYR", "TYR", "GLN", "TYR", "ARG"}
+ANALYSIS: RESID   {   76 ,   68 ,   71 ,   71 ,   65 ,   65 ,   65 ,   65 ,   65 ,   68 ,   68 ,   68 ,   65 ,   76 ,   66 ,   76 ,   76 ,   71 ,   76 ,   65 }
+ANALYSIS: CHAIN   {   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A"}
+
+DOCKED: MODEL        1
+DOCKED: USER    Run = 1
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -3.69 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -4.58 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -4.13 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.45 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -4.58 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER    NEWDPF about 0.0 0.0 0.0
+DOCKED: USER    NEWDPF tran0 4.034531 3.313204 5.386759
+DOCKED: USER    NEWDPF axisangle0 -0.70812949 0.44031209 0.55197635 191.777313
+DOCKED: USER    NEWDPF dihe0 159.111404 98.441704 21.834740
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C3_3  and  S1_15 
+DOCKED: REMARK    2  A    between atoms: C6_6  and  C7_7 
+DOCKED: REMARK    3  A    between atoms: S1_15  and  N1_10 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C1  <0> d  11       0.221  -3.737 -21.013 -0.34 +0.00    +0.020 A  
+DOCKED: ATOM      2  C2  <0> d  11      -0.135  -3.251 -19.772 -0.37 -0.00    +0.026 A  
+DOCKED: ATOM      3  C3  <0> d  11       0.207  -1.962 -19.406 -0.32 -0.02    +0.079 A  
+DOCKED: ATOM      4  C4  <0> d  11       0.911  -1.151 -20.279 -0.20 -0.01    +0.026 A  
+DOCKED: ATOM      5  C5  <0> d  11       1.278  -1.625 -21.522 -0.18 -0.00    +0.020 A  
+DOCKED: ATOM      6  C6  <0> d  11       0.936  -2.926 -21.897 -0.24 +0.00    +0.040 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   3   7
+DOCKED: ATOM      7  S1  <0> d  11      -0.258  -1.348 -17.821 -0.56 -0.06    +0.256 S  
+DOCKED: ATOM      8  O2  <0> d  11      -0.490   0.046 -17.978 -0.43 +0.04    -0.201 OA 
+DOCKED: ATOM      9  O3  <0> d  11      -1.249  -2.233 -17.316 -0.84 +0.03    -0.201 OA 
+DOCKED: BRANCH   7  10
+DOCKED: ATOM     10  N1  <0> d  11       1.060  -1.500 -16.832 -0.03 +0.10    -0.324 N  
+DOCKED: ATOM     11  H5  <0> d  11       1.525  -2.349 -16.770 -0.49 -0.10    +0.169 HD 
+DOCKED: ATOM     12  H6  <0> d  11       1.369  -0.740 -16.314 +0.06 -0.02    +0.169 HD 
+DOCKED: ENDBRANCH   7  10
+DOCKED: ENDBRANCH   3   7
+DOCKED: BRANCH   6  13
+DOCKED: ATOM     13  C7  <0> d  11       1.326  -3.441 -23.227 -0.19 +0.05    +0.209 C  
+DOCKED: ATOM     14  O1  <0> d  11       0.721  -4.372 -23.718 -0.04 -0.38    -0.644 OA 
+DOCKED: ATOM     15  O4  <0> d  11       2.350  -2.874 -23.895 +0.03 -0.08    -0.644 OA 
+DOCKED: ENDBRANCH   6  13
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   2 / 5
+Time taken for this run:   0.032s
+
+ANALYSIS: COUNT 21
+ANALYSIS: TYPE    {   "H",   "H",   "H",   "H",   "H",   "H",   "H",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V"}
+ANALYSIS: LIGID   {    8 ,    9 ,   11 ,   12 ,   15 ,   15 ,   15 ,    1 ,    1 ,    1 ,    2 ,    2 ,    2 ,    6 ,    7 ,    7 ,   10 ,   10 ,   10 ,   10 ,   13 }
+ANALYSIS: LIGNAME {  "O2",  "O3",  "H5",  "H6",  "O4",  "O4",  "O4",  "C1",  "C1",  "C1",  "C2",  "C2",  "C2",  "C6",  "S1",  "S1",  "N1",  "N1",  "N1",  "N1",  "C7"}
+ANALYSIS: RECID   {  569 ,  491 ,  522 ,  522 ,  463 ,  460 ,  457 ,  494 ,  459 ,  454 ,  493 ,  494 ,  495 ,  454 ,  579 ,  475 ,  573 ,  580 ,  521 ,  579 ,  454 }
+ANALYSIS: RECNAME {   "N",   "N", "OE1", "OE1", "NH2", "NH1",  "NE",  "CB",  "CZ",  "CB",  "CA",  "CB",  "CG",  "CB", "CD2",   "C",  "CG", "CE2",  "CD", "CD2",  "CB"}
+ANALYSIS: RESIDUE { "TYR", "ASP", "GLN", "GLN", "ARG", "ARG", "ARG", "ASP", "ARG", "ARG", "ASP", "ASP", "ASP", "ARG", "TYR", "LEU", "TYR", "TYR", "GLN", "TYR", "ARG"}
+ANALYSIS: RESID   {   76 ,   68 ,   71 ,   71 ,   65 ,   65 ,   65 ,   68 ,   65 ,   65 ,   68 ,   68 ,   68 ,   65 ,   76 ,   66 ,   76 ,   76 ,   71 ,   76 ,   65 }
+ANALYSIS: CHAIN   {   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A",   "A"}
+
+DOCKED: MODEL        2
+DOCKED: USER    Run = 2
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -3.70 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -4.59 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -4.10 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -0.50 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -4.59 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER    NEWDPF about 0.0 0.0 0.0
+DOCKED: USER    NEWDPF tran0 4.009586 3.320276 5.400142
+DOCKED: USER    NEWDPF axisangle0 -0.70012901 0.44915257 0.55505075 189.709137
+DOCKED: USER    NEWDPF dihe0 341.134338 99.440720 189.252335
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C3_3  and  S1_15 
+DOCKED: REMARK    2  A    between atoms: C6_6  and  C7_7 
+DOCKED: REMARK    3  A    between atoms: S1_15  and  N1_10 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C1  <0> d  11       0.149  -3.709 -21.022 -0.32 +0.00    +0.020 A  
+DOCKED: ATOM      2  C2  <0> d  11      -0.193  -3.230 -19.774 -0.37 -0.00    +0.026 A  
+DOCKED: ATOM      3  C3  <0> d  11       0.198  -1.962 -19.385 -0.33 -0.02    +0.079 A  
+DOCKED: ATOM      4  C4  <0> d  11       0.938  -1.166 -20.241 -0.20 -0.01    +0.026 A  
+DOCKED: ATOM      5  C5  <0> d  11       1.292  -1.633 -21.490 -0.18 -0.00    +0.020 A  
+DOCKED: ATOM      6  C6  <0> d  11       0.901  -2.913 -21.888 -0.24 +0.00    +0.040 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   3   7
+DOCKED: ATOM      7  S1  <0> d  11      -0.250  -1.357 -17.792 -0.55 -0.06    +0.256 S  
+DOCKED: ATOM      8  O2  <0> d  11      -0.448   0.044 -17.931 -0.43 +0.04    -0.201 OA 
+DOCKED: ATOM      9  O3  <0> d  11      -1.261  -2.224 -17.296 -0.85 +0.03    -0.201 OA 
+DOCKED: BRANCH   7  10
+DOCKED: ATOM     10  N1  <0> d  11       1.066  -1.553 -16.807 -0.01 +0.10    -0.324 N  
+DOCKED: ATOM     11  H5  <0> d  11       1.375  -0.815 -16.258 +0.06 -0.03    +0.169 HD 
+DOCKED: ATOM     12  H6  <0> d  11       1.528  -2.405 -16.777 -0.50 -0.11    +0.169 HD 
+DOCKED: ENDBRANCH   7  10
+DOCKED: ENDBRANCH   3   7
+DOCKED: BRANCH   6  13
+DOCKED: ATOM     13  C7  <0> d  11       1.277  -3.420 -23.225 -0.19 +0.05    +0.209 C  
+DOCKED: ATOM     14  O1  <0> d  11       2.067  -2.801 -23.909 +0.02 -0.09    -0.644 OA 
+DOCKED: ATOM     15  O4  <0> d  11       0.747  -4.571 -23.682 +0.01 -0.42    -0.644 OA 
+DOCKED: ENDBRANCH   6  13
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    CLUSTERING HISTOGRAM
+    ____________________
+
+
+________________________________________________________________________________
+     |           |     |           |     |
+Clus | Lowest    | Run | Mean      | Num | Histogram
+-ter | Binding   |     | Binding   | in  |
+Rank | Energy    |     | Energy    | Clus|    5    10   15   20   25   30   35
+_____|___________|_____|___________|_____|____:____|____:____|____:____|____:___
+   1 |     -3.70 |   2 |     -3.69 |   5 |#####
+_____|___________|_____|___________|_____|______________________________________
+
+
+    RMSD TABLE
+    __________
+
+
+_______________________________________________________________________
+     |      |      |           |         |                 |
+Rank | Sub- | Run  | Binding   | Cluster | Reference       | Grep
+     | Rank |      | Energy    | RMSD    | RMSD            | Pattern
+_____|______|______|___________|_________|_________________|___________
+   1      1      2       -3.70      0.00     20.90           RANKING
+   1      5      1       -3.69      0.11     20.91           RANKING
+
+Run time 0.144 sec
+Idle time 0.000 sec

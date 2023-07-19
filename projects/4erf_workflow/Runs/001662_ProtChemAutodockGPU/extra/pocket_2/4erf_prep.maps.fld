@@ -1,0 +1,44 @@
+# AVS field file
+#
+# AutoDock Atomic Affinity and Electrostatic Grids
+#
+# Created by /home/danieldh/scipion3/software/em/autodock-4.2.6/autogrid4.
+#
+#SPACING 0.500
+#NELEMENTS 36 36 36
+#CENTER -15.751 1.876 -16.804
+#MACROMOLECULE /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/4erf_prep.pdbqt
+#GRID_PARAMETER_FILE /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/pocket_2/4erf_prep.gpf
+#
+ndim=3			# number of dimensions in the field
+dim1=37			# number of x-elements
+dim2=37			# number of y-elements
+dim3=37			# number of z-elements
+nspace=3		# number of physical coordinates per point
+veclen=9		# number of affinity values at each point
+data=float		# data type (byte, integer, float, double)
+field=uniform		# field type (uniform, rectilinear, irregular)
+coord 1 file=4erf_prep.maps.xyz filetype=ascii offset=0
+coord 2 file=4erf_prep.maps.xyz filetype=ascii offset=2
+coord 3 file=4erf_prep.maps.xyz filetype=ascii offset=4
+label=A-affinity	# component label for variable 1
+label=C-affinity	# component label for variable 2
+label=HD-affinity	# component label for variable 3
+label=N-affinity	# component label for variable 4
+label=OA-affinity	# component label for variable 5
+label=S-affinity	# component label for variable 6
+label=SA-affinity	# component label for variable 7
+label=Electrostatics	# component label for variable 7
+label=Desolvation	# component label for variable 8
+#
+# location of affinity grid files and how to read them
+#
+variable 1 file=4erf_prep.A.map filetype=ascii skip=6
+variable 2 file=4erf_prep.C.map filetype=ascii skip=6
+variable 3 file=4erf_prep.HD.map filetype=ascii skip=6
+variable 4 file=4erf_prep.N.map filetype=ascii skip=6
+variable 5 file=4erf_prep.OA.map filetype=ascii skip=6
+variable 6 file=4erf_prep.S.map filetype=ascii skip=6
+variable 7 file=4erf_prep.SA.map filetype=ascii skip=6
+variable 8 file=4erf_prep.e.map filetype=ascii skip=6
+variable 9 file=4erf_prep.d.map filetype=ascii skip=6

@@ -1,0 +1,41 @@
+[INFO] Console - predicting pockets for proteins from dataset [4erf_prep.pdb]
+[INFO] PredictRoutine - outdir: /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/extra
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [4erf_prep.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [4erf_prep.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [4erf_prep.pdb] (1/1)
+[INFO] Protein - loading protein [/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/extra/4erf_prep.pdb]
+[INFO] PdbUtils - loading file [/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/extra/4erf_prep.pdb]
+[INFO] Struct - groups in chain A: 92
+[INFO] Struct - groups in chain A: 92
+[INFO] Struct - 92 groups in chain A
+[INFO] Protein - structure atoms: 1532
+[INFO] Protein - protein   atoms: 737
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 1798
+[INFO] Protein - exposed protein atoms: 537 of 737
+[INFO] InstancePredictor - Creating WekaInstancePredictor
+[INFO] SLinkClusterer - clustering [52] elements
+[INFO] SLinkClusterer - clusters: [id:14( 2 ), id:20( 2 ), id:26( 7 ), id:30( 1 ), id:32( 1 ), id:33( 25 ), id:37( 5 ), id:42( 1 ), id:50( 6 ), id:51( 2 )]
+[INFO] SLinkClusterer - clusters together: 52 / 52
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 1798
+[INFO] PocketPredictor - LIGANDABLE POINTS: 52
+[INFO] PocketPredictor - CLUSTERS: 10
+[INFO] PocketPredictor - FILTERED CLUSTERS: 4
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  33   points:  25   score:   12.1
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  17   points:   5   score:    2.9
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  19   points:   6   score:    2.7
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  20   points:   7   score:    2.6
+[INFO] OldPymolRenderer - copying [/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/extra/4erf_prep.pdb] to [/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/extra/visualizations/data/4erf_prep.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 5.887 seconds
+[INFO] Console - results saved to directory [/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/extra]
+[INFO] Console - 
+[INFO] Console - ----------------------------------------------------------------------------------------------
+[INFO] Console -  finished successfully in 0 hours 0 minutes 6.607 seconds
+[INFO] Console - ----------------------------------------------------------------------------------------------

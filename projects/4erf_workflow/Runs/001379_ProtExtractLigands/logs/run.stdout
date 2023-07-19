@@ -1,0 +1,21 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001379_ProtExtractLigands/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001379_ProtExtractLigands/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 20170
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/001379_ProtExtractLigands
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: createOutputStep, step 1, time 2023-04-24 15:40:24.040437
+saving <Chain id=C> <Residue 0R3 het=H_0R3 resseq=201 icode= >
+[35mFINISHED[0m: createOutputStep, step 1, time 2023-04-24 15:40:24.286552
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

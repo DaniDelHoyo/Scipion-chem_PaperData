@@ -1,0 +1,8 @@
+Scheduling protocol 1225, PID: 70487,prerequisites: [], works in streaming: False.
+Waiting 0 seconds before start checking inputs 
+Checking input data...
+The protocol 1306 (lephar - LePro target preparation) is up to date
+AtomStruct (pseudoatoms=False, volume=False) is not blocking this protocol. All ready.
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/4erf_demo" "Runs/001225_P2RankFindPockets/logs/run.db" 1225 "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001225_P2RankFindPockets/logs/run.stderr"[0m'

@@ -1,0 +1,8 @@
+Scheduling protocol 2027, PID: 72630,prerequisites: [], works in streaming: False.
+Waiting 0 seconds before start checking inputs 
+Checking input data...
+The protocol 1619 (lephar - LeDock docking) is up to date
+SetOfSmallMolecules (106 items, LeDock class) is not blocking this protocol. All ready.
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/4erf_demo" "Runs/002027_ProtocolScoreDocking/logs/run.db" 2027 "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002027_ProtocolScoreDocking/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002027_ProtocolScoreDocking/logs/run.stderr"[0m'

@@ -1,0 +1,20 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001463_ProtocolPharmacophoreModification/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001463_ProtocolPharmacophoreModification/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 20467
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/001463_ProtocolPharmacophoreModification
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: createOutputStep, step 1, time 2023-04-24 15:41:24.456133
+[35mFINISHED[0m: createOutputStep, step 1, time 2023-04-24 15:41:24.494806
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

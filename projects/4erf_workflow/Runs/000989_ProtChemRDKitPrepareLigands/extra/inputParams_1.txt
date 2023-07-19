@@ -1,0 +1,6 @@
+ligandFiles: /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000947_ProtChemImportSmallMolecules/extra/ZINC00000480.mol2
+outputDir: /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000989_ProtChemRDKitPrepareLigands/extra
+doHydrogens: True
+doGasteiger: True
+ffMethod: MMFF94
+numAtoms: 5

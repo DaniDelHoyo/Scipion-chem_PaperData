@@ -1,0 +1,274 @@
+                     :-) GROMACS - gmx pdb2gmx, 2021.5 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov     
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar       
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd        
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra      
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof      
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang      
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan        
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus        
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul     
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund       
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola       
+        Szilard Pall               Sander Pronk              Roland Schulz       
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers      
+       Peter Tieleman              Jon Vincent              Teemu Virolainen     
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov       
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx pdb2gmx, version 2021.5
+Executable:   /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx
+Data prefix:  /home/danieldh/scipion3/software/em/gromacs-2021.5
+Working dir:  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004266_GromacsSystemPrep/extra
+Command line:
+  gmx pdb2gmx -f /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004427_ProtImportPdb/extra/4erf_prepared.pdb -o 4erf_prepared_processed.gro -water tip3p -ff amber03 -merge all
+
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.r2b
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/dna.r2b
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/rna.r2b
+All occupancies are one
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/atomtypes.atp
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.rtp
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/dna.rtp
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/rna.rtp
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.hdb
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/dna.hdb
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/rna.hdb
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.n.tdb
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.c.tdb
+Analysing hydrogen-bonding network for automated assignment of histidine
+ protonation. 141 donors and 134 acceptors were found.
+There are 182 hydrogen bonds
+Will use HISE for residue 73
+Will use HISE for residue 96
+8 out of 8 lines of specbond.dat converted successfully
+Special Atom Distance matrix:
+                   MET50   MET62   HIS73   CYS77   HIS96
+                   SD522   SD735  NE2939  SG1005 NE21288
+   MET62   SD735   1.854
+   HIS73  NE2939   2.203   1.118
+   CYS77  SG1005   1.753   1.267   1.652
+   HIS96 NE21288   1.349   1.237   0.926   1.521
+  MET102  SD1401   1.320   1.623   1.723   0.749   1.250
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.arn
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/dna.arn
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/rna.arn
+
+-------------------------------------------------------
+Program:     gmx pdb2gmx, version 2021.5
+Source file: src/gromacs/gmxpreprocess/pdb2gmx.cpp (line 790)
+
+Fatal error:
+Atom HG13 in residue ILE 19 was not found in rtp entry NILE with 21 atoms
+while sorting atoms.
+
+For a hydrogen, this can be a different protonation state, or it
+might have had a different number in the PDB file and was rebuilt
+(it might for instance have been H3, and we only expected H1 & H2).
+Note that hydrogens might have been added to the entry for the N-terminus.
+Remove this hydrogen or choose a different protonation state to solve it.
+Option -ignh will ignore all hydrogens in the input.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                     :-) GROMACS - gmx pdb2gmx, 2021.5 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov     
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar       
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd        
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra      
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof      
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang      
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan        
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus        
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul     
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund       
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola       
+        Szilard Pall               Sander Pronk              Roland Schulz       
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers      
+       Peter Tieleman              Jon Vincent              Teemu Virolainen     
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov       
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx pdb2gmx, version 2021.5
+Executable:   /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx
+Data prefix:  /home/danieldh/scipion3/software/em/gromacs-2021.5
+Working dir:  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004266_GromacsSystemPrep/extra
+Command line:
+  gmx pdb2gmx -f /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004427_ProtImportPdb/extra/4erf_prepared.pdb -o 4erf_prepared_processed.gro -water tip3p -ff amber03 -merge all -ignh
+
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.r2b
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/dna.r2b
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/rna.r2b
+All occupancies are one
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/atomtypes.atp
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.rtp
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/dna.rtp
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/rna.rtp
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.hdb
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/dna.hdb
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/rna.hdb
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.n.tdb
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.c.tdb
+Analysing hydrogen-bonding network for automated assignment of histidine
+ protonation. 141 donors and 134 acceptors were found.
+There are 182 hydrogen bonds
+Will use HISE for residue 73
+Will use HISE for residue 96
+8 out of 8 lines of specbond.dat converted successfully
+Special Atom Distance matrix:
+                   MET50   MET62   HIS73   CYS77   HIS96
+                   SD248   SD353  NE2455   SG488  NE2633
+   MET62   SD353   1.854
+   HIS73  NE2455   2.203   1.118
+   CYS77   SG488   1.753   1.267   1.652
+   HIS96  NE2633   1.349   1.237   0.926   1.521
+  MET102   SD687   1.320   1.623   1.723   0.749   1.250
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.arn
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/dna.arn
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/rna.arn
+Before cleaning: 4140 pairs
+Before cleaning: 4170 dihedrals
+Keeping all generated dihedrals
+
+GROMACS reminds you: "I'm not interrupting you, I'm putting our conversation in full-duplex mode." (Antone Roundy)
+
+                     :-) GROMACS - gmx editconf, 2021.5 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov     
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar       
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd        
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra      
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof      
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang      
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan        
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus        
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul     
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund       
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola       
+        Szilard Pall               Sander Pronk              Roland Schulz       
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers      
+       Peter Tieleman              Jon Vincent              Teemu Virolainen     
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov       
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx editconf, version 2021.5
+Executable:   /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx
+Data prefix:  /home/danieldh/scipion3/software/em/gromacs-2021.5
+Working dir:  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004266_GromacsSystemPrep/extra
+Command line:
+  gmx editconf -f 4erf_prepared_processed.gro -o 4erf_prepared_newbox.gro -c -bt triclinic -d 1.0
+
+
+GROMACS reminds you: "The Candlelight Was Just Right" (Beastie Boys)
+
+                     :-) GROMACS - gmx solvate, 2021.5 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov     
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar       
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd        
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra      
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof      
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang      
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan        
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus        
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul     
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund       
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola       
+        Szilard Pall               Sander Pronk              Roland Schulz       
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers      
+       Peter Tieleman              Jon Vincent              Teemu Virolainen     
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov       
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.5
+Executable:   /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx
+Data prefix:  /home/danieldh/scipion3/software/em/gromacs-2021.5
+Working dir:  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004266_GromacsSystemPrep/extra
+Command line:
+  gmx solvate -cp 4erf_prepared_newbox.gro -cs spc216.gro -o 4erf_prepared_solv.gro -p topol.top
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 4x4x3 boxes
+Solvent box contains 20565 atoms in 6855 residues
+Removed 3525 solvent atoms due to solvent-solvent overlap
+Removed 1419 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms):  5207 residues
+Generated solvent containing 15621 atoms in 5207 residues
+Writing generated configuration to 4erf_prepared_solv.gro
+
+Output configuration contains 17172 atoms in 5299 residues
+Volume                 :     175.593 (nm^3)
+Density                :      996.29 (g/l)
+Number of solvent molecules:   5207   
+
+Processing topology
+
+Back Off! I just backed up topol.top to ./#topol.top.1#
+
+GROMACS reminds you: "The Candlelight Was Just Right" (Beastie Boys)
+
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record 'END' at line 1555
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record 'END' at line 1555
+  warnings.warn(

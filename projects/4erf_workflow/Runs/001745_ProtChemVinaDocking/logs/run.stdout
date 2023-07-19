@@ -1,0 +1,383 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 71464
+pyworkflow: 3.1.0
+plugin: autodock
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/001745_ProtChemVinaDocking
+runMode: Restart
+          MPI: 1
+      threads: 4
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: convertStep, step 1, time 2023-04-25 16:07:54.165425
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001019_prep/ZINC00001019-1.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00001019-1.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001019_prep/ZINC00001019-2.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00001019-2.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00000480_prep/ZINC00000480-1.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00000480-1.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00000480_prep/ZINC00000480-2.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00000480-2.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001453_prep/ZINC00001453-1.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00001453-1.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001453_prep/ZINC00001453-2.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00001453-2.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001099_prep/ZINC00001099-1.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00001099-1.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_ligand4.py -l /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/002997_ProtChemOBabelPrepareLigands/extra/ZINC00001099_prep/ZINC00001099-2.mol2 -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00001099-2.pdbqt[0m
+setting PYTHONHOME environment
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_receptor4.py -v -r /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000687_FpocketFindPockets/extra/4erf_prep.pdb -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/extra/receptor.pdbqt[0m
+setting PYTHONHOME environment
+set verbose to  True
+set receptor_filename to  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000687_FpocketFindPockets/extra/4erf_prep.pdb
+set outputfilename to  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/extra/receptor.pdbqt
+read  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000687_FpocketFindPockets/extra/4erf_prep.pdb
+setting up RPO with mode= automatic and outputfilename=  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/extra/receptor.pdbqt
+charges_to_add= gasteiger
+delete_single_nonstd_residues= None
+adding gasteiger charges to peptide
+[35mFINISHED[0m: convertStep, step 1, time 2023-04-25 16:07:55.322115
+[35mSTARTED[0m: dockStep, step 2, time 2023-04-25 16:07:55.690022
+[35mSTARTED[0m: dockStep, step 3, time 2023-04-25 16:07:55.695056
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate vina-env && python /home/danieldh/scipion3/scipion-chem-autodock/autodock/scripts/vina_docking.py /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/extra/pocket_1/inputParams.txt[0m
+[35mSTARTED[0m: dockStep, step 4, time 2023-04-25 16:07:55.705117
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate vina-env && python /home/danieldh/scipion3/scipion-chem-autodock/autodock/scripts/vina_docking.py /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/extra/pocket_2/inputParams.txt[0m
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate vina-env && python /home/danieldh/scipion3/scipion-chem-autodock/autodock/scripts/vina_docking.py /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/extra/pocket_3/inputParams.txt[0m
+Computing Vina grid ... Computing Vina grid ... Computing Vina grid ... done.
+Performing docking (random seed: 591532548) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+*done.
+done.
+Performing docking (random seed: -25823068) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+*Performing docking (random seed: -1429067189) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+*************************************************************************************************************************
+*
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -8.886          0          0
+   2       -8.654      2.267      4.736
+   3       -8.495       3.05      5.299
+   4       -8.404      3.189        5.1
+   5       -8.313      2.419       3.24
+Performing docking (random seed: -25823068) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+*****************
+*
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -7.042          0          0
+   2       -6.937      1.911      2.375
+   3       -6.589      4.956       6.45
+   4       -6.576      1.471      3.795
+   5       -6.509      2.942      6.515
+Performing docking (random seed: -1429067189) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+*************************************************************************************
+*
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -4.964          0          0
+   2       -4.606      1.437      3.368
+   3        -4.53       3.52      8.023
+   4        -4.44      3.219      7.087
+   5       -4.439      1.444      2.183
+Performing docking (random seed: 591532548) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+********************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -8.629          0          0
+   2       -8.382       2.32      4.791
+   3       -8.278      3.039      5.297
+   4       -8.199       3.17      5.113
+Performing docking (random seed: -25823068) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+**********************************************
+**
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -7.068          0          0
+   2       -6.625      1.464      3.856
+   3       -6.589      4.922      6.382
+   4       -6.566      2.957      6.547
+   5       -6.358      4.485      8.665
+Performing docking (random seed: -1429067189) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***********************************************
+*
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -7.519          0          0
+   2       -6.889      2.894      5.671
+   3       -6.619      1.516      2.186
+   4       -6.576      2.365       4.88
+   5       -6.537      2.714      4.535
+Performing docking (random seed: -25823068) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+**********************************************************************
+*
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -6.111          0          0
+   2       -5.686      1.434       5.34
+   3       -5.669      2.469      3.948
+   4       -5.519      1.499      2.101
+   5       -5.395      2.594      6.431
+Performing docking (random seed: -1429067189) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -7.485          0          0
+   2       -6.874      2.845      5.608
+   3       -6.631      1.401       2.01
+   4       -6.565      2.452       5.02
+   5       -6.515        2.7       4.57
+Performing docking (random seed: -25823068) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************************************
+*
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -6.099          0          0
+   2       -5.724      1.454      5.375
+   3       -5.682      2.457      3.969
+   4       -5.549      1.595      2.257
+   5       -5.481       2.62      6.477
+Performing docking (random seed: -1429067189) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+****************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -7.807          0          0
+   2       -7.624      2.163      2.903
+   3        -7.32      2.828      5.534
+   4       -7.233      3.007      4.303
+   5       -7.173      2.232      4.556
+Performing docking (random seed: -25823068) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+*****************************************************************
+**
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -4.992          0          0
+   2       -4.645      1.419      3.341
+   3       -4.505      3.485      7.946
+   4       -4.457       3.17      7.017
+   5       -4.439      2.744      7.123
+Performing docking (random seed: 591532548) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+****************
+*
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -6.667          0          0
+   2       -6.427      1.288       3.96
+   3         -6.4      1.939      6.441
+   4       -6.193      2.119      6.729
+   5       -5.877      3.225      5.409
+Performing docking (random seed: -1429067189) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+************************************
+*
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -7.955          0          0
+   2       -7.787      2.148      2.885
+   3       -7.485      2.837       5.58
+   4       -7.348      2.205      3.607
+   5       -7.319      2.221      4.576
+Performing docking (random seed: -25823068) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***********************************************************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -5.288          0          0
+   2       -5.232      1.179      2.018
+   3       -5.064      2.755      5.457
+   4       -4.951      1.955      2.699
+   5       -4.802      5.392      6.114
+Performing docking (random seed: -25823068) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***********************************************
+*
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -6.657          0          0
+   2       -6.458      1.276      4.079
+   3       -6.452      1.942      6.436
+   4       -6.166      2.105      6.764
+   5       -6.054      3.254      5.321
+Performing docking (random seed: -1429067189) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+**********************************************
+**
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -4.968          0          0
+   2       -4.719      1.637      5.447
+   3       -4.708      1.408      5.464
+   4       -4.489      3.367      6.341
+   5       -4.306       1.89      4.931
+Performing docking (random seed: 591532548) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***********
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -5.259          0          0
+   2       -5.099      2.718      5.393
+   3       -4.986      1.815      2.504
+   4       -4.768      4.306      5.592
+   5       -4.645      5.305      6.801
+****[35mFINISHED[0m: dockStep, step 3, time 2023-04-25 16:09:46.510817
+*********************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -4.714          0          0
+   2       -4.686      2.705      3.325
+   3       -4.672      2.891      5.303
+   4       -4.642       2.51      3.297
+   5       -4.545       3.26      5.836
+Performing docking (random seed: -1429067189) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***********************************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -4.739          0          0
+   2       -4.672      2.686      3.299
+   3       -4.671       2.89      5.298
+   4       -4.582      2.836      5.407
+   5       -4.519      3.203       5.78
+[35mFINISHED[0m: dockStep, step 2, time 2023-04-25 16:09:56.336287
+*******************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -5.515          0          0
+   2       -5.278      1.657      5.461
+   3       -5.268      1.402      5.456
+   4       -5.004      3.509      6.185
+   5       -4.885      2.669      5.465
+Performing docking (random seed: 591532548) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -5.75          0          0
+   2       -5.343      2.162      6.799
+   3       -5.062      2.311      6.679
+   4       -5.046       1.91      4.201
+   5       -4.986      1.378      3.903
+Performing docking (random seed: 591532548) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -5.873          0          0
+   2       -5.192      1.291      3.816
+   3       -5.168      2.528      6.224
+   4       -5.021      1.665      6.754
+   5       -5.006      2.213      4.375
+Performing docking (random seed: 591532548) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -4.626          0          0
+   2       -4.486      2.878      5.265
+   3        -4.24      1.604       2.26
+   4       -4.009      1.937      2.259
+   5       -3.986      3.583       4.19
+Performing docking (random seed: 591532548) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -4.621          0          0
+   2       -4.455       2.88      5.268
+   3        -3.97      3.561      4.165
+   4       -3.942      3.844      5.207
+   5       -3.893      3.824      5.262
+[35mFINISHED[0m: dockStep, step 4, time 2023-04-25 16:10:43.111488
+[35mSTARTED[0m: createOutputStep, step 5, time 2023-04-25 16:10:43.455532
+[35mFINISHED[0m: createOutputStep, step 5, time 2023-04-25 16:10:43.583363
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

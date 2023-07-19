@@ -1,0 +1,20 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/modellerIssue/Runs/000784_ProtDefineSeqROI/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/modellerIssue/Runs/000784_ProtDefineSeqROI/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 80266
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/modellerIssue
+workingDir: Runs/000784_ProtDefineSeqROI
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: defineOutputStep, step 1, time 2023-04-20 15:44:20.138649
+[35mFINISHED[0m: defineOutputStep, step 1, time 2023-04-20 15:44:20.176804
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

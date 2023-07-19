@@ -1,0 +1,22 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001566_ProtocolConsensusStructROIs/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001566_ProtocolConsensusStructROIs/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 71373
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/001566_ProtocolConsensusStructROIs
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: consensusStep, step 1, time 2023-04-25 16:07:23.926906
+[35mFINISHED[0m: consensusStep, step 1, time 2023-04-25 16:07:24.005662
+[35mSTARTED[0m: createOutputStep, step 2, time 2023-04-25 16:07:24.017603
+[35mFINISHED[0m: createOutputStep, step 2, time 2023-04-25 16:07:24.070472
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

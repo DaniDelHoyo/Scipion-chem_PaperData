@@ -1,0 +1,24 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001306_ProtChemLePro/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001306_ProtChemLePro/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 18943
+pyworkflow: 3.1.0
+plugin: lephar
+plugin binary v: 1.0
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/001306_ProtChemLePro
+runMode: Continue
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: preparationStep, step 1, time 2023-04-24 15:37:23.003183
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/lepro_linux_x86 /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001306_ProtChemLePro/extra/4erf_clean.pdb[0m
+[35mFINISHED[0m: preparationStep, step 1, time 2023-04-24 15:37:23.158633
+[35mSTARTED[0m: createOutputStep, step 2, time 2023-04-24 15:37:23.169960
+[35mFINISHED[0m: createOutputStep, step 2, time 2023-04-24 15:37:23.177139
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

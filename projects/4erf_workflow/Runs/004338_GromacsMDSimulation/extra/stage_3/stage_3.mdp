@@ -1,0 +1,57 @@
+; Parameters describing what to do, when to stop and what to save
+; position restrains
+  
+
+; Run parameters
+integrator  = md         ; Algorithm 
+nsteps      = 5000         ; Maximum number of steps to perform
+; Time Step Control
+dt = 0.002     ; Time Steps Size (ps)                       
+
+; Nonbonded settings 
+nstlist         = 10         ; Frequency to update the neighbor list and long range forces (fs)
+cutoff-scheme   = Verlet    ; Buffered neighbor searching
+rcoulomb        = 1.0       ; Short-range electrostatic cut-off (nm)
+rvdw            = 1.0       ; Short-range Van der Waals cut-off (nm)
+pbc             = xyz       ; Periodic Boundary Conditions in all 3 dimensions
+
+; Disp Corr
+DispCorr        = EnerPres  ; account for cut-off vdW scheme
+
+; Trajectory output control
+nstxout                 = 100       ; save coordinates every x * tStep ps
+nstvout                 = 100       ; save velocities every x * tStep ps
+nstlog                  = 100       ; update log file every x * tStep ps
+
+; Bond parameters
+continuation            = yes       ; Restarting after another simulation 
+constraint_algorithm    = lincs     ; holonomic constraints 
+constraints             = h-bonds   ; bonds involving H are constrained
+lincs_iter              = 1         ; accuracy of LINCS
+lincs_order             = 4         ; also related to accuracy
+
+; Electrostatics
+pme_order               = 4         ; cubic interpolation
+coulombtype     = PME       ; Treatment of long range electrostatic interactions (PME: Particle Mesh Ewald)
+fourierspacing          = 0.16      ; grid spacing for FFT
+
+; Temperature coupling 
+tcoupl                  = V-rescale             ; thermostat
+tc-grps                 = Protein Non-Protein   ; two coupling groups - more accurate
+ref_t                   = 300.0     300.0           ; reference temperature, one for each group, in K
+tau_t                   = 0.1     0.1           ; time constant, in ps
+nsttcouple              = -1                  ; Frequency for temperature coupling
+nstcomm                 = 10                  ; number of steps for center of mass motion removal
+
+; Pressure coupling 
+pcoupl                  = Parrinello-Rahman     ; Pressure coupling 
+pcoupltype              = isotropic             ; uniform scaling of box vectors
+ref_p                   = 1.0                  ; reference pressure, in bar
+tau_p                   = 2.0                   ; time constant, in ps
+compressibility         = 4.5e-5                ; isothermal compressibility of water, bar^-1
+refcoord_scaling        = com
+nstpcouple              = -1                  ; Frequency for pressure coupling
+
+; Velocity generation
+gen_vel                 = no       ; assign velocities from Maxwell distribution
+

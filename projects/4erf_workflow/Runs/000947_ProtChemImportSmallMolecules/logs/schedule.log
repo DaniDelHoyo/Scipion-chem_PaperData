@@ -1,0 +1,6 @@
+Scheduling protocol 947, PID: 17847,prerequisites: [], works in streaming: False.
+Waiting 0 seconds before start checking inputs 
+Checking input data...
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/4erf_demo" "Runs/000947_ProtChemImportSmallMolecules/logs/run.db" 947 "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000947_ProtChemImportSmallMolecules/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/000947_ProtChemImportSmallMolecules/logs/run.stderr"[0m'

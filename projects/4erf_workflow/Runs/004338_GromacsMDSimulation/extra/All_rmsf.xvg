@@ -1,0 +1,109 @@
+# This file was created Tue Jul 18 16:22:19 2023
+# Created by:
+#                       :-) GROMACS - gmx rmsf, 2021.5 (-:
+# 
+# Executable:   /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx
+# Data prefix:  /home/danieldh/scipion3/software/em/gromacs-2021.5
+# Working dir:  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/extra
+# Command line:
+#   gmx rmsf -s /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004266_GromacsSystemPrep/4erf_prepared.gro -f /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/outputTrajectory.xtc -o All_rmsf.xvg -n /home/danieldh/ScipionUserData/projects/4erf_demo/14714_custom_indexes.ndx -res
+# gmx rmsf is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "RMS fluctuation"
+@    xaxis  label "Residue"
+@    yaxis  label "(nm)"
+@TYPE xy
+   19   0.1168
+   20   0.0940
+   21   0.0828
+   22   0.0702
+   23   0.0784
+   24   0.0604
+   25   0.0871
+   26   0.0575
+   27   0.0556
+   28   0.0390
+   29   0.0861
+   30   0.0692
+   31   0.0626
+   32   0.0531
+   33   0.0786
+   34   0.0578
+   35   0.0529
+   36   0.0902
+   37   0.0713
+   38   0.0695
+   39   0.0867
+   40   0.0567
+   41   0.0629
+   42   0.0728
+   43   0.0739
+   44   0.0782
+   45   0.0710
+   46   0.0661
+   47   0.0495
+   48   0.0521
+   49   0.0484
+   50   0.0601
+   51   0.0652
+   52   0.0454
+   53   0.0480
+   54   0.0544
+   55   0.0539
+   56   0.0558
+   57   0.0639
+   58   0.0471
+   59   0.0849
+   60   0.0456
+   61   0.0471
+   62   0.0857
+   63   0.0614
+   64   0.0591
+   65   0.0812
+   66   0.0448
+   67   0.0619
+   68   0.0979
+   69   0.0902
+   70   0.0896
+   71   0.0774
+   72   0.0797
+   73   0.0746
+   74   0.0632
+   75   0.0438
+   76   0.0510
+   77   0.0498
+   78   0.0598
+   79   0.0728
+   80   0.0498
+   81   0.0701
+   82   0.0503
+   83   0.0502
+   84   0.1016
+   85   0.0761
+   86   0.0672
+   87   0.0634
+   88   0.0538
+   89   0.0482
+   90   0.0475
+   91   0.0529
+   92   0.0436
+   93   0.0544
+   94   0.0990
+   95   0.0692
+   96   0.0789
+   97   0.1447
+   98   0.0673
+   99   0.0590
+  100   0.0784
+  101   0.0672
+  102   0.0660
+  103   0.0505
+  104   0.0646
+  105   0.0926
+  106   0.0599
+  107   0.0560
+  108   0.0643
+  109   0.0682
+  110   0.0831

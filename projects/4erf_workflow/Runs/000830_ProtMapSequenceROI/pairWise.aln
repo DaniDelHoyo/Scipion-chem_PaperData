@@ -1,0 +1,10 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+4erf__0_A          IPASEQETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQHIVYCS
+4erf_prep.pdb      IPASEQETLVRPKPLLLKLLKSVGAQKDTYTMKEVLFYLGQYIMTKRLYDEKQQXIVYCS
+                   ****************************************************** *****
+
+4erf__0_A          NDLLGDLFGVPSFSVKEHRKIYTMIYRNLVVV
+4erf_prep.pdb      NDLLGDLFGVPSFSVKEXRKIYTMIYRNLVVV
+                   ***************** **************

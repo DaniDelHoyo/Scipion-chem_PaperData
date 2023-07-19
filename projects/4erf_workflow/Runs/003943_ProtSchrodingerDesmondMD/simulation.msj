@@ -1,0 +1,44 @@
+task {
+  task = "desmond:auto"
+  set_family = {
+    desmond = {
+      checkpt.write_last_step = no
+    }
+  }
+}
+
+simulate {
+  annealing   = off
+  dir         = /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/003943_ProtSchrodingerDesmondMD/tmp
+  glue        = solute
+  time        = 2000.0
+  timestep    = [0.002 0.002 0.006]
+  temperature = 300.0
+  #Pressure
+  pressure = [1.01325 isotropic]
+  #Tension
+  
+  ensemble = {
+    class  = NPT
+    method = MTK
+    thermostat.tau = 0.1
+    #barostat tau
+    barostat.tau = 2.0 
+    #Browian delta max
+    
+  }
+  
+  #restrains
+     
+  
+  randomize_velocity.interval = 1.0
+  eneseq.interval             = 0.3
+
+  trajectory {
+  center = solute
+  first = 0.0
+  format = dtr
+  interval = 5.0
+  periodicfix = true
+  }
+}

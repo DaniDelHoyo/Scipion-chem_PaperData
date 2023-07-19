@@ -1,0 +1,2 @@
+1) Score: Vina
+2) Score: RFScore, version 3. PDBbind 2016

@@ -1,0 +1,4 @@
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record 'END' at line 1534
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record 'END' at line 1534
+  warnings.warn(

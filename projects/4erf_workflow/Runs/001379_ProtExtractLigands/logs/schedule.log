@@ -1,0 +1,8 @@
+Scheduling protocol 1379, PID: 20028,prerequisites: [], works in streaming: False.
+Waiting 0 seconds before start checking inputs 
+Checking input data...
+The protocol 568 (pwem - import AS 4ERF) is up to date
+AtomStruct (pseudoatoms=False, volume=False) is not blocking this protocol. All ready.
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/4erf_demo" "Runs/001379_ProtExtractLigands/logs/run.db" 1379 "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001379_ProtExtractLigands/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001379_ProtExtractLigands/logs/run.stderr"[0m'

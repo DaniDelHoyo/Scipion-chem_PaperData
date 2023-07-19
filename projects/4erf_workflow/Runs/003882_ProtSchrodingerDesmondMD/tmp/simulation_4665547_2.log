@@ -1,0 +1,1033 @@
+Tue, 18 Jul 2023 12:21:44 Desmond Driver v2.3
+Tue, 18 Jul 2023 12:21:44 Desmond will be running on euclides
+Tue, 18 Jul 2023 12:21:44 Desmond log monitoring is turned on
+Tue, 18 Jul 2023 12:21:44 Monitoring timeout set to 10 minutes
+Tue, 18 Jul 2023 12:21:44 Desmond resource monitoring is turned on
+Tue, 18 Jul 2023 12:21:44 Resource monitoring timeout set to 600 seconds
+Tue, 18 Jul 2023 12:21:44 JobId: euclides-0-64b667b7
+Tue, 18 Jul 2023 12:21:44 start backend: mdsim
+Tue, 18 Jul 2023 12:21:49 Backend execution command:
+ /home/danieldh/scipion3/software/em/Schrodinger2021-3/internal/bin/gdesmond --include simulation_4665547_2-out.cfg --gpu-verbose
+src/util/collective/collective_common.cxx(69)[0]: Using MPI-based communications implementation.
+src/util/gpu/gpu_functions.cxx(322)[0]: GPU
+	device                    = 0
+	name                      = NVIDIA GeForce RTX 2060
+	compute capability        = 7.5
+	compute mode              = default
+	multiprocessor count      = 30
+	warp size                 = 32
+	clock rate                = 1200 MHz
+	max global memory         = 5926 MiB
+	max constant memory       = 64 KiB
+	max shared memory / block = 48 KiB
+	max registers / block     = 65536
+	max threads / block       = 1024
+	max grid dim              = 2147483647x65535x65535
+	max block dim             = 1024x1024x64
+	memory pitch              = 2097151 KiB
+	texture alignment         = 512 B
+	can map host memory       = yes
+	device overlap            = yes
+	integrated                = no
+	kernel exec timeout       = yes
+
+GPU Desmond started with command-line: /home/danieldh/scipion3/software/em/Schrodinger2021-3/internal/bin/gdesmond --include simulation_4665547_2-out.cfg --gpu-verbose 
+
+-------------------------------------------------------------------
+               DESMOND/G  6.7.123
+-------------------------------------------------------------------
+
+driver: 535.54.03
+host0: euclides
+uuid0: GPU-5c2a18c0-271a-bc2d-0852-fb6235211016
+platform: Linux 5.15.0-76-generic (#83~20.04.1-Ubuntu SMP Wed Jun 21 20:23:31 UTC 2023)
+user: 1000:danieldh:Daniel del Hoyo,,,
+start time: Tue Jul 18 12:21:52 2023
+working directory: /tmp/danieldh/simulation_4665547_2/.
+boot timestamp (@B in file names): 20230718122152
+
+::::::::::::::::::::::::::::: plugins :::::::::::::::::::::::::::::
+
+hbondstatisticswm : Defines Hydrogen Bond Statistics
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/watermap.so
+
+testparticleinsertion : Defines Test Particle Insertion
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/watermap.so
+
+WaterMapData     : writes watermap data
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/watermap.so
+
+SpatialEnergyGroup : Defines spatial energy group
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/watermap.so
+
+SpatialActiveSite : Defines spatial active site
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/watermap.so
+
+enhanced_sampling : provides enhanced and umbrella sampling capabiliaties
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/es.so
+
+reinit           : extension to reinitialize the phase space vector
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/reinit.so
+
+BiasingForce     : intervenes on the system with a biasing force
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/BiasingForce.so
+
+e_bias           : Applies external electric field with optional schedule
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/BiasingForce.so
+
+GaussianForce    : Applies Gaussian Potential in 1D
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/gaussian_force.so
+
+anneal           : Changes simulation temperature according to a schedule
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/anneal.so
+
+crystal          : extension to do crystal MD simulations
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/crystal.so
+
+gibbs            : support for Gibbs free energy calculations
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/gibbs.so
+
+fbhw             : flat-bottom harmonic well bonds
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/fbhw.so
+
+group_restraints : Restraints between centers of mass or geometry
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/group_restraints.so
+
+trajectory       : support for writing frames, forces, csi
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/trajectory.so
+
+nbpoly           : support for polynomial vdw interation
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/nbpoly.so
+
+gcmc             : Performs gcmc simulations
+                   /home/danieldh/scipion3/software/em/Schrodinger2021-3/desmond-v6.7/lib/Linux-x86_64/plugin_gpu/gcmc.so
+
+
+-------------------------------------------------------------------------------
+Desmond Molecular Dynamics System, Copyright (c) D. E. Shaw Research.
+Portions of Desmond Software, Copyright (c) Schrodinger, LLC.
+All rights reserved.
+-------------------------------------------------------------------------------
+
+:::::::::::::::::::::: current configuration ::::::::::::::::::::::
+
+ORIG_CFG = {
+    annealing = "false"
+    backend = {
+        app = "mdsim"
+        boot = {
+            file = "simulation_4665547_2-in.cms"
+            type = "mae"
+        }
+    }
+    bigger_rclone = "false"
+    box = ["47.79686" "0.0" "0.0" "0.0" "45.123202" "0.0" "0.0" "0.0" "44.052456"]
+    checkpt = {
+        first = "0.0"
+        interval = "240.06"
+        name = "$JOBNAME.cpt"
+        write_last_step = "false"
+    }
+    coulomb_method = "useries"
+    cpu = "1"
+    cutoff_radius = "9.0"
+    elapsed_time = "0.0"
+    energy_group = "false"
+    eneseq = {
+        first = "0.0"
+        interval = "0.3"
+        name = "$JOBNAME$[_replica$REPLICA$].ene"
+    }
+    ensemble = {
+        brownie = {
+            delta_max = "0.1"
+        }
+        class = "NVT"
+        method = "Brownie"
+        thermostat = {
+            tau = "0.1"
+        }
+    }
+    glue = "solute"
+    maeff_output = {
+        center_atoms = "solute"
+        first = "0.0"
+        interval = "120.0"
+        name = "$JOBNAME$[_replica$REPLICA$]-out.cms"
+        periodicfix = "true"
+        trjdir = "$JOBNAME$[_replica$REPLICA$]_trj"
+    }
+    meta = "false"
+    meta_file = ?
+    model_file = "simulation_4665547_2-in.cms"
+    pressure = "1.01325"
+    randomize_velocity = {
+        first = "0.0"
+        interval = "1.0"
+        seed = "2007"
+        temperature = "@*.temperature"
+    }
+    restrain = {
+        atom = "solute_heavy_atom"
+        force_constant = "50.0"
+    }
+    simbox = {
+        first = "0.0"
+        interval = "1.2"
+        name = "$JOBNAME$[_replica$REPLICA$]_simbox.dat"
+    }
+    surface_tension = "0.0"
+    taper = "false"
+    temperature = "10.0"
+    time = "100.0"
+    timestep = ["0.001" "0.001" "0.003"]
+    trajectory = {
+        center = "solute"
+        first = "0.0"
+        format = "dtr"
+        frames_per_file = "250"
+        interval = "5.0"
+        name = "$JOBNAME$[_replica$REPLICA$]_trj"
+        periodicfix = "true"
+        write_last_vel = "false"
+        write_velocity = "false"
+    }
+}
+app = "mdsim"
+argv = ["/home/danieldh/scipion3/software/em/Schrodinger2021-3/internal/bin/gdesmond"
+        "--include" "simulation_4665547_2-out.cfg"]
+boot = {
+    file = "simulation_4665547_2-in.cms"
+    type = "mae"
+}
+config = {
+    ORIG_CFG = {
+        annealing = "false"
+        backend = {
+            app = "mdsim"
+            boot = {
+                file = "simulation_4665547_2-in.cms"
+                type = "mae"
+            }
+        }
+        bigger_rclone = "false"
+        box = ["47.79686" "0.0" "0.0" "0.0" "45.123202" "0.0" "0.0" "0.0" "44.052456"]
+        checkpt = {
+            first = "0.0"
+            interval = "240.06"
+            name = "$JOBNAME.cpt"
+            write_last_step = "false"
+        }
+        coulomb_method = "useries"
+        cpu = "1"
+        cutoff_radius = "9.0"
+        elapsed_time = "0.0"
+        energy_group = "false"
+        eneseq = {
+            first = "0.0"
+            interval = "0.3"
+            name = "$JOBNAME$[_replica$REPLICA$].ene"
+        }
+        ensemble = {
+            brownie = {
+                delta_max = "0.1"
+            }
+            class = "NVT"
+            method = "Brownie"
+            thermostat = {
+                tau = "0.1"
+            }
+        }
+        glue = "solute"
+        maeff_output = {
+            center_atoms = "solute"
+            first = "0.0"
+            interval = "120.0"
+            name = "$JOBNAME$[_replica$REPLICA$]-out.cms"
+            periodicfix = "true"
+            trjdir = "$JOBNAME$[_replica$REPLICA$]_trj"
+        }
+        meta = "false"
+        meta_file = ?
+        model_file = "simulation_4665547_2-in.cms"
+        pressure = "1.01325"
+        randomize_velocity = {
+            first = "0.0"
+            interval = "1.0"
+            seed = "2007"
+            temperature = "@*.temperature"
+        }
+        restrain = {
+            atom = "solute_heavy_atom"
+            force_constant = "50.0"
+        }
+        simbox = {
+            first = "0.0"
+            interval = "1.2"
+            name = "$JOBNAME$[_replica$REPLICA$]_simbox.dat"
+        }
+        surface_tension = "0.0"
+        taper = "false"
+        temperature = "10.0"
+        time = "100.0"
+        timestep = ["0.001" "0.001" "0.003"]
+        trajectory = {
+            center = "solute"
+            first = "0.0"
+            format = "dtr"
+            frames_per_file = "250"
+            interval = "5.0"
+            name = "$JOBNAME$[_replica$REPLICA$]_trj"
+            periodicfix = "true"
+            write_last_vel = "false"
+            write_velocity = "false"
+        }
+    }
+    app = "mdsim"
+    boot = {
+        file = "simulation_4665547_2-in.cms"
+        type = "mae"
+    }
+    config = ?
+    force = {
+        bonded = {
+            exclude = []
+            include = []
+        }
+        constraint = {
+            maxit = "16"
+            tol = "1e-08"
+        }
+        ignore_com_dofs = "true"
+        nonbonded = {
+            accuracy_level = "0"
+            far = {
+                Nterms = "32"
+                kappa = ["0.333333" "0.333333" "0.333333"]
+                n_k = ["32" "30" "30"]
+                order = ["4" "4" "4"]
+                r_spread = "4.0"
+                sigma_s = "0.85"
+                spreading_style = "scatter_gather"
+                type = "QuadS"
+            }
+            n_zone = "1024"
+            near = {
+                correct_average_dispersion = "true"
+                r_tap = "9.0"
+                taper = "none"
+                type = "minimax"
+            }
+            r_cut = "9.0"
+            r_lazy = "9.800002000000001"
+            sigma = "2.048076502869348"
+            type = "useries"
+        }
+        term = {
+            gibbs = {
+                alpha_vdw = "0.5"
+                output = {
+                    first = "0.0"
+                    interval = "0.1"
+                    name = "fep.dE"
+                }
+                type = "none"
+                weights = {
+                    bondA = []
+                    bondB = []
+                    es = []
+                    qA = []
+                    qB = []
+                    qC = []
+                    vdw = []
+                    vdwA = []
+                    vdwB = []
+                }
+                window = "-1"
+            }
+            list = []
+        }
+        virtual = {
+            exclude = []
+            include = []
+        }
+    }
+    global_cell = {
+        clone_policy = "rounded"
+        margin = "0.8"
+        n_replica = "1"
+        partition = ["1" "1" "1"]
+        r_clone = "4.9000010000000005"
+        reference_time = "0.0"
+        topology = "periodic"
+    }
+    gui = {
+        ewald_tol = "1e-10"
+    }
+    integrator = {
+        Multigrator = {
+            barostat = {
+                Langevin = {
+                    tau = "0.020833333"
+                    thermostat = {
+                        seed = "2012"
+                        tau = "0.016129"
+                        type = "Langevin"
+                    }
+                }
+                MTK = {
+                    tau = "0.05"
+                    thermostat = {
+                        NoseHoover = {
+                            mts = "2"
+                            tau = ["0.1" "0.1" "0.1"]
+                        }
+                        type = "NoseHoover"
+                    }
+                }
+                temperature = {
+                    T_ref = "100.0"
+                    use_molecular_KE = "false"
+                }
+                timesteps = "48"
+                type = "MTK"
+            }
+            nve = {
+                type = "Verlet"
+            }
+            thermostat = {
+                DPD = {
+                    seed = "2012"
+                }
+                Langevin = {
+                    seed = "2012"
+                    tau = "0.016129"
+                }
+                NoseHoover = {
+                    mts = "2"
+                    tau = ["0.1" "0.1" "0.1"]
+                }
+                timesteps = "12"
+                type = "NoseHoover"
+            }
+        }
+        brownie = {
+            barostat = {
+                delta_max = "0.1"
+                tau = "1.0"
+                thermostat = {
+                    seed = "2012"
+                }
+            }
+            delta_max = "0.1"
+            thermostat = {
+                seed = "2012"
+            }
+        }
+        brownie_NPT = {
+            barostat = {
+                T_ref = "300.0"
+                tau = "0.016129"
+                thermostat = {
+                    seed = "2014"
+                }
+            }
+            delta_max = "0.1"
+            thermostat = {
+                seed = "2014"
+            }
+        }
+        brownie_NVT = {
+            delta_max = "0.1"
+            thermostat = {
+                seed = "2014"
+            }
+        }
+        dt = "0.001"
+        posre_scaling = "1.0"
+        pressure = {
+            P_ref = "1.01325"
+            isotropy = "isotropic"
+            max_margin_contraction = "0.9"
+            tension_ref = "0"
+        }
+        respa = {
+            far_timesteps = "3"
+            migrate_timesteps = "18"
+            near_timesteps = "1"
+            outer_timesteps = "3"
+        }
+        temperature = {
+            T_ref = "10.0"
+            use_molecular_KE = "false"
+        }
+        type = "brownie_NVT"
+    }
+    mdsim = {
+        checkpt = {
+            first = "0.0"
+            interval = "240.06"
+            name = "simulation_4665547_2.cpt"
+            wall_interval = "inf"
+            write_first_step = "false"
+            write_last_step = "false"
+        }
+        last_time = "100.0"
+        plugin = {
+            anneal = {
+                first = "0.0"
+                interval = "1.2"
+                schedule = {
+                    time = ["0.0" "30.0" "60.0" "90.0" "600.0"]
+                    value = ["0.0" "300.0" "600.0" "900.0" "300.0"]
+                }
+                type = "anneal"
+            }
+            energy_groups = {
+                first = "0.0"
+                interval = "1.2"
+                name = ""
+                options = ["corr_energy"]
+                type = "energy_groups"
+                write_report = "true"
+            }
+            eneseq = {
+                first = "0.0"
+                flush_interval = "1.2"
+                interval = "0.3"
+                name = "simulation_4665547_2.ene"
+                type = "eneseq"
+            }
+            gcmc = {
+                batch_size = "1600"
+                eneseq = {
+                    name = "simulation_4665547_2_gcmc.ene"
+                }
+                first = "0.0"
+                grid = {
+                    exclusion_radius = "2.2"
+                    global_switching = {
+                        frequency = "0.2"
+                        move_factor = "3.0"
+                        spacing_factor = "2.0"
+                    }
+                    region_buffer = "4.0"
+                    spacing = "0.22"
+                    track_voids = "true"
+                }
+                interval = "4.8"
+                mu_excess = "-6.18"
+                name = "simulation_4665547_2.gcmc"
+                nsteps = "5000"
+                restore_engrps = "false"
+                seed = "2007"
+                solvent_density = "0.03262"
+                temperature = "300.0"
+                type = "gcmc"
+                verbose = "0"
+            }
+            list = ["status" "eneseq" "trajectory" "randomize_velocities" "remove_com_motion"]
+            maeff_output = {
+                bootfile = "simulation_4665547_2-in.cms"
+                center_atoms = []
+                first = "0.0"
+                full_system_only = "false"
+                interval = "120.0"
+                name = "simulation_4665547_2-out.cms"
+                periodicfix = "true"
+                precision = "8"
+                trjdir = "simulation_4665547_2_trj"
+                type = "maeff_output"
+                write_last_step = "true"
+            }
+            maeff_snapshot = {
+                first = "0.0"
+                interval = "1.2"
+                name = ""
+                type = "maeff_snapshot"
+            }
+            randomize_velocities = {
+                first = "0.0"
+                interval = "1.0"
+                seed = "2007"
+                temperature = "10.0"
+                type = "randomize_velocities"
+            }
+            remove_com_motion = {
+                first = "0.0"
+                interval = "1.0"
+                type = "remove_com_motion"
+            }
+            simbox_output = {
+                first = "0.0"
+                interval = "1.2"
+                name = ""
+                type = "simbox_output"
+            }
+            status = {
+                first = "0.0"
+                interval = "1.2"
+                type = "status"
+            }
+            trajectory = {
+                center = []
+                first = "0.0"
+                format = "dtr"
+                frames_per_file = "250"
+                glue = []
+                interval = "5.0"
+                last_vel_name = "simulation_4665547_2_vel_trj"
+                mode = "noclobber"
+                name = "simulation_4665547_2_trj"
+                periodicfix = "true"
+                type = "trajectory"
+                write_first_step = "true"
+                write_last_step = "true"
+                write_last_vel = "false"
+                write_velocity = "false"
+            }
+        }
+        title = "Desmond MD simulation"
+    }
+    migration = {
+        first = "0.0"
+        interval = "0.018000000000000002"
+    }
+    spatial_order = "auto"
+}
+force = {
+    bonded = {
+        exclude = []
+        include = []
+    }
+    constraint = {
+        maxit = "16"
+        tol = "1e-08"
+    }
+    ignore_com_dofs = "true"
+    nonbonded = {
+        accuracy_level = "0"
+        far = {
+            Nterms = "32"
+            kappa = ["0.333333" "0.333333" "0.333333"]
+            n_k = ["32" "30" "30"]
+            order = ["4" "4" "4"]
+            r_spread = "4.0"
+            sigma_s = "0.85"
+            spreading_style = "scatter_gather"
+            type = "QuadS"
+        }
+        n_zone = "1024"
+        near = {
+            correct_average_dispersion = "true"
+            r_tap = "9.0"
+            taper = "none"
+            type = "minimax"
+        }
+        r_cut = "9.0"
+        r_lazy = "9.800002000000001"
+        sigma = "2.048076502869348"
+        type = "useries"
+    }
+    term = {
+        gibbs = {
+            alpha_vdw = "0.5"
+            output = {
+                first = "0.0"
+                interval = "0.1"
+                name = "fep.dE"
+            }
+            type = "none"
+            weights = {
+                bondA = []
+                bondB = []
+                es = []
+                qA = []
+                qB = []
+                qC = []
+                vdw = []
+                vdwA = []
+                vdwB = []
+            }
+            window = "-1"
+        }
+        list = []
+    }
+    virtual = {
+        exclude = []
+        include = []
+    }
+}
+global_cell = {
+    clone_policy = "rounded"
+    margin = "0.8"
+    n_replica = "1"
+    partition = ["1" "1" "1"]
+    r_clone = "4.9000010000000005"
+    reference_time = "0.0"
+    topology = "periodic"
+}
+gui = {
+    ewald_tol = "1e-10"
+}
+integrator = {
+    Multigrator = {
+        barostat = {
+            Langevin = {
+                tau = "0.020833333"
+                thermostat = {
+                    seed = "2012"
+                    tau = "0.016129"
+                    type = "Langevin"
+                }
+            }
+            MTK = {
+                tau = "0.05"
+                thermostat = {
+                    NoseHoover = {
+                        mts = "2"
+                        tau = ["0.1" "0.1" "0.1"]
+                    }
+                    type = "NoseHoover"
+                }
+            }
+            temperature = {
+                T_ref = "100.0"
+                use_molecular_KE = "false"
+            }
+            timesteps = "48"
+            type = "MTK"
+        }
+        nve = {
+            type = "Verlet"
+        }
+        thermostat = {
+            DPD = {
+                seed = "2012"
+            }
+            Langevin = {
+                seed = "2012"
+                tau = "0.016129"
+            }
+            NoseHoover = {
+                mts = "2"
+                tau = ["0.1" "0.1" "0.1"]
+            }
+            timesteps = "12"
+            type = "NoseHoover"
+        }
+    }
+    brownie = {
+        barostat = {
+            delta_max = "0.1"
+            tau = "1.0"
+            thermostat = {
+                seed = "2012"
+            }
+        }
+        delta_max = "0.1"
+        thermostat = {
+            seed = "2012"
+        }
+    }
+    brownie_NPT = {
+        barostat = {
+            T_ref = "300.0"
+            tau = "0.016129"
+            thermostat = {
+                seed = "2014"
+            }
+        }
+        delta_max = "0.1"
+        thermostat = {
+            seed = "2014"
+        }
+    }
+    brownie_NVT = {
+        delta_max = "0.1"
+        thermostat = {
+            seed = "2014"
+        }
+    }
+    dt = "0.001"
+    posre_scaling = "1.0"
+    pressure = {
+        P_ref = "1.01325"
+        isotropy = "isotropic"
+        max_margin_contraction = "0.9"
+        tension_ref = "0"
+    }
+    respa = {
+        far_timesteps = "3"
+        migrate_timesteps = "18"
+        near_timesteps = "1"
+        outer_timesteps = "3"
+    }
+    temperature = {
+        T_ref = "10.0"
+        use_molecular_KE = "false"
+    }
+    type = "brownie_NVT"
+}
+mdsim = {
+    checkpt = {
+        first = "0.0"
+        interval = "240.06"
+        name = "simulation_4665547_2.cpt"
+        wall_interval = "inf"
+        write_first_step = "false"
+        write_last_step = "false"
+    }
+    last_time = "100.0"
+    plugin = {
+        anneal = {
+            first = "0.0"
+            interval = "1.2"
+            schedule = {
+                time = ["0.0" "30.0" "60.0" "90.0" "600.0"]
+                value = ["0.0" "300.0" "600.0" "900.0" "300.0"]
+            }
+            type = "anneal"
+        }
+        energy_groups = {
+            first = "0.0"
+            interval = "1.2"
+            name = ""
+            options = ["corr_energy"]
+            type = "energy_groups"
+            write_report = "true"
+        }
+        eneseq = {
+            first = "0.0"
+            flush_interval = "1.2"
+            interval = "0.3"
+            name = "simulation_4665547_2.ene"
+            type = "eneseq"
+        }
+        gcmc = {
+            batch_size = "1600"
+            eneseq = {
+                name = "simulation_4665547_2_gcmc.ene"
+            }
+            first = "0.0"
+            grid = {
+                exclusion_radius = "2.2"
+                global_switching = {
+                    frequency = "0.2"
+                    move_factor = "3.0"
+                    spacing_factor = "2.0"
+                }
+                region_buffer = "4.0"
+                spacing = "0.22"
+                track_voids = "true"
+            }
+            interval = "4.8"
+            mu_excess = "-6.18"
+            name = "simulation_4665547_2.gcmc"
+            nsteps = "5000"
+            restore_engrps = "false"
+            seed = "2007"
+            solvent_density = "0.03262"
+            temperature = "300.0"
+            type = "gcmc"
+            verbose = "0"
+        }
+        list = ["status" "eneseq" "trajectory" "randomize_velocities" "remove_com_motion"]
+        maeff_output = {
+            bootfile = "simulation_4665547_2-in.cms"
+            center_atoms = []
+            first = "0.0"
+            full_system_only = "false"
+            interval = "120.0"
+            name = "simulation_4665547_2-out.cms"
+            periodicfix = "true"
+            precision = "8"
+            trjdir = "simulation_4665547_2_trj"
+            type = "maeff_output"
+            write_last_step = "true"
+        }
+        maeff_snapshot = {
+            first = "0.0"
+            interval = "1.2"
+            name = ""
+            type = "maeff_snapshot"
+        }
+        randomize_velocities = {
+            first = "0.0"
+            interval = "1.0"
+            seed = "2007"
+            temperature = "10.0"
+            type = "randomize_velocities"
+        }
+        remove_com_motion = {
+            first = "0.0"
+            interval = "1.0"
+            type = "remove_com_motion"
+        }
+        simbox_output = {
+            first = "0.0"
+            interval = "1.2"
+            name = ""
+            type = "simbox_output"
+        }
+        status = {
+            first = "0.0"
+            interval = "1.2"
+            type = "status"
+        }
+        trajectory = {
+            center = []
+            first = "0.0"
+            format = "dtr"
+            frames_per_file = "250"
+            glue = []
+            interval = "5.0"
+            last_vel_name = "simulation_4665547_2_vel_trj"
+            mode = "noclobber"
+            name = "simulation_4665547_2_trj"
+            periodicfix = "true"
+            type = "trajectory"
+            write_first_step = "true"
+            write_last_step = "true"
+            write_last_vel = "false"
+            write_velocity = "false"
+        }
+    }
+    title = "Desmond MD simulation"
+}
+migration = {
+    first = "0.0"
+    interval = "0.018000000000000002"
+}
+spatial_order = "auto"
+threader_size = "0"
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+construct_arrays configuring global_cell
+Bonded terms: 
+  injecting group angle_harm                      with    2938 elements
+  injecting group dihedral_trig                   with    3680 elements
+  injecting group pair_12_6_es                    with    4271 elements
+  injecting group posre_harm                      with     784 elements
+  injecting group stretch_harm                    with     801 elements
+Exclusion distance before optimization: 1359
+Exclusion distance after optimization: 32
+Inserted 128b vector exclusion clusters.
+user has asked for nonbonded type = useries
+Approximating far PES with a 9-th order polynomial; maximum relative error: 3.54703e-08
+Computing useries box_change coefficients.
+Approximating far PES with a 9-th order polynomial; maximum relative error: 3.54703e-08
+Virtual terms: 
+  injecting group virtual_lc2                     with       2 elements
+  injecting group virtual_out3                    with       8 elements
+  injecting group exclusion                       with   31764 elements
+Using nonbonded.average_dispersion = 94.6769
+Constraint terms: 
+	[FUSED]
+Overriding constraint parameters with
+	force.constraint.maxit=32
+	force.constraint.tol=1.000000e-08
+  injecting group constraint_hoh                  with    2326 elements
+  injecting group constraint_ah1                  with     293 elements
+  injecting group constraint_ah2                  with     146 elements
+  injecting group constraint_ah3                  with      77 elements
+Title: Desmond MD simulation
+Starting chemical time (ps):        0.000
+opened output file: /tmp/danieldh/simulation_4665547_2/simulation_4665547_2.ene
+
+::::::::::::::::::::::::::::: started :::::::::::::::::::::::::::::
+
+writing checkpoint at 0.000000 to 'simulation_4665547_2.cpt'
+Chemical time:             0.0000 ps, Step: 0
+Chemical time:             1.2000 ps, Step: 400, ns/day:      279.055
+Chemical time:             2.4000 ps, Step: 800, ns/day:      358.946
+Chemical time:             3.6000 ps, Step: 1200, ns/day:      356.871
+Chemical time:             4.8000 ps, Step: 1600, ns/day:      362.019
+Chemical time:             6.0000 ps, Step: 2000, ns/day:      347.494
+Chemical time:             7.2000 ps, Step: 2400, ns/day:      351.397
+Chemical time:             8.4000 ps, Step: 2800, ns/day:      352.196
+Chemical time:             9.6000 ps, Step: 3200, ns/day:      367.122
+Chemical time:            10.8000 ps, Step: 3600, ns/day:      360.598
+Chemical time:            12.0000 ps, Step: 4000, ns/day:      369.059
+Chemical time:            13.2000 ps, Step: 4400, ns/day:      344.765
+Chemical time:            14.4000 ps, Step: 4800, ns/day:      365.305
+Chemical time:            15.6000 ps, Step: 5200, ns/day:      367.653
+Chemical time:            16.8000 ps, Step: 5600, ns/day:      347.115
+Chemical time:            18.0000 ps, Step: 6000, ns/day:      367.089
+Chemical time:            19.2000 ps, Step: 6400, ns/day:      349.113
+Chemical time:            20.4000 ps, Step: 6800, ns/day:      354.208
+Chemical time:            21.6000 ps, Step: 7200, ns/day:      357.176
+Chemical time:            22.8000 ps, Step: 7600, ns/day:      342.597
+Chemical time:            24.0000 ps, Step: 8000, ns/day:      341.523
+Chemical time:            25.2000 ps, Step: 8400, ns/day:      341.249
+Chemical time:            26.4000 ps, Step: 8800, ns/day:      341.398
+Chemical time:            27.6000 ps, Step: 9200, ns/day:      338.887
+Chemical time:            28.8000 ps, Step: 9600, ns/day:      340.482
+Chemical time:            30.0000 ps, Step: 10000, ns/day:      346.054
+Chemical time:            31.2000 ps, Step: 10400, ns/day:      344.988
+Chemical time:            32.4000 ps, Step: 10800, ns/day:      339.503
+Chemical time:            33.6000 ps, Step: 11200, ns/day:      344.561
+Chemical time:            34.8000 ps, Step: 11600, ns/day:      338.818
+Chemical time:            36.0000 ps, Step: 12000, ns/day:      338.759
+Chemical time:            37.2000 ps, Step: 12400, ns/day:      352.207
+Chemical time:            38.4000 ps, Step: 12800, ns/day:      339.255
+Chemical time:            39.6000 ps, Step: 13200, ns/day:      343.621
+Chemical time:            40.8000 ps, Step: 13600, ns/day:      341.635
+Chemical time:            42.0000 ps, Step: 14000, ns/day:      357.681
+Chemical time:            43.2000 ps, Step: 14400, ns/day:      342.947
+Chemical time:            44.4000 ps, Step: 14800, ns/day:      356.827
+Chemical time:            45.6000 ps, Step: 15200, ns/day:      353.847
+Chemical time:            46.8000 ps, Step: 15600, ns/day:      350.304
+Chemical time:            48.0000 ps, Step: 16000, ns/day:      352.173
+Chemical time:            49.2000 ps, Step: 16400, ns/day:      361.960
+Chemical time:            50.4000 ps, Step: 16800, ns/day:      355.752
+Chemical time:            51.6000 ps, Step: 17200, ns/day:      361.601
+Chemical time:            52.8000 ps, Step: 17600, ns/day:      361.885
+Chemical time:            54.0000 ps, Step: 18000, ns/day:      354.602
+Chemical time:            55.2000 ps, Step: 18400, ns/day:      339.784
+Chemical time:            56.4000 ps, Step: 18800, ns/day:      349.755
+Chemical time:            57.6000 ps, Step: 19200, ns/day:      341.075
+Chemical time:            58.8000 ps, Step: 19600, ns/day:      345.327
+Chemical time:            60.0000 ps, Step: 20000, ns/day:      360.244
+Chemical time:            61.2000 ps, Step: 20400, ns/day:      355.502
+Chemical time:            62.4000 ps, Step: 20800, ns/day:      340.763
+Chemical time:            63.6000 ps, Step: 21200, ns/day:      347.809
+Chemical time:            64.8000 ps, Step: 21600, ns/day:      351.658
+Chemical time:            66.0000 ps, Step: 22000, ns/day:      339.092
+Chemical time:            67.2000 ps, Step: 22400, ns/day:      344.801
+Chemical time:            68.4000 ps, Step: 22800, ns/day:      343.131
+Chemical time:            69.6000 ps, Step: 23200, ns/day:      332.457
+Chemical time:            70.8000 ps, Step: 23600, ns/day:      354.208
+Chemical time:            72.0000 ps, Step: 24000, ns/day:      353.018
+Chemical time:            73.2000 ps, Step: 24400, ns/day:      342.540
+Chemical time:            74.4000 ps, Step: 24800, ns/day:      344.970
+Chemical time:            75.6000 ps, Step: 25200, ns/day:      341.586
+Chemical time:            76.8000 ps, Step: 25600, ns/day:      351.696
+Chemical time:            78.0000 ps, Step: 26000, ns/day:      358.823
+Chemical time:            79.2000 ps, Step: 26400, ns/day:      336.564
+Chemical time:            80.4000 ps, Step: 26800, ns/day:      337.619
+Chemical time:            81.6000 ps, Step: 27200, ns/day:      356.694
+Chemical time:            82.8000 ps, Step: 27600, ns/day:      356.738
+Chemical time:            84.0000 ps, Step: 28000, ns/day:      358.771
+Chemical time:            85.2000 ps, Step: 28400, ns/day:      354.339
+Chemical time:            86.4000 ps, Step: 28800, ns/day:      353.039
+Chemical time:            87.6000 ps, Step: 29200, ns/day:      346.507
+Chemical time:            88.8000 ps, Step: 29600, ns/day:      330.301
+Chemical time:            90.0000 ps, Step: 30000, ns/day:      360.613
+Chemical time:            91.2000 ps, Step: 30400, ns/day:      361.421
+Chemical time:            92.4000 ps, Step: 30800, ns/day:      363.931
+Chemical time:            93.6000 ps, Step: 31200, ns/day:      359.736
+Chemical time:            94.8000 ps, Step: 31600, ns/day:      343.566
+Chemical time:            96.0000 ps, Step: 32000, ns/day:      348.441
+Chemical time:            97.2000 ps, Step: 32400, ns/day:      361.670
+Chemical time:            98.4000 ps, Step: 32800, ns/day:      342.403
+Chemical time:            99.6000 ps, Step: 33200, ns/day:      345.039
+
+::::::::::::::::::::::::::::: finished ::::::::::::::::::::::::::::
+
+stop time: Tue Jul 18 12:22:22 2023
+Total rate per step:      348.755 ns/day
+(normal exit)
+Tue, 18 Jul 2023 12:22:22 Child returned 0

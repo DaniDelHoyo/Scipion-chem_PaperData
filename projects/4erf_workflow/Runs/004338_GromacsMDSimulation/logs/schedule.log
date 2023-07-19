@@ -1,0 +1,8 @@
+Scheduling protocol 4338, PID: 32963,prerequisites: [], works in streaming: False.
+Waiting 30 seconds before start checking inputs 
+Checking input data...
+Updated protocol: 4266 (4) gromacs - system preparation)
+GromacsSystem (4erf_prepared.gro) is not blocking this protocol. All ready.
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/4erf_demo" "Runs/004338_GromacsMDSimulation/logs/run.db" 4338 "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004338_GromacsMDSimulation/logs/run.stderr"[0m'

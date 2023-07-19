@@ -1,0 +1,8 @@
+Scheduling protocol 4266, PID: 32961,prerequisites: [], works in streaming: False.
+Waiting 0 seconds before start checking inputs 
+Checking input data...
+The protocol 4427 (4) pwem - import AS 4ERF prepared) is up to date
+AtomStruct (pseudoatoms=False, volume=False) is not blocking this protocol. All ready.
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/4erf_demo" "Runs/004266_GromacsSystemPrep/logs/run.db" 4266 "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004266_GromacsSystemPrep/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/004266_GromacsSystemPrep/logs/run.stderr"[0m'

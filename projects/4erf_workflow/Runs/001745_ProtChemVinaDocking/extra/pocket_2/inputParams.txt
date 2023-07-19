@@ -1,0 +1,13 @@
+ligandFiles:: /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00001019-1.pdbqt /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00001019-2.pdbqt /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00000480-1.pdbqt /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00000480-2.pdbqt /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00001453-1.pdbqt /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00001453-2.pdbqt /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00001099-1.pdbqt /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/tmp/ZINC00001099-2.pdbqt
+receptorFile:: /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/extra/receptor.pdbqt
+mapsName:: 4erf_prep
+gpfFile:: /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/extra/pocket_2/receptor.gpf
+boxSize:: [18.074844397670482, 18.074844397670482, 18.074844397670482]
+boxCenter:: [-15.751269841269792, 1.8763968253968153, -16.804126984127045]
+scoreName:: Vina
+exhaust:: 8
+nPoses:: 5
+minRMSD:: 2.0
+maxEvals:: 0
+nCPUs:: 1
+outDir:: /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001745_ProtChemVinaDocking/extra/pocket_2

@@ -1,0 +1,321 @@
+Keywords = [
+   {RMSD = {
+       ASL = "(((protein) and backbone) and not (atom.ele H) and not (at.n 753-784,1572-1600))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Backbone
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "((protein) and sidechain and not (at.n 753-784,1572-1600))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = "Side chains"
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "(((protein) and backbone ) and ( atom.ptype ' CA ') and not (at.n 753-784,1572-1600))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = C-Alpha
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "((protein) and not (atom.ele H) and not (at.n 753-784,1572-1600))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Heavy
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "at.n 753-784,1572-1600"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Ligand
+       Tab = pl_rmsd_tab
+       Type = Ligand
+       Unit = Angstrom
+       UseSymmetry = true
+    }
+   }
+
+   {RMSD = {
+       ASL = "at.n 753-784,1572-1600"
+       FitBy = "(protein)"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Ligand
+       Tab = pl_rmsd_tab
+       Type = Ligand
+       Unit = Angstrom
+       UseSymmetry = true
+    }
+   }
+
+   {SecondaryStructure = {
+       ASL = "((protein) and not (at.n 753-784,1572-1600))"
+       Legend = "-1: NONE; 0: LOOP; 1: HELIX; 2: STRAND; 3:TURN"
+       Panel = pl_interact_survey
+       SelectionType = "((protein) and not (at.n 753-784,1572-1600))"
+       Tab = p_sse_tab
+       Type = ASL
+    }
+   }
+
+   {RMSF = {
+       ASL = "(((protein) and backbone) and not (atom.ele H) and not (at.n 753-784,1572-1600))"
+       FitBy = "(((protein) and backbone) and not (atom.ele H) and not (at.n 753-784,1572-1600))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Backbone
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "((protein) and sidechain and not (at.n 753-784,1572-1600))"
+       FitBy = "(((protein) and backbone) and not (atom.ele H) and not (at.n 753-784,1572-1600))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = "Side chains"
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "(((protein) and backbone ) and ( atom.ptype ' CA ') and not (at.n 753-784,1572-1600))"
+       FitBy = "(((protein) and backbone) and not (atom.ele H) and not (at.n 753-784,1572-1600))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = C-Alpha
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "((protein) and not (atom.ele H) and not (at.n 753-784,1572-1600))"
+       FitBy = "(((protein) and backbone) and not (atom.ele H) and not (at.n 753-784,1572-1600))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Heavy
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "at.n 753-784,1572-1600 and not atom.e H"
+       FitBy = "at.n 753-784,1572-1600 and not atom.e H"
+       Frame = 0
+       Panel = pl_interact_survey
+       Tab = l_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "at.n 753-784,1572-1600 and not atom.e H"
+       FitBy = "(protein)"
+       Frame = 0
+       Panel = pl_interact_survey
+       Tab = l_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {ProtLigInter = {
+       ASL = "(protein)"
+       LigandASL = "at.n 753-784,1572-1600"
+       Panel = pl_interact_survey
+       Tab = pl_inter_tab
+    }
+   }
+
+   {ProtProtInter = {
+       ASL = "(protein)"
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "at.n 753-784,1572-1600"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 784
+       a2 = 778
+       a3 = 777
+       a4 = 770
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "at.n 753-784,1572-1600"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 777
+       a2 = 770
+       a3 = 771
+       a4 = 772
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "at.n 753-784,1572-1600"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 770
+       a2 = 771
+       a3 = 772
+       a4 = 773
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "at.n 753-784,1572-1600"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 772
+       a2 = 771
+       a3 = 774
+       a4 = 776
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "at.n 753-784,1572-1600"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 776
+       a2 = 774
+       a3 = 775
+       a4 = 1592
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "at.n 753-784,1572-1600"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 767
+       a2 = 762
+       a3 = 763
+       a4 = 764
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "at.n 753-784,1572-1600"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 762
+       a2 = 763
+       a3 = 764
+       a4 = 766
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "at.n 753-784,1572-1600"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 763
+       a2 = 764
+       a3 = 766
+       a4 = 1581
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "at.n 753-784,1572-1600"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 761
+       a2 = 760
+       a3 = 759
+       a4 = 758
+    }
+   }
+
+   {LigandHBonds = {
+       ASL1 = "at.n 753-784,1572-1600"
+       Name = "Intramolecular Hydrogen Bonds"
+       Panel = pl_interact_survey
+       ReturnHBonds = true
+       Tab = l_properties_tab
+       Type = ASL
+       Unit = "Numb. of HBonds"
+    }
+   }
+
+   {Molecular_Surface_Area = {
+       ASL = "at.n 753-784,1572-1600"
+       Grid_Spacing = 0.5
+       Panel = pl_interact_survey
+       Tab = l_properties_tab
+       Unit = "Angstrom^2"
+    }
+   }
+
+   {SA_Surface_Area = {
+       ASL = "at.n 753-784,1572-1600"
+       Exclude_ASL = "not ((protein) or (at.n 753-784,1572-1600) or (ions) or (water) or (metals) or (metalloids))"
+       Panel = pl_interact_survey
+       Resolution = 0.3
+       Tab = l_properties_tab
+       Unit = "Angstrom^2"
+    }
+   }
+
+   {Polar_Surface_Area = {
+       ASL = "at.n 753-784,1572-1600"
+       Panel = pl_interact_survey
+       Resolution = 0.3
+       Tab = l_properties_tab
+       Unit = "Angstrom^2"
+    }
+   }
+
+   {Rad_Gyration = {
+       ASL = "at.n 753-784,1572-1600"
+       Panel = pl_interact_survey
+       Tab = l_properties_tab
+       Unit = Angstrom
+    }
+   }
+]
+LigandASL = "at.n 753-784,1572-1600"
+ProteinASL = "(protein)"
+Trajectory = "/home/danieldh/ScipionUserData/projects/4erf_demo/Runs/003943_ProtSchrodingerDesmondMD/4erf_3778786-out-MD-MD.cms"

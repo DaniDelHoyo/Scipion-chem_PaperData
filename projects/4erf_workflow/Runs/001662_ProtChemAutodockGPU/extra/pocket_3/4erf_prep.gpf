@@ -1,0 +1,18 @@
+npts 23 23 23                        # num.grid points in xyz
+gridfld 4erf_prep.maps.fld                # grid_data_file
+spacing 0.5                          # spacing(A)
+receptor_types A C HD N NA OA SA     # receptor atom types
+ligand_types A C HD N OA S SA       # ligand atom types
+receptor /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001662_ProtChemAutodockGPU/extra/4erf_prep.pdbqt                  # macromolecule
+gridcenter 1.7029032258064534 -0.24738709677419313 -19.779677419354847           # xyz-coordinates or auto
+smooth 0.5                           # store minimum energy w/in rad(A)
+map 4erf_prep.A.map                       # atom-specific affinity map
+map 4erf_prep.C.map                       # atom-specific affinity map
+map 4erf_prep.HD.map                       # atom-specific affinity map
+map 4erf_prep.N.map                       # atom-specific affinity map
+map 4erf_prep.OA.map                       # atom-specific affinity map
+map 4erf_prep.S.map                       # atom-specific affinity map
+map 4erf_prep.SA.map                       # atom-specific affinity map
+elecmap 4erf_prep.e.map                   # electrostatic potential map
+dsolvmap 4erf_prep.d.map                  # desolvation potential map
+dielectric -0.1465                   # <0, AD4 distance-dep.diel;>0, constant

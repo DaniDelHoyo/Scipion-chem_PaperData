@@ -1,0 +1,70 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001268_ProtChemAutoSite/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001268_ProtChemAutoSite/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 18997
+pyworkflow: 3.1.0
+plugin: autodock
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/4erf_demo
+workingDir: Runs/001268_ProtChemAutoSite
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: convertInputStep, step 1, time 2023-04-24 15:37:38.536722
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/mgltools-1.5.6/bin/pythonsh /home/danieldh/scipion3/software/em/mgltools-1.5.6/MGLToolsPckgs/AutoDockTools/Utilities24/prepare_receptor4.py -v -r /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001306_ProtChemLePro/4erf_prep.pdb -o /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001268_ProtChemAutoSite/extra/4erf_prep.pdbqt[0m
+setting PYTHONHOME environment
+set verbose to  True
+set receptor_filename to  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001306_ProtChemLePro/4erf_prep.pdb
+set outputfilename to  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001268_ProtChemAutoSite/extra/4erf_prep.pdbqt
+read  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001306_ProtChemLePro/4erf_prep.pdb
+setting up RPO with mode= automatic and outputfilename=  /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001268_ProtChemAutoSite/extra/4erf_prep.pdbqt
+charges_to_add= gasteiger
+delete_single_nonstd_residues= None
+adding gasteiger charges to peptide
+[35mFINISHED[0m: convertInputStep, step 1, time 2023-04-24 15:37:38.883569
+[35mSTARTED[0m: predictPocketStep, step 2, time 2023-04-24 15:37:38.902064
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/AutoSite-1.0/bin/autosite  -r /home/danieldh/ScipionUserData/projects/4erf_demo/Runs/001268_ProtChemAutoSite/extra/4erf_prep.pdbqt --spacing 1.0 --nneighbors 14 -bc user -0.3 -0.66 -0.5[0m
+#################################################################
+# If you used AutoSite in your work, please cite:               #
+#                                                               #
+# Pradeep Anand Ravindranath and Michel F. Sanner               #
+#                                                               #
+# AutoSite: an automated approach for pseudoligands             #
+# prediction - From ligand binding sites identification to      #
+# predicting key ligand atoms                                   #
+#                                                               #
+# Bioinformatics (2016)                                         #
+#                                                               #
+# DOI: 10.1093/bioinformatics/btw367                            #
+#                                                               #
+# Please see http://adfr.scripps.edu/AutoDockFR/autosite.html   #
+# for more information                                          #
+#################################################################
+
+AutoSite v1.0.0 started on euclides a Linux-5.15.0-69-generic-x86_64-with-debian-bullseye-sid computer
+Date Mon Apr 24 15:37:39 2023
+computing maps ....
+No cutoff scan and use cutoffs -0.3 -0.66 -0.5
+clustering high affinity points ... 
+analysing 4 clusters ... 
+saving 4 clusters and associated feature points in folder 4erf_prep
+
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |Feature Points
+number|       |points|gyration|per vol.|buriedness|v*b^1.5 | D | A | Other
+------+-------+------+--------+--------+----------+--------+---+---+------
+    1   -99.43   252    4.92    -0.39     0.830     35.28    1   3   16
+    2   -54.74   155    3.70    -0.35     0.783     25.67    3   2    9
+    3   -43.39   130    3.13    -0.33     0.773     24.81    2   0    9
+    4   -44.43   124    3.29    -0.36     0.785     23.23    3   1    7
+AutoSite identified and characterized 4 clusters in 0.93 seconds, i.e. 0 hours 00 minutes 00.926951 seconds 
+[35mFINISHED[0m: predictPocketStep, step 2, time 2023-04-24 15:37:39.982293
+[35mSTARTED[0m: createOutputStep, step 3, time 2023-04-24 15:37:40.002114
+[35mFINISHED[0m: createOutputStep, step 3, time 2023-04-24 15:37:40.147768
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m
