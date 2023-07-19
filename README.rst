@@ -1,9 +1,8 @@
 ================================
-Scipion-chem_PaperData
+Scipion-chem Paper Data
 ================================
 
 This repository contains all the data discussed in the Scipion-chem paper. These are:
-
 
 Virtual Drug Screening workflow example (4erf_workflow)
 -----------------------------------------------------------
@@ -144,3 +143,63 @@ Finally, this demo project also includes several examples of molecular dynamics 
     not yet released. We use this because Gromacs needs a deep preparation of the input receptor in order to run.
 
 
+
+Software availability
+-----------------------------------------------------------
+As stated in the paper, `Scipion-chem <https://github.com/scipion-chem>`_ integrates a set of bioinformatic tools and
+software inside the platform.
+Most of this tools are open, and no license is required for their use, so Scipion-chem installs it automatically,
+taking care of properly referencing all the sources.
+
+In the case of the few licensed software, the user must install
+either the programs or the license by themselves and tell Scipion-chem where the software is installed. More detailed
+guides on how to proceed with the installations can be found in the repositories of each of the plugins.
+
+A complete list of these software, organized by the plugins they are installed on, is described below. The versions
+refer to the moment this document is being written, but updates are constantly being made.
+
+1) `**Scipion-chem:** <https://github.com/scipion-chem/scipion-chem>`_ as the core plugin, it installs a wide set of tools.
+    - OpenBabel 2.2 (conda)
+    - RDKit 2021.09.4 (conda)
+    - MGLTools 1.5.7 (https://ccsb.scripps.edu)
+    - Shape-it 2.0.0 (https://github.com/rdkit/shape-it.git)
+    - JChemPaint 3.2.0 (https://sourceforge.net/projects/cdk/files/JChemPaint)
+    - PyMol 2.5.5 (https://pymol.org/installers)
+    - AliView 1.28 (https://ormbunkar.se/aliview)
+    - VMD 1.9.3 (conda)
+    - MDTraj 1.9.8 (conda)
+
+2) `**Scipion-chem-amber:** <https://github.com/scipion-chem/scipion-chem-amber>`_
+    - AmberTools 21 (conda)
+
+3) `**Scipion-chem-autodock:** <https://github.com/scipion-chem/scipion-chem-autodock>`_
+    - AutoDockSuite 4.2.6 (https://autodock.scripps.edu)
+    - AutoDock-GPU (https://github.com/ccsb-scripps/AutoDock-GPU.git)
+    - Vina 1.2.3 (https://github.com/ccsb-scripps/AutoDock-Vina.git)
+    - ADFRSuite 1.0 (https://ccsb.scripps.edu/adfr)
+    - Meeko (pip)
+
+4) `**Scipion-chem-blast:** <https://github.com/scipion-chem/scipion-chem-blast>`_
+    - BLAST+ 2.12.0 (https://ftp.ncbi.nlm.nih.gov/blast)
+
+5) `**Scipion-chem-fpocket:** <https://github.com/scipion-chem/scipion-chem-fpocket>`_
+    - FPocket 3.0 (conda)
+
+6) `**Scipion-chem-gromacs:** <https://github.com/scipion-chem/scipion-chem-gromacs>`_
+    - Gromacs 2021.5 (https://ftp.gromacs.org/gromacs)
+
+7) `**Scipion-chem-lephar:** <https://github.com/scipion-chem/scipion-chem-lephar>`_
+    - LeDock - (http://www.lephar.com)
+    - LePro - (http://www.lephar.com)
+
+8) `**Scipion-chem-modeller:** <https://github.com/scipion-chem/scipion-chem-modeller>`_
+    - Modeller 10.4 (conda) *License Key needed
+
+9) `**Scipion-chem-p2rank:** <https://github.com/scipion-chem/scipion-chem-p2rank>`_
+    - P2Rank 2.3 (https://github.com/rdk/p2rank)
+
+10) `**Scipion-chem-rosetta:** <https://github.com/scipion-chem/scipion-chem-rosetta>`_
+    - Rosetta 3.12 (-) *Need user installation
+
+11) `**Scipion-chem-schrodingerScipion:** <https://github.com/scipion-chem/scipion-chem-schrodingerScipion>`_
+    - Schrödinger Suite 2021-3 (-) *Need user installation and key
