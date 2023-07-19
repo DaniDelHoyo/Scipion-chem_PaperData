@@ -5,8 +5,8 @@ Scipion-chem_PaperData
 This repository contains all the data discussed in the Scipion-chem paper. These are:
 
 
-Virtual Drug Screening workflow example
----------------------------------------
+Virtual Drug Screening workflow example (4erf_workflow)
+-----------------------------------------------------------
 
 Example shown in "Virtual Drug Screening workflow" section for 4ERF PDB structure. Contains the Scipion project
 folder, which can be imported into the Scipion workflow engine and reproduced once all the necessary plugins are
