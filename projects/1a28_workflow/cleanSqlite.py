@@ -21,7 +21,7 @@ def cleanSqlitesFromDir(myDir, cleanStr):
 			cleanSqlitesFromDir(sfile, cleanStr)
 
 
-cleanStr = '/home/danieldh/ScipionUserData/projects/4erf_demo/'
+cleanStr = '/home/danieldh/ScipionUserData/projects/dcoid_1a28/'
 myDir = os.getcwd() if not len(sys.argv) > 1 else sys.argv[1]
 
 cleanSqlitesFromDir(myDir, cleanStr)
