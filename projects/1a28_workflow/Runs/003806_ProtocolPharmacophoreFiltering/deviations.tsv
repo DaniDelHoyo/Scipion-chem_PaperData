@@ -1,2 +1,3 @@
 OriginalMolecule	OutputMolecule	Deviation
-active_1a28	/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/active_1a28_0.sdf	0.3716666865366278
+active_1a28-1	/home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/active_1a28-1_0.sdf	0.1527992365109725
+active_1a28-2	/home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/active_1a28-2_0.sdf	3.865433903117122

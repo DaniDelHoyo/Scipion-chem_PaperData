@@ -1,20 +1,43 @@
-Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003756_ProtocolPharmacophoreModification/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003756_ProtocolPharmacophoreModification/logs/run.stderr
+Logging configured. STDOUT --> /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003756_ProtocolPharmacophoreModification/logs/run.stdout , STDERR --> /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003756_ProtocolPharmacophoreModification/logs/run.stderr
 [32mRUNNING PROTOCOL -----------------[0m
 Protocol starts
 Hostname: euclides
-PID: 24501
+PID: 24513
 pyworkflow: 3.1.0
 plugin: pwchem
+plugin v: 1.0 (devel)
 plugin binary v: 
-currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+currentDir: /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow
 workingDir: Runs/003756_ProtocolPharmacophoreModification
 runMode: Restart
           MPI: 1
       threads: 1
  Starting at step: 1
  Running steps 
-[35mSTARTED[0m: createOutputStep, step 1, time 2023-05-04 16:02:53.914063
-[35mFINISHED[0m: createOutputStep, step 1, time 2023-05-04 16:02:53.961290
+[35mSTARTED[0m: createOutputStep, step 1, time 2023-07-20 14:00:06.116365
+[35mFINISHED[0m: createOutputStep, step 1, time 2023-07-20 14:00:06.154229
 *** Last status is finished 
 Cleaning temp folder....
+Nothing to clean up
+[32m------------------- PROTOCOL FINISHED[0m
+Logging configured. STDOUT --> /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003756_ProtocolPharmacophoreModification/logs/run.stdout , STDERR --> /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003756_ProtocolPharmacophoreModification/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 24610
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin v: 1.0 (devel)
+plugin binary v: 
+currentDir: /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow
+workingDir: Runs/003756_ProtocolPharmacophoreModification
+runMode: Continue
+          MPI: 1
+      threads: 1
+ Starting at step: 2
+ Running steps 
+All steps seem to be FINISHED, nothing to be done.
+*** Last status is finished 
+Cleaning temp folder....
+Nothing to clean up
 [32m------------------- PROTOCOL FINISHED[0m

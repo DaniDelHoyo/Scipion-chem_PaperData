@@ -1,29 +1,43 @@
-Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/logs/run.stderr
+Logging configured. STDOUT --> /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/logs/run.stdout , STDERR --> /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/logs/run.stderr
 [32mRUNNING PROTOCOL -----------------[0m
 Protocol starts
 Hostname: euclides
-PID: 24583
+PID: 24676
 pyworkflow: 3.1.0
 plugin: pwchem
+plugin v: 1.0 (devel)
 plugin binary v: 
-currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+currentDir: /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow
 workingDir: Runs/003806_ProtocolPharmacophoreFiltering
 runMode: Restart
           MPI: 1
       threads: 1
  Starting at step: 1
  Running steps 
-[35mSTARTED[0m: convertStep, step 1, time 2023-05-04 16:03:09.444762
-[35mFINISHED[0m: convertStep, step 1, time 2023-05-04 16:03:09.450746
-[35mSTARTED[0m: filterStep, step 2, time 2023-05-04 16:03:09.460887
+[35mSTARTED[0m: convertStep, step 1, time 2023-07-20 14:00:18.512469
+[35mFINISHED[0m: convertStep, step 1, time 2023-07-20 14:00:18.527734
+[35mSTARTED[0m: filterStep, step 2, time 2023-07-20 14:00:18.541566
 ** Running command: **
-[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate rdkit-env && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/pharmacophore_filtering.py  /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputParams.txt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering[0m
-Couldn't embed molecule /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_3_1a28.pdb
-Couldn't embed molecule /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_2_1a28.pdb
-Couldn't embed molecule /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_1_1a28.pdb
-[35mFINISHED[0m: filterStep, step 2, time 2023-05-04 16:03:10.652509
-[35mSTARTED[0m: createOutputStep, step 3, time 2023-05-04 16:03:10.670313
-[35mFINISHED[0m: createOutputStep, step 3, time 2023-05-04 16:03:10.715911
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&&conda activate rdkit-1.0 && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/pharmacophore_filtering.py  /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputParams.txt /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering[0m
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_3_1a28-5.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_2_1a28-4.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_1_1a28-4.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_3_1a28-1.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_2_1a28-3.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_2_1a28-2.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_2_1a28-1.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_3_1a28-3.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_1_1a28-2.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_1_1a28-1.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_2_1a28-5.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_1_1a28-5.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_1_1a28-3.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_3_1a28-2.sdf
+Couldn't embed molecule /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_3_1a28-4.sdf
+[35mFINISHED[0m: filterStep, step 2, time 2023-07-20 14:00:19.877212
+[35mSTARTED[0m: createOutputStep, step 3, time 2023-07-20 14:00:19.897219
+[35mFINISHED[0m: createOutputStep, step 3, time 2023-07-20 14:00:19.950940
 *** Last status is finished 
 Cleaning temp folder....
+Nothing to clean up
 [32m------------------- PROTOCOL FINISHED[0m
