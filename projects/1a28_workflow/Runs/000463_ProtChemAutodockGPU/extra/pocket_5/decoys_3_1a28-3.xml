@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<autodock_gpu>
+	<version>v1.5.3-46-g49b20530bd9ac3c27a48930eeff316cf6ede2042</version>
+	<arguments>-B /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000463_ProtChemAutodockGPU/extra/pocket_5/batchFile.txt -D 1 -n 5 --rmstol 2.0 -C 1 --output-cluster-poses auto -H 1 -E 12000000 -A 1 -a 5 --stopstd 0.15 -s 44</arguments>
+	<list_nr>3</list_nr>
+	<grid>1a28.maps.fld</grid>
+	<ligand>decoys_3_1a28-3.pdbqt</ligand>
+	<seed>44</seed>
+	<ls_method>ad</ls_method>
+	<autostop>yes</autostop>
+	<heuristics>yes</heuristics>
+	<run_requested>5</run_requested>
+	<runs>
+		<run id="1">
+			<contact_analysis count="26">
+				<contact_analysis_types>     "H",   "H",   "H",   "H",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V"</contact_analysis_types>
+				<contact_analysis_ligid>     13 ,   13 ,   16 ,   16 ,    2 ,    4 ,    5 ,    6 ,    7 ,    7 ,    7 ,    7 ,    8 ,    8 ,    8 ,    8 ,    9 ,    9 ,    9 ,    9 ,    9 ,   14 ,   14 ,   14 ,   14 ,   15 </contact_analysis_ligid>
+				<contact_analysis_ligname>  "S1",  "S1",  "O1",  "O1",  "C2",  "C4",  "C5",  "C6",  "C7",  "C7",  "C7",  "C7", "BR1", "BR1", "BR1", "BR1",  "C8",  "C8",  "C8",  "C8",  "C8", "C10", "C10", "C10", "C10",  "C9"</contact_analysis_ligname>
+				<contact_analysis_recid>   3920 , 3199 , 3920 , 4456 , 4448 , 4831 , 4831 , 4831 , 4831 , 3921 , 4869 , 3919 , 4489 , 4831 , 4490 , 4491 , 4448 , 4451 , 4449 , 4481 , 4482 , 3905 , 3906 , 3909 , 3908 , 4454 </contact_analysis_recid>
+				<contact_analysis_recname> "OG1",  "OG", "OG1", "NE2",  "CA", "CG2", "CG2", "CG2", "CG2", "CG2", "CG2",  "CB",  "CB", "CG2",  "CG",  "CD",  "CA",  "CB",   "C",  "CB", "CG1",  "CA",   "C",  "CG",  "CB", "CD2"</contact_analysis_recname>
+				<contact_analysis_residue> "THR", "SER", "THR", "HIS", "HIS", "ILE", "ILE", "ILE", "ILE", "THR", "VAL", "THR", "LYS", "ILE", "LYS", "LYS", "HIS", "HIS", "HIS", "VAL", "VAL", "ASN", "ASN", "ASN", "ASN", "HIS"</contact_analysis_residue>
+				<contact_analysis_resid>    398 ,  326 ,  398 ,  450 ,  450 ,  489 ,  489 ,  489 ,  489 ,  398 ,  494 ,  398 ,  454 ,  489 ,  454 ,  454 ,  450 ,  450 ,  450 ,  453 ,  453 ,  397 ,  397 ,  397 ,  397 ,  450 </contact_analysis_resid>
+				<contact_analysis_chain>     "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B"</contact_analysis_chain>
+			</contact_analysis>
+			<free_NRG_binding>   -6.90</free_NRG_binding>
+			<final_intermol_NRG> -7.19</final_intermol_NRG>
+			<internal_ligand_NRG>-0.72</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.30</torsonial_free_NRG>
+			<tran0>9.078277 10.459910 8.268126</tran0>
+			<axisangle0>-0.27814546 0.93015925 0.23966407 164.979691</axisangle0>
+			<ndihe>1</ndihe>
+			<dihe0>219.054062
+			</dihe0>
+		</run>
+		<run id="5">
+			<contact_analysis count="25">
+				<contact_analysis_types>     "H",   "H",   "H",   "H",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V"</contact_analysis_types>
+				<contact_analysis_ligid>     13 ,   13 ,   16 ,   16 ,    2 ,    4 ,    5 ,    6 ,    7 ,    7 ,    7 ,    7 ,    8 ,    8 ,    8 ,    9 ,    9 ,    9 ,    9 ,    9 ,   14 ,   14 ,   14 ,   14 ,   15 </contact_analysis_ligid>
+				<contact_analysis_ligname>  "S1",  "S1",  "O1",  "O1",  "C2",  "C4",  "C5",  "C6",  "C7",  "C7",  "C7",  "C7", "BR1", "BR1", "BR1",  "C8",  "C8",  "C8",  "C8",  "C8", "C10", "C10", "C10", "C10",  "C9"</contact_analysis_ligname>
+				<contact_analysis_recid>   3920 , 3199 , 3920 , 4456 , 4448 , 4831 , 4831 , 4831 , 4831 , 3921 , 4869 , 3919 , 4489 , 4490 , 4491 , 4448 , 4451 , 4449 , 4481 , 4482 , 3905 , 3906 , 3909 , 3908 , 4454 </contact_analysis_recid>
+				<contact_analysis_recname> "OG1",  "OG", "OG1", "NE2",  "CA", "CG2", "CG2", "CG2", "CG2", "CG2", "CG2",  "CB",  "CB",  "CG",  "CD",  "CA",  "CB",   "C",  "CB", "CG1",  "CA",   "C",  "CG",  "CB", "CD2"</contact_analysis_recname>
+				<contact_analysis_residue> "THR", "SER", "THR", "HIS", "HIS", "ILE", "ILE", "ILE", "ILE", "THR", "VAL", "THR", "LYS", "LYS", "LYS", "HIS", "HIS", "HIS", "VAL", "VAL", "ASN", "ASN", "ASN", "ASN", "HIS"</contact_analysis_residue>
+				<contact_analysis_resid>    398 ,  326 ,  398 ,  450 ,  450 ,  489 ,  489 ,  489 ,  489 ,  398 ,  494 ,  398 ,  454 ,  454 ,  454 ,  450 ,  450 ,  450 ,  453 ,  453 ,  397 ,  397 ,  397 ,  397 ,  450 </contact_analysis_resid>
+				<contact_analysis_chain>     "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B"</contact_analysis_chain>
+			</contact_analysis>
+			<free_NRG_binding>   -6.89</free_NRG_binding>
+			<final_intermol_NRG> -7.19</final_intermol_NRG>
+			<internal_ligand_NRG>-0.71</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.30</torsonial_free_NRG>
+			<tran0>9.075954 10.456143 8.268909</tran0>
+			<axisangle0>0.28039360 -0.92876098 -0.24245094 194.712357</axisangle0>
+			<ndihe>1</ndihe>
+			<dihe0>219.450989
+			</dihe0>
+		</run>
+		<run id="4">
+			<contact_analysis count="27">
+				<contact_analysis_types>     "H",   "H",   "H",   "H",   "H",   "H",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V"</contact_analysis_types>
+				<contact_analysis_ligid>     12 ,   12 ,   13 ,   13 ,   16 ,   16 ,    2 ,    3 ,    4 ,    6 ,    7 ,    7 ,    7 ,    7 ,    7 ,    8 ,    8 ,    8 ,    9 ,    9 ,    9 ,    9 ,   11 ,   14 ,   14 ,   14 ,   14 </contact_analysis_ligid>
+				<contact_analysis_ligname>  "S2",  "S2",  "S1",  "S1",  "O1",  "O1",  "C2",  "C3",  "C4",  "C6",  "C7",  "C7",  "C7",  "C7",  "C7", "BR1", "BR1", "BR1",  "C8",  "C8",  "C8",  "C8", "C11", "C10", "C10", "C10", "C10"</contact_analysis_ligname>
+				<contact_analysis_recid>   4528 , 3199 , 3920 , 3199 , 4456 , 3920 , 4831 , 4831 , 4831 , 4448 , 4448 , 4449 , 4481 , 4482 , 4483 , 4489 , 4491 , 4490 , 4831 , 3919 , 3921 , 4869 , 3198 , 3908 , 3909 , 3906 , 3905 </contact_analysis_recid>
+				<contact_analysis_recname> "NE2",  "OG", "OG1",  "OG", "NE2", "OG1", "CG2", "CG2", "CG2",  "CA",  "CA",   "C",  "CB", "CG1", "CG2",  "CB",  "CD",  "CG", "CG2",  "CB", "CG2", "CG2",  "CB",  "CB",  "CG",   "C",  "CA"</contact_analysis_recname>
+				<contact_analysis_residue> "HIS", "SER", "THR", "SER", "HIS", "THR", "ILE", "ILE", "ILE", "HIS", "HIS", "HIS", "VAL", "VAL", "VAL", "LYS", "LYS", "LYS", "ILE", "THR", "THR", "VAL", "SER", "ASN", "ASN", "ASN", "ASN"</contact_analysis_residue>
+				<contact_analysis_resid>    457 ,  326 ,  398 ,  326 ,  450 ,  398 ,  489 ,  489 ,  489 ,  450 ,  450 ,  450 ,  453 ,  453 ,  453 ,  454 ,  454 ,  454 ,  489 ,  398 ,  398 ,  494 ,  326 ,  397 ,  397 ,  397 ,  397 </contact_analysis_resid>
+				<contact_analysis_chain>     "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B"</contact_analysis_chain>
+			</contact_analysis>
+			<free_NRG_binding>   -6.89</free_NRG_binding>
+			<final_intermol_NRG> -7.19</final_intermol_NRG>
+			<internal_ligand_NRG>-0.73</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.30</torsonial_free_NRG>
+			<tran0>8.946303 10.650899 7.908919</tran0>
+			<axisangle0>-0.97638653 -0.21546251 -0.01566034 198.342163</axisangle0>
+			<ndihe>1</ndihe>
+			<dihe0>36.928486
+			</dihe0>
+		</run>
+		<run id="3">
+			<contact_analysis count="27">
+				<contact_analysis_types>     "H",   "H",   "H",   "H",   "H",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V"</contact_analysis_types>
+				<contact_analysis_ligid>     12 ,   13 ,   13 ,   16 ,   16 ,    2 ,    3 ,    4 ,    6 ,    7 ,    7 ,    7 ,    7 ,    7 ,    7 ,    8 ,    8 ,    8 ,    9 ,    9 ,    9 ,    9 ,   11 ,   14 ,   14 ,   14 ,   14 </contact_analysis_ligid>
+				<contact_analysis_ligname>  "S2",  "S1",  "S1",  "O1",  "O1",  "C2",  "C3",  "C4",  "C6",  "C7",  "C7",  "C7",  "C7",  "C7",  "C7", "BR1", "BR1", "BR1",  "C8",  "C8",  "C8",  "C8", "C11", "C10", "C10", "C10", "C10"</contact_analysis_ligname>
+				<contact_analysis_recid>   4528 , 3199 , 3920 , 4456 , 3920 , 4831 , 4831 , 4831 , 4448 , 4481 , 4483 , 4454 , 4482 , 4449 , 4448 , 4489 , 4491 , 4490 , 4831 , 3919 , 3921 , 4869 , 3198 , 3906 , 3908 , 3905 , 3909 </contact_analysis_recid>
+				<contact_analysis_recname> "NE2",  "OG", "OG1", "NE2", "OG1", "CG2", "CG2", "CG2",  "CA",  "CB", "CG2", "CD2", "CG1",   "C",  "CA",  "CB",  "CD",  "CG", "CG2",  "CB", "CG2", "CG2",  "CB",   "C",  "CB",  "CA",  "CG"</contact_analysis_recname>
+				<contact_analysis_residue> "HIS", "SER", "THR", "HIS", "THR", "ILE", "ILE", "ILE", "HIS", "VAL", "VAL", "HIS", "VAL", "HIS", "HIS", "LYS", "LYS", "LYS", "ILE", "THR", "THR", "VAL", "SER", "ASN", "ASN", "ASN", "ASN"</contact_analysis_residue>
+				<contact_analysis_resid>    457 ,  326 ,  398 ,  450 ,  398 ,  489 ,  489 ,  489 ,  450 ,  453 ,  453 ,  450 ,  453 ,  450 ,  450 ,  454 ,  454 ,  454 ,  489 ,  398 ,  398 ,  494 ,  326 ,  397 ,  397 ,  397 ,  397 </contact_analysis_resid>
+				<contact_analysis_chain>     "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B"</contact_analysis_chain>
+			</contact_analysis>
+			<free_NRG_binding>   -6.88</free_NRG_binding>
+			<final_intermol_NRG> -7.18</final_intermol_NRG>
+			<internal_ligand_NRG>-0.73</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.30</torsonial_free_NRG>
+			<tran0>8.960051 10.660422 7.920038</tran0>
+			<axisangle0>0.97634349 0.21588704 0.01209059 161.565155</axisangle0>
+			<ndihe>1</ndihe>
+			<dihe0>35.869541
+			</dihe0>
+		</run>
+		<run id="2">
+			<contact_analysis count="27">
+				<contact_analysis_types>     "H",   "H",   "H",   "H",   "H",   "H",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V",   "V"</contact_analysis_types>
+				<contact_analysis_ligid>     12 ,   12 ,   13 ,   13 ,   16 ,   16 ,    2 ,    4 ,    5 ,    6 ,    7 ,    7 ,    7 ,    7 ,    8 ,    8 ,    8 ,    9 ,    9 ,    9 ,    9 ,    9 ,   11 ,   14 ,   14 ,   14 ,   14 </contact_analysis_ligid>
+				<contact_analysis_ligname>  "S2",  "S2",  "S1",  "S1",  "O1",  "O1",  "C2",  "C4",  "C5",  "C6",  "C7",  "C7",  "C7",  "C7", "BR1", "BR1", "BR1",  "C8",  "C8",  "C8",  "C8",  "C8", "C11", "C10", "C10", "C10", "C10"</contact_analysis_ligname>
+				<contact_analysis_recid>   4528 , 3199 , 3920 , 3199 , 4456 , 3920 , 4448 , 4831 , 4831 , 4831 , 4831 , 3919 , 3921 , 4869 , 4489 , 4491 , 4490 , 4448 , 4449 , 4481 , 4482 , 4483 , 3198 , 3908 , 3909 , 3906 , 3905 </contact_analysis_recid>
+				<contact_analysis_recname> "NE2",  "OG", "OG1",  "OG", "NE2", "OG1",  "CA", "CG2", "CG2", "CG2", "CG2",  "CB", "CG2", "CG2",  "CB",  "CD",  "CG",  "CA",   "C",  "CB", "CG1", "CG2",  "CB",  "CB",  "CG",   "C",  "CA"</contact_analysis_recname>
+				<contact_analysis_residue> "HIS", "SER", "THR", "SER", "HIS", "THR", "HIS", "ILE", "ILE", "ILE", "ILE", "THR", "THR", "VAL", "LYS", "LYS", "LYS", "HIS", "HIS", "VAL", "VAL", "VAL", "SER", "ASN", "ASN", "ASN", "ASN"</contact_analysis_residue>
+				<contact_analysis_resid>    457 ,  326 ,  398 ,  326 ,  450 ,  398 ,  450 ,  489 ,  489 ,  489 ,  489 ,  398 ,  398 ,  494 ,  454 ,  454 ,  454 ,  450 ,  450 ,  453 ,  453 ,  453 ,  326 ,  397 ,  397 ,  397 ,  397 </contact_analysis_resid>
+				<contact_analysis_chain>     "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B",   "B"</contact_analysis_chain>
+			</contact_analysis>
+			<free_NRG_binding>   -6.88</free_NRG_binding>
+			<final_intermol_NRG> -7.18</final_intermol_NRG>
+			<internal_ligand_NRG>-0.72</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.30</torsonial_free_NRG>
+			<tran0>8.954371 10.666749 7.922321</tran0>
+			<axisangle0>0.22924375 -0.93675111 -0.26447055 190.477829</axisangle0>
+			<ndihe>1</ndihe>
+			<dihe0>217.187149
+			</dihe0>
+		</run>
+	</runs>
+	<result>
+		<clustering_histogram>
+			<cluster cluster_rank="1" lowest_binding_energy="-6.90" run="1" mean_binding_energy="-6.89" num_in_clus="5" />
+		</clustering_histogram>
+		<rmsd_table>
+			<run rank="1" sub_rank="1" run="1" binding_energy="-6.90" cluster_rmsd="0.00" reference_rmsd="26.72" />
+			<run rank="1" sub_rank="2" run="5" binding_energy="-6.89" cluster_rmsd="0.02" reference_rmsd="26.72" />
+			<run rank="1" sub_rank="3" run="4" binding_energy="-6.89" cluster_rmsd="0.51" reference_rmsd="26.92" />
+			<run rank="1" sub_rank="4" run="3" binding_energy="-6.88" cluster_rmsd="0.51" reference_rmsd="26.92" />
+			<run rank="1" sub_rank="5" run="2" binding_energy="-6.88" cluster_rmsd="0.51" reference_rmsd="26.92" />
+		</rmsd_table>
+	</result>
+</autodock_gpu>

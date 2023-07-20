@@ -1,0 +1,21 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000137_ProtChemPrepareReceptor/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000137_ProtChemPrepareReceptor/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 28887
+pyworkflow: 3.0.29
+plugin: pwchem
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/000137_ProtChemPrepareReceptor
+runMode: Continue
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: preparationStep, step 1, time 2023-02-07 15:18:42.565549
+[35mFINISHED[0m: preparationStep, step 1, time 2023-02-07 15:18:42.605909
+[35mSTARTED[0m: createOutput, step 2, time 2023-02-07 15:18:42.645143
+[35mFINISHED[0m: createOutput, step 2, time 2023-02-07 15:18:42.650213
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

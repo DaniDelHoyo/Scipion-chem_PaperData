@@ -1,0 +1,8 @@
+/home/danieldh/scipion3/scipion-chem/pwchem/protocols/VirtualDrugScreening/protocol_consensus_docking.py:309: ClusterWarning: scipy.cluster: The symmetric non-negative hollow observation matrix looks suspiciously like an uncondensed distance matrix
+  linked = linkage(rmsds, self.getEnumText('linkage').lower())
+/home/danieldh/scipion3/scipion-chem/pwchem/protocols/VirtualDrugScreening/protocol_consensus_docking.py:309: ClusterWarning: scipy.cluster: The symmetric non-negative hollow observation matrix looks suspiciously like an uncondensed distance matrix
+  linked = linkage(rmsds, self.getEnumText('linkage').lower())
+/home/danieldh/scipion3/scipion-chem/pwchem/protocols/VirtualDrugScreening/protocol_consensus_docking.py:309: ClusterWarning: scipy.cluster: The symmetric non-negative hollow observation matrix looks suspiciously like an uncondensed distance matrix
+  linked = linkage(rmsds, self.getEnumText('linkage').lower())
+/home/danieldh/scipion3/scipion-chem/pwchem/protocols/VirtualDrugScreening/protocol_consensus_docking.py:309: ClusterWarning: scipy.cluster: The symmetric non-negative hollow observation matrix looks suspiciously like an uncondensed distance matrix
+  linked = linkage(rmsds, self.getEnumText('linkage').lower())

@@ -1,0 +1,35 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005369_ProtocolRMSDDocking/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005369_ProtocolRMSDDocking/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 43809
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/005369_ProtocolRMSDDocking
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: rmsdStep, step 1, time 2023-05-03 16:07:40.882222
+Mol: active_1a28-5_3.pdbqt. RMSD: 33.2501406972932
+Mol: active_1a28-4_1.pdbqt. RMSD: 32.353659248709626
+Mol: active_1a28-5_1.pdbqt. RMSD: 15.281613349075426
+Mol: active_1a28-3_1.pdb. RMSD: 27.02324793162079
+Mol: active_1a28-3_1.pdbqt. RMSD: 15.027940541317415
+Mol: active_1a28-5_4.pdbqt. RMSD: 14.764374173032563
+Mol: active_1a28-2_4.pdbqt. RMSD: 14.970032995001752
+Mol: active_1a28-4_5.pdbqt. RMSD: 14.591642178347653
+Mol: g1_active_1a28-3_4.pdbqt. RMSD: 32.80003846317736
+Mol: g12_active_1a28-5_4.pdbqt. RMSD: 19.36877505342796
+Mol: active_1a28-5_3.pdb. RMSD: 19.308321903451077
+Mol: active_1a28-2_1.pdb. RMSD: 0.3464753732602198
+Mol: active_1a28-1_1.pdb. RMSD: 27.13662837493738
+[35mFINISHED[0m: rmsdStep, step 1, time 2023-05-03 16:07:40.984783
+[35mSTARTED[0m: createOutputStep, step 2, time 2023-05-03 16:07:40.995329
+[35mFINISHED[0m: createOutputStep, step 2, time 2023-05-03 16:07:41.062579
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

@@ -1,0 +1,11 @@
+npts 28 28 28                        # num.grid points in xyz
+gridfld receptor.maps.fld                # grid_data_file
+spacing 0.5                          # spacing(A)
+receptor_types A C HD N NA OA SA     # receptor atom types
+ligand_types        # ligand atom types
+receptor /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/extra/receptor.pdbqt                  # macromolecule
+gridcenter 36.899361702127585 0.3309148936170222 60.076950354610084           # xyz-coordinates or auto
+smooth 0.5                           # store minimum energy w/in rad(A)
+elecmap receptor.e.map                   # electrostatic potential map
+dsolvmap receptor.d.map                  # desolvation potential map
+dielectric -0.1465                   # <0, AD4 distance-dep.diel;>0, constant

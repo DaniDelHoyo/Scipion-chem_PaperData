@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.0379
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7803
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4630
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 9.7500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 254.0417
+HEADER 10  -Pocket volume (convex hull)       : 5.8495
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0556
+ATOM   5000   CB PRO B 306      43.663  20.629  19.912  0.00  0.00           C 0
+ATOM   4997   CA PRO B 306      42.342  20.269  20.579  0.00  0.00           C 0
+ATOM   5001   CG PRO B 306      43.460  22.063  19.597  0.00  0.00           C 0
+ATOM   5047  NH2 ARG B 309      37.547  18.794  15.514  0.00  0.00           N 0
+ATOM   4947    O LYS B 303      36.249  22.162  21.457  0.65  6.43           O 0
+ATOM   4969    O SER B 304      39.929  23.988  20.455  0.63  7.50           O 0
+ATOM   5046  NH1 ARG B 309      35.957  20.126  16.494  0.54  9.84           N 0
+ATOM   4967   CA SER B 304      37.722  24.518  21.188  0.00  0.00           C 0
+ATOM   4267  CD2 LEU B 259      44.035  24.526  17.077  0.00  0.00           C 0
+ATOM   5044   NE ARG B 309      36.881  18.389  17.675  0.74  3.28           N 0
+ATOM   4980    O LEU B 305      40.256  20.575  22.360  0.71  1.07           O 0
+ATOM   5045   CZ ARG B 309      36.799  19.105  16.559  0.00  0.00           C 0
+ATOM   5043   CD ARG B 309      36.088  18.668  18.864  0.00  0.00           C 0
+ATOM   5010    N GLY B 307      41.723  18.005  21.072  0.00  0.00           N 0
+ATOM   5067  OD1 ASN B 310      39.038  14.606  19.104  0.30  7.50           O 0
+TER
+END

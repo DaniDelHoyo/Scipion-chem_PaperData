@@ -1,0 +1,29 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 24583
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/003806_ProtocolPharmacophoreFiltering
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: convertStep, step 1, time 2023-05-04 16:03:09.444762
+[35mFINISHED[0m: convertStep, step 1, time 2023-05-04 16:03:09.450746
+[35mSTARTED[0m: filterStep, step 2, time 2023-05-04 16:03:09.460887
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate rdkit-env && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/pharmacophore_filtering.py  /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputParams.txt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering[0m
+Couldn't embed molecule /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_3_1a28.pdb
+Couldn't embed molecule /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_2_1a28.pdb
+Couldn't embed molecule /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_1_1a28.pdb
+[35mFINISHED[0m: filterStep, step 2, time 2023-05-04 16:03:10.652509
+[35mSTARTED[0m: createOutputStep, step 3, time 2023-05-04 16:03:10.670313
+[35mFINISHED[0m: createOutputStep, step 3, time 2023-05-04 16:03:10.715911
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

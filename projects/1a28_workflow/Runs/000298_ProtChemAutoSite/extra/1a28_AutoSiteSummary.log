@@ -1,0 +1,46 @@
+#################################################################
+# If you used AutoSite in your work, please cite:               #
+#                                                               #
+# Pradeep Anand Ravindranath and Michel F. Sanner               #
+#                                                               #
+# AutoSite: an automated approach for pseudoligands             #
+# prediction - From ligand binding sites identification to      #
+# predicting key ligand atoms                                   #
+#                                                               #
+# Bioinformatics (2016)                                         #
+#                                                               #
+# DOI: 10.1093/bioinformatics/btw367                            #
+#                                                               #
+# Please see http://adfr.scripps.edu/AutoDockFR/autosite.html   #
+# for more information                                          #
+#################################################################
+
+AutoSite v1.0.0 started on euclides a Linux-5.15.0-71-generic-x86_64-with-debian-bullseye-sid computer
+Date Wed May  3 12:35:46 2023
+computing maps ....
+clustering high affinity points ... 
+analysing 18 clusters ... 
+saving 18 clusters and associated feature points in folder 1a28
+
+clust.| Energy| # of |Rad. of | energy |   bns    |score   |Feature Points
+number|       |points|gyration|per vol.|buriedness|v*b^1.5 | D | A | Other
+------+-------+------+--------+--------+----------+--------+---+---+------
+    1  -127.87   226    3.67    -0.57     0.995     60.88    3   3   12
+    2  -182.31   322    4.86    -0.57     0.953     60.18    7  10   14
+    3  -130.61   229    3.93    -0.57     0.995     57.70    2   4   12
+    4  -146.98   287    4.83    -0.51     0.908     48.96    6   8   14
+    5  -137.78   274    4.82    -0.50     0.926     48.78   11   6   14
+    6  -113.96   202    4.88    -0.56     0.937     36.30    8   5    8
+    7   -73.45   179    3.84    -0.41     0.829     32.03    2   2   11
+    8   -64.39   156    3.62    -0.41     0.822     29.14    2   1    9
+    9   -60.52   145    3.21    -0.42     0.802     29.08    5   2    9
+   10   -64.35   141    3.74    -0.46     0.866     28.26    4   1    8
+   11   -55.48   160    3.83    -0.35     0.794     26.37    4   0   10
+   12   -50.66   144    3.38    -0.35     0.770     25.32    1   1    9
+   13   -58.34   164    3.96    -0.36     0.774     24.81    2   2   10
+   14   -52.80   135    3.20    -0.39     0.763     24.58    4   1    7
+   15   -41.64   101    3.14    -0.41     0.866     24.10    2   0    7
+   16   -43.75   127    3.46    -0.34     0.810     24.07    4   0    8
+   17   -40.15   111    3.07    -0.36     0.802     23.25    2   1    7
+   18   -51.48   129    3.76    -0.40     0.788     21.33    5   1    7
+AutoSite identified and characterized 18 clusters in 7.23 seconds, i.e. 0 hours 00 minutes 07.233890 seconds 

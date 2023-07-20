@@ -1,0 +1,36 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005617_ProtSchrodingerDesmondSysPrep/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005617_ProtSchrodingerDesmondSysPrep/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 45335
+pyworkflow: 3.1.0
+plugin: schrodingerScipion
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/005617_ProtSchrodingerDesmondSysPrep
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: solutePreparationStep, step 1, time 2023-05-03 16:21:49.784340
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/Schrodinger2021-3/ligprep  -R h -a -isd /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005617_ProtSchrodingerDesmondSysPrep/tmp/g1_active_1a28-3_4.sdf -omae /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005617_ProtSchrodingerDesmondSysPrep/extra/g1_active_1a28-3_4_tmp.maegz[0m
+JobId: euclides-0-64526e00
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/Schrodinger2021-3/utilities/maesubset  -n 1 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005617_ProtSchrodingerDesmondSysPrep/extra/g1_active_1a28-3_4_tmp.maegz -o /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005617_ProtSchrodingerDesmondSysPrep/extra/g1_active_1a28-3_4.maegz[0m
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/Schrodinger2021-3/utilities/prepwizard -WAIT -noprotassign -noimpref -noepik /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005617_ProtSchrodingerDesmondSysPrep/extra/1a28.pdb /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005617_ProtSchrodingerDesmondSysPrep/extra/1a28.maegz[0m
+JobId: euclides-0-64526e07
+** Running command: **
+[32m zcat /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005617_ProtSchrodingerDesmondSysPrep/extra/g1_active_1a28-3_4.maegz /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005617_ProtSchrodingerDesmondSysPrep/extra/1a28.maegz > Runs/005617_ProtSchrodingerDesmondSysPrep/extra/complexSolute.mae[0m
+[35mFINISHED[0m: solutePreparationStep, step 1, time 2023-05-03 16:22:14.180000
+[35mSTARTED[0m: systemPreparationStep, step 2, time 2023-05-03 16:22:14.200583
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/Schrodinger2021-3/utilities/multisim  -m complexSolute.msj /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005617_ProtSchrodingerDesmondSysPrep/extra/complexSolute.mae -WAIT -o complexSolute_9119361-out.cms -JOBNAME complexSolute_9119361[0m
+WARNING: You did not specify for '-maxjob'. Remember its default value is 1.
+JobId: euclides-0-64526e19
+[35mFINISHED[0m: systemPreparationStep, step 2, time 2023-05-03 16:23:19.388913
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0917
+HEADER 1  - Drug Score                        : 0.0018
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9953
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5679
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 53.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 190.1908
+HEADER 10  -Pocket volume (convex hull)       : 3.1951
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.8095
+ATOM   7148    O SER B 435      63.441  21.824  30.757  0.62  2.14           O 0
+ATOM   7149   CB SER B 435      65.032  21.901  27.922  0.00  0.00           C 0
+ATOM   7147    C SER B 435      64.588  21.639  30.349  0.00  0.00           C 0
+ATOM   6942  CG2 ILE B 422      60.347  19.326  25.836  0.00  0.00           C 0
+ATOM   6943  CD1 ILE B 422      58.812  17.357  27.859  0.00  0.00           C 0
+ATOM   7160   CB SER B 436      65.783  18.469  31.884  0.00  0.00           C 0
+ATOM   7108  CG2 VAL B 432      68.009  17.160  27.371  0.00  0.00           C 0
+ATOM   7157   CA SER B 436      64.857  19.688  31.768  0.00  0.00           C 0
+ATOM   6941  CG1 ILE B 422      58.771  18.880  27.812  0.00  0.00           C 0
+ATOM   7212   CB PHE B 439      60.802  20.427  32.038  0.00  0.00           C 0
+ATOM   7213   CG PHE B 439      59.639  19.476  32.021  0.00  0.00           C 0
+ATOM   7156    N SER B 436      65.357  20.637  30.780  0.68  1.09           N 0
+ATOM   7105    O VAL B 432      67.738  19.504  29.382  0.58  1.07           O 0
+ATOM   7215  CD2 PHE B 439      59.595  18.392  32.885  0.00  0.00           C 0
+TER
+END

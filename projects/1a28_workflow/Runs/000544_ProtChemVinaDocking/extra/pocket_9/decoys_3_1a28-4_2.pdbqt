@@ -1,0 +1,29 @@
+REMARK INTER + INTRA:          -5.349
+REMARK INTER:                  -5.168
+REMARK INTRA:                  -0.181
+REMARK UNBOUND:                -0.206
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N1_10 
+ROOT
+ATOM      1  C1  LG1 d5015      29.161   8.509  48.522  0.00  0.00     0.056 A 
+ATOM      2  C2  LG1 d5015      29.333   9.773  49.085  0.00  0.00    -0.033 A 
+ATOM      3  C3  LG1 d5015      28.493  10.823  48.710  0.00  0.00     0.028 A 
+ATOM      4  C4  LG1 d5015      27.483  10.609  47.774  0.00  0.00     0.012 A 
+ATOM      5  C5  LG1 d5015      27.311   9.343  47.210  0.00  0.00     0.028 A 
+ATOM      6  C6  LG1 d5015      28.150   8.295  47.584  0.00  0.00    -0.033 A 
+ATOM      7  C7  LG1 d5015      27.942   6.951  46.963  0.00  0.00     0.050 C 
+ATOM      8 BR1  LG1 d5015      26.347  12.032  47.266  0.00  0.00    -0.051 Br
+ATOM      9  C8  LG1 d5015      30.405  10.034  50.092  0.00  0.00     0.050 C 
+ENDROOT
+BRANCH   1  10
+ATOM     10  N1  LG1 d5015      30.023   7.428  48.908  0.00  0.00    -0.265 N 
+ATOM     11  C11 LG1 d5015      31.244   7.145  48.296  0.00  0.00     0.148 C 
+ATOM     12  S2  LG1 d5015      32.134   8.035  47.190  0.00  0.00    -0.052 SA
+ATOM     13  S1  LG1 d5015      31.889   5.642  48.946  0.00  0.00    -0.090 SA
+ATOM     14  C10 LG1 d5015      30.672   5.544  50.258  0.00  0.00     0.185 C 
+ATOM     15  C9  LG1 d5015      29.628   6.578  49.951  0.00  0.00     0.239 C 
+ATOM     16  O1  LG1 d5015      28.569   6.602  50.573  0.00  0.00    -0.272 OA
+ENDBRANCH   1  10
+TORSDOF 1
+ENDMDL

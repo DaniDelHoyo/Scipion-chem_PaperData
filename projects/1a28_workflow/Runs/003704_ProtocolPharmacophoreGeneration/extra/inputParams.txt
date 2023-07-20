@@ -1,0 +1,10 @@
+method:: DBSCAN
+kNumber:: 3
+eps:: 2.0
+minType:: Molecules proportion
+minSize:: 0.3
+topClusters:: -1
+propRadii:: 0.5
+features:: Donor Acceptor Hydrophobe Aromatic 
+ligandSmiles:: {'mini_complex_1a28_STR_A_active_LG1-1': '[C@H]12[C@H]3[C@]([C@H](CC3)C(=O)C)(C)CC[C@@H]1[C@@]1(C(=CC(=O)CC1)CC2)C'}
+ligandFiles:: /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003704_ProtocolPharmacophoreGeneration/extra/inputSmallMolecules/mini_complex_1a28_STR_A_active_LG1-1.pdb

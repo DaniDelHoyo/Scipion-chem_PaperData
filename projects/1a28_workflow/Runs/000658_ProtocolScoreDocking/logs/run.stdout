@@ -1,0 +1,35 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000658_ProtocolScoreDocking/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000658_ProtocolScoreDocking/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 25567
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/000658_ProtocolScoreDocking
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: scoringStep, step 1, time 2023-05-03 12:48:03.720616
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate rdkit-env && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/scores_docking_oddt.py /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000658_ProtocolScoreDocking/extra/inputParams_1.txt[0m
+Running ODDT Vina scoring
+[35mFINISHED[0m: scoringStep, step 1, time 2023-05-03 12:48:17.227555
+[35mSTARTED[0m: scoringStep, step 2, time 2023-05-03 12:48:17.248969
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate rdkit-env && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/scores_docking_oddt.py /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000658_ProtocolScoreDocking/extra/inputParams_2.txt[0m
+Loading RFScore model:  /home/danieldh/scipion3/software/em/rdkit/oddtModels/RFScore_v3_pdbbind2016.pickle
+[35mFINISHED[0m: scoringStep, step 2, time 2023-05-03 12:48:32.881408
+[35mSTARTED[0m: scoringStep, step 3, time 2023-05-03 12:48:32.902625
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate rdkit-env && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/scores_docking_oddt.py /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000658_ProtocolScoreDocking/extra/inputParams_3.txt[0m
+Loading NNScore model:  /home/danieldh/scipion3/software/em/rdkit/oddtModels/NNScore_pdbbind2016.pickle
+[35mFINISHED[0m: scoringStep, step 3, time 2023-05-03 12:48:52.844965
+[35mSTARTED[0m: createOutputStep, step 4, time 2023-05-03 12:48:52.863624
+[35mFINISHED[0m: createOutputStep, step 4, time 2023-05-03 12:48:54.655066
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

@@ -1,0 +1,93 @@
+Scheduling protocol 1595, PID: 21877,prerequisites: [], works in streaming: False.
+Waiting 60 seconds before start checking inputs 
+Checking input data...
+Updated protocol: 594 (lephar - LeDock docking)
+pwchem - ODDT score docking doesn't validate:
+	- *Input Docked Small Molecules: * Can not have EMPTY items.
+	- Protocol validation failed. It usually happens because there are some input missing. Please check if the error message gives you any hint:
+Error: AttributeError 
+Description: 'NoneType' object has no attribute 'isDocked' 
+Traceback:
+  File "/home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/protocol/protocol.py", line 2033, in validate
+    childErrors = self._validate()
+
+  File "/home/danieldh/scipion3/scipion-chem/pwchem/protocols/VirtualDrugScreening/protocol_score_dockings.py", line 173, in _validate
+    if not pSet.isDocked():
+
+Checking prerequisites... []
+Still not ready, sleeping 63 seconds...
+
+Checking input data...
+The protocol 594 (lephar - LeDock docking) is up to date
+pwchem - ODDT score docking doesn't validate:
+	- *Input Docked Small Molecules: * Can not have EMPTY items.
+	- Protocol validation failed. It usually happens because there are some input missing. Please check if the error message gives you any hint:
+Error: AttributeError 
+Description: 'NoneType' object has no attribute 'isDocked' 
+Traceback:
+  File "/home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/protocol/protocol.py", line 2033, in validate
+    childErrors = self._validate()
+
+  File "/home/danieldh/scipion3/scipion-chem/pwchem/protocols/VirtualDrugScreening/protocol_score_dockings.py", line 173, in _validate
+    if not pSet.isDocked():
+
+Checking prerequisites... []
+Still not ready, sleeping 63 seconds...
+
+Checking input data...
+The protocol 594 (lephar - LeDock docking) is up to date
+pwchem - ODDT score docking doesn't validate:
+	- *Input Docked Small Molecules: * Can not have EMPTY items.
+	- Protocol validation failed. It usually happens because there are some input missing. Please check if the error message gives you any hint:
+Error: AttributeError 
+Description: 'NoneType' object has no attribute 'isDocked' 
+Traceback:
+  File "/home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/protocol/protocol.py", line 2033, in validate
+    childErrors = self._validate()
+
+  File "/home/danieldh/scipion3/scipion-chem/pwchem/protocols/VirtualDrugScreening/protocol_score_dockings.py", line 173, in _validate
+    if not pSet.isDocked():
+
+Checking prerequisites... []
+Still not ready, sleeping 63 seconds...
+
+Checking input data...
+Updated protocol: 594 (lephar - LeDock docking)
+pwchem - ODDT score docking doesn't validate:
+	- *Input Docked Small Molecules: * Can not have EMPTY items.
+	- Protocol validation failed. It usually happens because there are some input missing. Please check if the error message gives you any hint:
+Error: AttributeError 
+Description: 'NoneType' object has no attribute 'isDocked' 
+Traceback:
+  File "/home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/protocol/protocol.py", line 2033, in validate
+    childErrors = self._validate()
+
+  File "/home/danieldh/scipion3/scipion-chem/pwchem/protocols/VirtualDrugScreening/protocol_score_dockings.py", line 173, in _validate
+    if not pSet.isDocked():
+
+Checking prerequisites... []
+Still not ready, sleeping 63 seconds...
+
+Checking input data...
+Updated protocol: 594 (lephar - LeDock docking)
+pwchem - ODDT score docking doesn't validate:
+	- *Input Docked Small Molecules: * Can not have EMPTY items.
+	- Protocol validation failed. It usually happens because there are some input missing. Please check if the error message gives you any hint:
+Error: AttributeError 
+Description: 'NoneType' object has no attribute 'isDocked' 
+Traceback:
+  File "/home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/protocol/protocol.py", line 2033, in validate
+    childErrors = self._validate()
+
+  File "/home/danieldh/scipion3/scipion-chem/pwchem/protocols/VirtualDrugScreening/protocol_score_dockings.py", line 173, in _validate
+    if not pSet.isDocked():
+
+Checking prerequisites... []
+Still not ready, sleeping 63 seconds...
+
+Checking input data...
+Updated protocol: 594 (lephar - LeDock docking)
+SetOfSmallMolecules (512 items, LeDock class) is not blocking this protocol. All ready.
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/dcoid_1a28" "Runs/001595_ProtocolScoreDocking/logs/run.db" 1595 "/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/001595_ProtocolScoreDocking/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/001595_ProtocolScoreDocking/logs/run.stderr"[0m'

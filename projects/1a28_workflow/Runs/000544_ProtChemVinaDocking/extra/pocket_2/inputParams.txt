@@ -1,0 +1,13 @@
+ligandFiles:: /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/decoys_3_1a28-1.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/decoys_3_1a28-2.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/decoys_3_1a28-3.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/decoys_3_1a28-4.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/decoys_2_1a28-2.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/decoys_2_1a28-3.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/decoys_2_1a28-5.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/decoys_2_1a28-4.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/decoys_2_1a28-1.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/active_1a28-2.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/active_1a28-3.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/active_1a28-5.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/active_1a28-4.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/active_1a28-1.pdbqt /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/tmp/decoys_1_1a28-1.pdbqt
+receptorFile:: /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/extra/receptor.pdbqt
+mapsName:: 1a28
+gpfFile:: /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/extra/pocket_2/receptor.gpf
+boxSize:: [17.322817322825987, 17.322817322825987, 17.322817322825987]
+boxCenter:: [42.26403726708063, 35.625086956521955, 30.0891304347828]
+scoreName:: Vina
+exhaust:: 8
+nPoses:: 5
+minRMSD:: 2.0
+maxEvals:: 0
+nCPUs:: 0
+outDir:: /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000544_ProtChemVinaDocking/extra/pocket_2

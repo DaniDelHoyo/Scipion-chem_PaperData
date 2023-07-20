@@ -1,0 +1,16 @@
+ActiveComplex,2
+ImportReceptor,37
+ImportLigands,72
+PrepareReceptor,137
+PrepareLigands,173
+fpocket,225
+p2rank,266
+autosite,298
+consensusStrutROIs,360
+consensusStrutROIsRob,408
+adGPUDock,463
+vinaDock,544
+ledockDock,594
+ODDTVina,658
+ODDTrf,711
+ODDTplec,764

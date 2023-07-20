@@ -1,0 +1,26 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003581_ProtMapSequenceROI/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003581_ProtMapSequenceROI/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 39502
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/003581_ProtMapSequenceROI
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: alignSequencesStep, step 1, time 2023-05-04 17:14:44.661638
+Your sequence is an aminoacid sequence
+[35mFINISHED[0m: alignSequencesStep, step 1, time 2023-05-04 17:14:45.471514
+[35mSTARTED[0m: definePocketsStep, step 2, time 2023-05-04 17:14:45.490785
+[434, 459, 294]
+[35mFINISHED[0m: definePocketsStep, step 2, time 2023-05-04 17:14:45.988175
+[35mSTARTED[0m: defineOutputStep, step 3, time 2023-05-04 17:14:46.007169
+[35mFINISHED[0m: defineOutputStep, step 3, time 2023-05-04 17:14:46.447686
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

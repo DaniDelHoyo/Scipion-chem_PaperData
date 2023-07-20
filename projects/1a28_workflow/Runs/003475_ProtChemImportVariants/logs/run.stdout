@@ -1,0 +1,25 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003475_ProtChemImportVariants/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003475_ProtChemImportVariants/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 143730
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/003475_ProtChemImportVariants
+runMode: Continue
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: downLoadFasta, step 1, time 2023-04-27 12:35:50.305791
+Fetching uniprot: https://www.uniprot.org/uniprot/P06401.fasta
+[35mFINISHED[0m: downLoadFasta, step 1, time 2023-04-27 12:35:52.009943
+[35mSTARTED[0m: extractStep, step 2, time 2023-04-27 12:35:52.030662
+Processing P06401
+Fetching uniprot: https://www.uniprot.org/uniprot/P06401.xml
+[35mFINISHED[0m: extractStep, step 2, time 2023-04-27 12:35:53.695091
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

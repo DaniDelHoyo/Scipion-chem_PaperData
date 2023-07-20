@@ -1,0 +1,151 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003075_ProtChemOBabelPrepareLigands/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003075_ProtChemOBabelPrepareLigands/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 131676
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/003075_ProtChemOBabelPrepareLigands
+runMode: Restart
+          MPI: 1
+      threads: 4
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: addChargesStep, step 1, time 2023-04-27 12:13:17.476437
+[35mSTARTED[0m: addChargesStep, step 2, time 2023-04-27 12:13:17.481534
+[35mSTARTED[0m: addChargesStep, step 3, time 2023-04-27 12:13:17.491189
+[35mFINISHED[0m: addChargesStep, step 1, time 2023-04-27 12:13:17.736695
+[35mFINISHED[0m: addChargesStep, step 2, time 2023-04-27 12:13:17.739718
+[35mFINISHED[0m: addChargesStep, step 3, time 2023-04-27 12:13:17.980474
+[35mSTARTED[0m: conformersStep, step 4, time 2023-04-27 12:13:18.027947
+[35mSTARTED[0m: conformersStep, step 5, time 2023-04-27 12:13:18.033400
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate plip-env && obabel   '/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003075_ProtChemOBabelPrepareLigands/extra/decoys_3_1a28_prep.mol2' --conformer --nconf 5 --score rmsd --writeconformers -O 'decoys_3_1a28_conformers.mol2'[0m
+[35mSTARTED[0m: conformersStep, step 6, time 2023-04-27 12:13:18.041388
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate plip-env && obabel   '/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003075_ProtChemOBabelPrepareLigands/extra/decoys_2_1a28_prep.mol2' --conformer --nconf 5 --score rmsd --writeconformers -O 'decoys_2_1a28_conformers.mol2'[0m
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate plip-env && obabel   '/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003075_ProtChemOBabelPrepareLigands/extra/active_1a28_prep.mol2' --conformer --nconf 5 --score rmsd --writeconformers -O 'active_1a28_conformers.mol2'[0m
+Initial conformer does not pass filter!
+Initial conformer count: 5
+62 attempts,  43 duplicates, 14 failed filter.
+5 
+6 
+3 
+7 
+4 
+
+=====> Starting conformers search with a Genetic Algorithm <=====
+Perform elitist generation replacement with mutation only
+Mutation probability: 0.2
+Will stop after 5 generations without improvement.
+
+Generation #1  0.62222
+Initial conformer count: 4
+5000 attempts,  3513 duplicates, 1484 failed filter.
+0 
+1 
+2 
+3 
+
+=====> Starting conformers search with a Genetic Algorithm <=====
+Perform elitist generation replacement with mutation only
+Mutation probability: 0.2
+Will stop after 5 generations without improvement.
+
+Initial conformer count: 5
+25 attempts,  21 duplicates, 0 failed filter.
+0 
+2 
+10 
+11 
+9 
+
+=====> Starting conformers search with a Genetic Algorithm <=====
+Perform elitist generation replacement with mutation only
+Mutation probability: 0.2
+Will stop after 5 generations without improvement.
+
+Generation #1  0.229545
+Generation #2  0.62222
+Generation #2  0.229545
+Generation #1  0.464662
+Generation #3  0.229545
+Generation #3  0.62222
+Generation #4  0.229545
+Generation #2  0.464662
+Generation #5  0.229545
+Generation #4  0.62222
+Generation #6  0.229545
+5 
+8 
+3 
+11 
+4 
+GetConformers:
+5 
+8 
+3 
+11 
+4 
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate plip-env && obabel   '/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003075_ProtChemOBabelPrepareLigands/extra/decoys_1_1a28_prep.mol2' --conformer --nconf 5 --score rmsd --writeconformers -O 'decoys_1_1a28_conformers.mol2'[0m
+Generation #3  0.464662
+Generation #5  0.62222
+Generation #4  0.464662
+Generation #6  0.62222
+5 
+4 
+2 
+1 
+6 
+GetConformers:
+5 
+4 
+2 
+1 
+6 
+Generation #5  0.464662
+Generation #6  0.464662
+0 
+3 
+2 
+1 
+GetConformers:
+0 
+3 
+2 
+1 
+Initial conformer does not pass filter!
+[35mFINISHED[0m: conformersStep, step 4, time 2023-04-27 12:13:18.349321
+Initial conformer count: 1
+5000 attempts,  1167 duplicates, 3832 failed filter.
+1 0 
+
+=====> Starting conformers search with a Genetic Algorithm <=====
+Perform elitist generation replacement with mutation only
+Mutation probability: 0.2
+Will stop after 5 generations without improvement.
+
+Generation #1  1e+11
+[35mFINISHED[0m: conformersStep, step 5, time 2023-04-27 12:13:18.337794
+Generation #2  1e+11
+Generation #3  1e+11
+Generation #4  1e+11
+Generation #5  1e+11
+Generation #6  1e+11
+1 0 
+GetConformers:
+1 0 
+[35mFINISHED[0m: conformersStep, step 6, time 2023-04-27 12:13:18.606930
+[35mSTARTED[0m: createOutput, step 7, time 2023-04-27 12:13:19.104672
+Look for  Runs/003075_ProtChemOBabelPrepareLigands/extra/decoys_3_1a28_prep.mol2
+Look for  Runs/003075_ProtChemOBabelPrepareLigands/extra/decoys_2_1a28_prep.mol2
+Look for  Runs/003075_ProtChemOBabelPrepareLigands/extra/active_1a28_prep.mol2
+Look for  Runs/003075_ProtChemOBabelPrepareLigands/extra/decoys_1_1a28_prep.mol2
+[35mFINISHED[0m: createOutput, step 7, time 2023-04-27 12:13:19.170177
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

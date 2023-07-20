@@ -1,0 +1,26 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000225_FpocketFindPockets/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000225_FpocketFindPockets/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 29039
+pyworkflow: 3.0.29
+plugin: fpocket
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/000225_FpocketFindPockets
+runMode: Continue
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: convertInputStep, step 1, time 2023-02-07 15:18:52.887421
+[35mFINISHED[0m: convertInputStep, step 1, time 2023-02-07 15:18:52.901658
+[35mSTARTED[0m: fPocketStep, step 2, time 2023-02-07 15:18:52.928501
+[32m /home/danieldh/scipion3/software/em/fpocket-3.0/bin/fpocket "-f" "/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000225_FpocketFindPockets/extra/1a28.pdb" "-m" "3.4" "-M" "6.2" "-i" "15" "-p" "0.0" "-A" "3" "-C" "s" "-e" "e" "-D" "2.4" "-v" "300"[0m
+***** POCKET HUNTING BEGINS ***** 
+***** POCKET HUNTING ENDS ***** 
+[35mFINISHED[0m: fPocketStep, step 2, time 2023-02-07 15:18:54.312640
+[35mSTARTED[0m: createOutputStep, step 3, time 2023-02-07 15:18:54.330627
+[35mFINISHED[0m: createOutputStep, step 3, time 2023-02-07 15:18:57.983563
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

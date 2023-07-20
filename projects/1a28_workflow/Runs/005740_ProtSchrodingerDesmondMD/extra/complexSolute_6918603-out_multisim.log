@@ -1,0 +1,313 @@
+Job launching command:
+$SCHRODINGER/utilities/multisim -m /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005740_ProtSchrodingerDesmondMD/tmp/simulation_7779161.msj /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005557_ProtSchrodingerDesmondSysPrep/complexSolute_6918603-out.cms -o unmerged-simulation.cms -WAIT -JOBNAME simulation_7779161
+
+Booting the multisim workflow engine...
+           multisim version: 3.8.5.19
+            mmshare version: 5.5
+                    Jobname: simulation_7779161
+                   Username: danieldh
+            Master job host: undetected
+                Subjob host: localhost
+                     Job ID: euclides-0-64527153
+            multisim script: simulation_7779161.msj
+       Structure input file: complexSolute_6918603-out.cms
+            CPUs per subjob: "1"
+             Job start time: Wed May  3 16:36:05 2023
+           Launch directory: /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005740_ProtSchrodingerDesmondMD/tmp
+               $SCHRODINGER: /home/danieldh/scipion3/software/em/Schrodinger2021-3
+               $OPLS_DIR: <empty>
+
+Parsing the multisim script file...
+
+Summary of user stages:
+  stage 1 - task
+  stage 2 - simulate
+  stage 3 - simulate
+  stage 4 - simulate
+  stage 5 - simulate
+  stage 6 - simulate
+  stage 7 - simulate
+(7 stages in total)
+
+Workflow is started now.
+
+Stage 1 - task
+stage[1] task: Detecting system type...
+stage[1] task:   It seems a mature model system created for regular molecular dynamics simulations
+stage[1] task: Recognizing traits of system...
+stage[1] task:   (none)
+
+Stage 1 completed successfully.
+Stage 1 duration: 0h 0' 1"
+
+
+Stage 2 - simulate
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  3
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  euclides-0-6452715d simulation_7779161_2 localhost [euclides]
+1 0 0 | finished  euclides-0-6452715d simulation_7779161_2 localhost [euclides]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+
+Job("euclides-0-6452715d") was successfully finished.
+  Host       : localhost
+  Launch time: Wed May  3 16:36:13 2023
+  Start time : Wed May  3 16:36:13 2023
+  End time   : Wed May  3 16:38:39 2023
+  Duration   : 0h 2' 26"
+  CPUs       : 1
+  CPU time   : 0h 2' 26"
+  Exit code  : 0
+  Jobname    : simulation_7779161_2
+  Stage      : 2 (simulate)
+
+Stage 2 completed successfully.
+Stage 2 duration: 0h 2' 33"
+
+
+Stage 3 - simulate
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  3
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  euclides-0-645271f6 simulation_7779161_3 localhost [euclides]
+1 0 0 | finished  euclides-0-645271f6 simulation_7779161_3 localhost [euclides]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+
+Job("euclides-0-645271f6") was successfully finished.
+  Host       : localhost
+  Launch time: Wed May  3 16:38:46 2023
+  Start time : Wed May  3 16:38:46 2023
+  End time   : Wed May  3 16:39:24 2023
+  Duration   : 0h 0' 38"
+  CPUs       : 1
+  CPU time   : 0h 0' 38"
+  Exit code  : 0
+  Jobname    : simulation_7779161_3
+  Stage      : 3 (simulate)
+
+Stage 3 completed successfully.
+Stage 3 duration: 0h 0' 45"
+
+
+Stage 4 - simulate
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  3
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  euclides-0-64527224 simulation_7779161_4 localhost [euclides]
+1 0 0 | finished  euclides-0-64527224 simulation_7779161_4 localhost [euclides]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+
+Job("euclides-0-64527224") was successfully finished.
+  Host       : localhost
+  Launch time: Wed May  3 16:39:32 2023
+  Start time : Wed May  3 16:39:32 2023
+  End time   : Wed May  3 16:40:05 2023
+  Duration   : 0h 0' 33"
+  CPUs       : 1
+  CPU time   : 0h 0' 33"
+  Exit code  : 0
+  Jobname    : simulation_7779161_4
+  Stage      : 4 (simulate)
+
+Stage 4 completed successfully.
+Stage 4 duration: 0h 0' 41"
+
+
+Stage 5 - simulate
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  3
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  euclides-0-6452724d simulation_7779161_5 localhost [euclides]
+1 0 0 | finished  euclides-0-6452724d simulation_7779161_5 localhost [euclides]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+
+Job("euclides-0-6452724d") was successfully finished.
+  Host       : localhost
+  Launch time: Wed May  3 16:40:13 2023
+  Start time : Wed May  3 16:40:13 2023
+  End time   : Wed May  3 16:40:47 2023
+  Duration   : 0h 0' 34"
+  CPUs       : 1
+  CPU time   : 0h 0' 34"
+  Exit code  : 0
+  Jobname    : simulation_7779161_5
+  Stage      : 5 (simulate)
+
+Stage 5 completed successfully.
+Stage 5 duration: 0h 0' 42"
+
+
+Stage 6 - simulate
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  3
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  euclides-0-64527278 simulation_7779161_6 localhost [euclides]
+1 0 0 | finished  euclides-0-64527278 simulation_7779161_6 localhost [euclides]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+
+Job("euclides-0-64527278") was successfully finished.
+  Host       : localhost
+  Launch time: Wed May  3 16:40:56 2023
+  Start time : Wed May  3 16:40:56 2023
+  End time   : Wed May  3 16:41:40 2023
+  Duration   : 0h 0' 44"
+  CPUs       : 1
+  CPU time   : 0h 0' 44"
+  Exit code  : 0
+  Jobname    : simulation_7779161_6
+  Stage      : 6 (simulate)
+
+Stage 6 completed successfully.
+Stage 6 duration: 0h 0' 54"
+
+
+Stage 7 - simulate
+
+Running subjobs on hosts:
+  localhost (Max: 1)
+Number of jobs:       1
+Max retries per job:  3
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 0 | launched  euclides-0-645272ae simulation_7779161_7 localhost [euclides]
+1 0 0 | finished  euclides-0-645272ae simulation_7779161_7 localhost [euclides]
+
+All jobs have completed.
+
+1 of 1 job(s) succeeded; 0 job(s) failed.
+
+
+Job("euclides-0-645272ae") was successfully finished.
+  Host       : localhost
+  Launch time: Wed May  3 16:41:50 2023
+  Start time : Wed May  3 16:41:50 2023
+  End time   : Wed May  3 16:44:57 2023
+  Duration   : 0h 3' 7"
+  CPUs       : 1
+  CPU time   : 0h 3' 7"
+  Exit code  : 0
+  Jobname    : simulation_7779161_7
+  Stage      : 7 (simulate)
+
+Stage 7 completed successfully.
+Stage 7 duration: 0h 3' 19"
+
+Cleaning up files...
+
+Multisim summary (Wed May  3 16:45:05 2023):
+  Stage 1 completed.
+  Stage 2 completed.
+  Stage 3 completed.
+  Stage 4 completed.
+  Stage 5 completed.
+  Stage 6 completed.
+  Stage 7 completed.
+  Total duration: 0h 8' 59"
+  Total GPU time: 0h 8' 2" (used by 6 subjob(s))
+Multisim completed.

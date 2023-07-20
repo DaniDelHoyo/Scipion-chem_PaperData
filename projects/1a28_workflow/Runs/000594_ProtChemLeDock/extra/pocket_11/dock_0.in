@@ -1,0 +1,18 @@
+Receptor
+pro.pdb
+
+RMSD
+1.0
+
+Binding pocket
+29.98748578870491 43.42714166227548
+25.642701474979425 39.08235734855
+48.64389755341078 62.083553426981354
+
+Number of binding poses
+5
+
+Ligands list
+ligandsBase_0.list
+
+END

@@ -1,0 +1,8 @@
+Scheduling protocol 3519, PID: 39311,prerequisites: [], works in streaming: False.
+Waiting 0 seconds before start checking inputs 
+Checking input data...
+The protocol 3475 (pwchem - Import sequence variants) is up to date
+SequenceVariants (id=P06401, numberOfVariants=14) is not blocking this protocol. All ready.
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/dcoid_1a28" "Runs/003519_ProtDefineSeqROI/logs/run.db" 3519 "/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003519_ProtDefineSeqROI/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003519_ProtDefineSeqROI/logs/run.stderr"[0m'

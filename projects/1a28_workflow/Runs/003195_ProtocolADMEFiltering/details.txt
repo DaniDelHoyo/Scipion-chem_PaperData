@@ -1,0 +1,102 @@
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_3_1a28-1.sdf descriptors:
+molecular weight: 325.01696836
+n_hba: 4
+n_hbd: 2
+logp: 2.765100000000002
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_3_1a28-2.sdf descriptors:
+molecular weight: 325.01696836
+n_hba: 4
+n_hbd: 2
+logp: 2.765100000000002
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_3_1a28-3.sdf descriptors:
+molecular weight: 325.01696836
+n_hba: 4
+n_hbd: 2
+logp: 2.765100000000002
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_3_1a28-4.sdf descriptors:
+molecular weight: 325.01696836
+n_hba: 4
+n_hbd: 2
+logp: 2.765100000000002
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_3_1a28-5.sdf descriptors:
+molecular weight: 325.01696836
+n_hba: 4
+n_hbd: 2
+logp: 2.765100000000002
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_2_1a28-1.sdf descriptors:
+molecular weight: 334.060213076
+n_hba: 3
+n_hbd: 1
+logp: 3.0691000000000015
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_2_1a28-2.sdf descriptors:
+molecular weight: 334.060213076
+n_hba: 3
+n_hbd: 1
+logp: 3.0691000000000015
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_2_1a28-3.sdf descriptors:
+molecular weight: 334.060213076
+n_hba: 3
+n_hbd: 1
+logp: 3.0691000000000015
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_2_1a28-4.sdf descriptors:
+molecular weight: 334.060213076
+n_hba: 3
+n_hbd: 1
+logp: 3.0691000000000015
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_2_1a28-5.sdf descriptors:
+molecular weight: 334.060213076
+n_hba: 3
+n_hbd: 1
+logp: 3.0691000000000015
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/active_1a28-1.sdf descriptors:
+molecular weight: 320.271530392
+n_hba: 2
+n_hbd: 2
+logp: 4.387000000000004
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/active_1a28-2.sdf descriptors:
+molecular weight: 320.271530392
+n_hba: 2
+n_hbd: 2
+logp: 4.387000000000004
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_1_1a28-1.sdf descriptors:
+molecular weight: 322.127996084
+n_hba: 2
+n_hbd: 1
+logp: 2.886800000000001
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_1_1a28-2.sdf descriptors:
+molecular weight: 322.127996084
+n_hba: 2
+n_hbd: 1
+logp: 2.886800000000001
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_1_1a28-3.sdf descriptors:
+molecular weight: 322.127996084
+n_hba: 2
+n_hbd: 1
+logp: 2.886800000000001
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_1_1a28-4.sdf descriptors:
+molecular weight: 322.127996084
+n_hba: 2
+n_hbd: 1
+logp: 2.886800000000001
+
+/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/decoys_1_1a28-5.sdf descriptors:
+molecular weight: 322.127996084
+n_hba: 2
+n_hbd: 1
+logp: 2.886800000000001
+

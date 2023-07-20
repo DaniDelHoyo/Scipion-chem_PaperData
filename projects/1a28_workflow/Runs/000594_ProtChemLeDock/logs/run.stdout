@@ -1,0 +1,72 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 22311
+pyworkflow: 3.1.0
+plugin: lephar
+plugin binary v: 1.0
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/000594_ProtChemLeDock
+runMode: Restart
+          MPI: 1
+      threads: 5
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: convertStep, step 1, time 2023-05-03 12:45:20.869363
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/lepro_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000298_ProtChemAutoSite/extra/1a28.pdbqt[0m
+[35mFINISHED[0m: convertStep, step 1, time 2023-05-03 12:45:20.905684
+[35mSTARTED[0m: dockStep, step 2, time 2023-05-03 12:45:21.392821
+[35mSTARTED[0m: dockStep, step 3, time 2023-05-03 12:45:21.398034
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/extra/pocket_1/dock_0.in[0m
+[35mSTARTED[0m: dockStep, step 4, time 2023-05-03 12:45:21.408279
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/extra/pocket_2/dock_0.in[0m
+[35mSTARTED[0m: dockStep, step 5, time 2023-05-03 12:45:21.419698
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/extra/pocket_3/dock_0.in[0m
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/extra/pocket_4/dock_0.in[0m
+[35mFINISHED[0m: dockStep, step 2, time 2023-05-03 12:47:54.987835
+[35mSTARTED[0m: dockStep, step 6, time 2023-05-03 12:47:55.147032
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/extra/pocket_5/dock_0.in[0m
+[35mFINISHED[0m: dockStep, step 4, time 2023-05-03 12:47:56.872105
+[35mSTARTED[0m: dockStep, step 7, time 2023-05-03 12:47:57.191655
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/extra/pocket_6/dock_0.in[0m
+[35mFINISHED[0m: dockStep, step 3, time 2023-05-03 12:47:58.444109
+[35mSTARTED[0m: dockStep, step 8, time 2023-05-03 12:47:58.734792
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/extra/pocket_7/dock_0.in[0m
+[35mFINISHED[0m: dockStep, step 5, time 2023-05-03 12:48:05.624042
+[35mSTARTED[0m: dockStep, step 9, time 2023-05-03 12:48:05.782443
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/extra/pocket_8/dock_0.in[0m
+[35mFINISHED[0m: dockStep, step 7, time 2023-05-03 12:49:29.864492
+[35mSTARTED[0m: dockStep, step 10, time 2023-05-03 12:49:29.903729
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/extra/pocket_9/dock_0.in[0m
+[35mFINISHED[0m: dockStep, step 9, time 2023-05-03 12:49:34.504775
+[35mSTARTED[0m: dockStep, step 11, time 2023-05-03 12:49:34.935235
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/extra/pocket_10/dock_0.in[0m
+[35mFINISHED[0m: dockStep, step 8, time 2023-05-03 12:49:35.097505
+[35mSTARTED[0m: dockStep, step 12, time 2023-05-03 12:49:35.458986
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/extra/pocket_11/dock_0.in[0m
+[35mFINISHED[0m: dockStep, step 6, time 2023-05-03 12:49:35.679109
+[35mSTARTED[0m: dockStep, step 13, time 2023-05-03 12:49:35.982657
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/lephar-1.0/bin/ledock_linux_x86 /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000594_ProtChemLeDock/extra/pocket_12/dock_0.in[0m
+[35mFINISHED[0m: dockStep, step 11, time 2023-05-03 12:50:15.832944
+[35mFINISHED[0m: dockStep, step 13, time 2023-05-03 12:50:19.605768
+[35mFINISHED[0m: dockStep, step 10, time 2023-05-03 12:50:22.169920
+[35mFINISHED[0m: dockStep, step 12, time 2023-05-03 12:50:25.427081
+[35mSTARTED[0m: createOutputStep, step 14, time 2023-05-03 12:50:25.615392
+[35mFINISHED[0m: createOutputStep, step 14, time 2023-05-03 12:50:27.078680
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.0663
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.1429
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6670
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 20.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 334.5818
+HEADER 10  -Pocket volume (convex hull)       : 12.2303
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.8000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4762
+ATOM   6144   CB GLN B 375      55.175  36.527  43.302  0.00  0.00           C 0
+ATOM   6216   NZ LYS B 379      60.049  31.897  44.129  0.00  0.00           N 0
+ATOM   6142    C GLN B 375      56.092  35.388  41.247  0.00  0.00           C 0
+ATOM   6215   CE LYS B 379      60.619  32.924  43.203  0.00  0.00           C 0
+ATOM   6164  OE1 GLU B 376      57.753  31.062  42.615  0.36  9.64           O 0
+ATOM   6093    O GLN B 372      53.392  33.389  43.211  0.59  4.29           O 0
+ATOM   6094   CB GLN B 372      51.901  32.627  45.945  0.00  0.00           C 0
+ATOM   6019    O LEU B 368      49.546  35.473  48.574  0.52  2.14           O 0
+ATOM   6090    N GLN B 372      50.815  34.729  45.275  0.00  0.00           N 0
+ATOM   6145   CG GLN B 375      54.447  37.723  43.931  0.00  0.00           C 0
+ATOM   6091   CA GLN B 372      52.008  33.904  45.109  0.00  0.00           C 0
+ATOM   6070   CB TRP B 371      49.620  37.800  45.960  0.00  0.00           C 0
+ATOM   6068    C TRP B 371      50.685  35.898  44.653  0.00  0.00           C 0
+ATOM   6071   CG TRP B 371      50.370  38.988  45.475  0.00  0.00           C 0
+ATOM   6076  CE3 TRP B 371      50.029  40.714  47.383  0.00  0.00           C 0
+ATOM   6073  CD2 TRP B 371      50.457  40.246  46.136  0.00  0.00           C 0
+ATOM   6148  NE2 GLN B 375      55.567  39.690  44.831  0.00  0.00           N 0
+ATOM   6095   CG GLN B 372      51.949  32.823  47.457  0.00  0.00           C 0
+ATOM   6097  OE1 GLN B 372      51.590  30.454  47.621  0.88  9.64           O 0
+TER
+END

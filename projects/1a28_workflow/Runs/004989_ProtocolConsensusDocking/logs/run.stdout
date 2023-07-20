@@ -1,0 +1,22 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/004989_ProtocolConsensusDocking/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/004989_ProtocolConsensusDocking/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 36832
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/004989_ProtocolConsensusDocking
+runMode: Restart
+          MPI: 1
+      threads: 4
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: consensusStep, step 1, time 2023-05-03 15:20:02.111534
+[35mFINISHED[0m: consensusStep, step 1, time 2023-05-03 15:20:11.882392
+[35mSTARTED[0m: createOutputStep, step 2, time 2023-05-03 15:20:11.999518
+[35mFINISHED[0m: createOutputStep, step 2, time 2023-05-03 15:20:12.036634
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

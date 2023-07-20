@@ -1,0 +1,326 @@
+                     :-) GROMACS - gmx pdb2gmx, 2021.5 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov     
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar       
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd        
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra      
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof      
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang      
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan        
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus        
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul     
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund       
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola       
+        Szilard Pall               Sander Pronk              Roland Schulz       
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers      
+       Peter Tieleman              Jon Vincent              Teemu Virolainen     
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov       
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx pdb2gmx, version 2021.5
+Executable:   /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx
+Data prefix:  /home/danieldh/scipion3/software/em/gromacs-2021.5
+Working dir:  /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/006556_GromacsSystemPrep
+Command line:
+  gmx pdb2gmx -f /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/006518_ProtImportPdb/extra/1a28.pdb -o 1a28_processed.gro -water tip3p -ff amber03 -merge all
+
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.r2b
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/dna.r2b
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/rna.r2b
+All occupancies are one
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/atomtypes.atp
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.rtp
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/dna.rtp
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/rna.rtp
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.hdb
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/dna.hdb
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/rna.hdb
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.n.tdb
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.c.tdb
+Analysing hydrogen-bonding network for automated assignment of histidine
+ protonation. 756 donors and 725 acceptors were found.
+There are 1036 hydrogen bonds
+Will use HISE for residue 22
+Will use HISE for residue 62
+Will use HISE for residue 89
+Will use HISE for residue 200
+Will use HISE for residue 207
+Will use HISE for residue 250
+Will use HISE for residue 272
+Will use HISE for residue 312
+Will use HISE for residue 339
+Will use HISE for residue 450
+Will use HISE for residue 457
+Will use HISE for residue 500
+8 out of 8 lines of specbond.dat converted successfully
+Special Atom Distance matrix:
+                   MET11   HIS22   HIS62   MET75   MET78   HIS89   MET94
+                   SD182  NE2346  NE2981  SD1199  SD1246 NE21437  SD1502
+   HIS22  NE2346   2.813
+   HIS62  NE2981   3.217   4.145
+   MET75  SD1199   2.301   1.883   2.697
+   MET78  SD1246   1.887   1.736   2.528   0.636
+   HIS89 NE21437   1.228   1.753   3.798   1.954   1.611
+   MET94  SD1502   2.303   1.347   4.494   2.067   2.011   1.134
+  MET108  SD1742   2.778   1.320   4.174   1.492   1.741   1.815   1.058
+  CYS117  SG1888   2.633   1.343   3.809   1.119   1.416   1.784   1.263
+  MET120  SD1933   2.289   1.623   3.325   0.666   1.018   1.671   1.506
+  CYS139  SG2262   1.068   3.390   2.779   2.238   2.031   2.003   2.852
+  MET140  SD2274   1.356   2.988   3.094   1.796   1.778   1.752   2.318
+  MET163  SD2659   1.882   3.570   1.524   2.104   1.884   2.675   3.487
+  HIS200 NE23291   2.380   3.128   2.430   1.322   1.630   2.583   2.894
+  HIS207 NE23413   2.507   2.411   2.346   0.543   0.981   2.383   2.571
+  CYS210  SG3466   2.777   1.858   2.726   0.562   0.927   2.358   2.362
+  MET227  SD3736   2.448   2.252   2.023   1.573   1.128   2.403   2.939
+  MET228  SD3753   2.551   1.566   2.672   0.829   0.702   2.109   2.264
+  MET243  SD3978   3.801   3.847   2.320   2.065   2.481   3.897   4.042
+  HIS250 NE24108   2.386   3.842   3.196   2.306   2.508   2.826   3.199
+  MET261  SD4303   7.009   5.898   5.398   4.808   5.333   6.709   6.375
+  HIS272 NE24467   5.948   4.983   3.644   3.976   4.224   5.812   5.830
+  HIS312 NE25102   5.532   3.733   5.481   3.405   3.960   4.779   4.025
+  MET325  SD5320   4.917   4.024   3.379   2.744   3.209   4.690   4.551
+  MET328  SD5367   5.417   4.275   3.886   3.189   3.651   5.108   4.885
+  HIS339 NE25558   6.844   5.872   4.797   4.711   5.148   6.657   6.483
+  MET344  SD5623   6.522   5.916   4.059   4.589   4.937   6.517   6.539
+  MET358  SD5863   5.704   5.316   3.265   3.857   4.192   5.766   5.859
+  CYS367  SG6009   5.325   4.842   2.989   3.431   3.755   5.340   5.427
+  MET370  SD6054   5.258   4.626   3.269   3.228   3.638   5.176   5.151
+  CYS389  SG6383   6.635   5.710   5.382   4.518   5.104   6.343   5.962
+  MET390  SD6395   6.181   5.528   4.697   4.143   4.700   6.020   5.777
+  MET413  SD6780   6.036   4.774   5.301   3.857   4.462   5.556   5.021
+  HIS450 NE27412   4.973   4.432   3.909   2.965   3.549   4.793   4.570
+  HIS457 NE27534   4.605   3.750   3.394   2.415   2.941   4.345   4.159
+  CYS460  SG7587   4.542   3.559   3.091   2.354   2.771   4.282   4.176
+  MET477  SD7857   5.564   3.870   4.471   3.276   3.709   5.029   4.632
+  MET478  SD7874   5.042   3.787   3.547   2.826   3.215   4.703   4.526
+  MET493  SD8099   3.529   2.919   3.444   1.502   2.136   3.179   2.913
+  HIS500 NE28230   5.751   5.443   4.651   3.930   4.514   5.660   5.434
+                  MET108  CYS117  MET120  CYS139  MET140  MET163  HIS200
+                  SD1742  SG1888  SD1933  SG2262  SD2274  SD2659 NE23291
+  CYS117  SG1888   0.377
+  MET120  SD1933   0.883   0.541
+  CYS139  SG2262   3.019   2.806   2.340
+  MET140  SD2274   2.364   2.175   1.737   0.812
+  MET163  SD2659   3.382   3.066   2.538   1.260   1.692
+  HIS200 NE23291   2.428   2.114   1.605   1.714   1.315   1.567
+  HIS207 NE23413   1.957   1.585   1.117   2.219   1.836   1.874   0.976
+  CYS210  SG3466   1.661   1.297   1.035   2.753   2.353   2.442   1.715
+  MET227  SD3736   2.717   2.403   2.090   2.649   2.681   2.027   2.375
+  MET228  SD3753   1.791   1.466   1.245   2.721   2.442   2.402   2.049
+  MET243  SD3978   3.276   2.929   2.542   3.179   2.899   2.482   1.589
+  HIS250 NE24108   2.988   2.778   2.331   1.482   1.102   1.966   1.183
+  MET261  SD4303   5.334   5.122   5.063   6.530   6.068   5.913   4.832
+  HIS272 NE24467   4.978   4.668   4.493   5.644   5.455   4.679   4.276
+  HIS312 NE25102   3.011   2.997   3.248   5.393   4.700   5.312   3.946
+  MET325  SD5320   3.593   3.300   3.132   4.512   4.126   3.834   2.897
+  MET328  SD5367   3.895   3.632   3.534   5.061   4.653   4.396   3.452
+  HIS339 NE25558   5.492   5.226   5.096   6.372   6.030   5.570   4.749
+  MET344  SD5623   5.631   5.316   5.086   6.001   5.796   5.043   4.504
+  MET358  SD5863   4.997   4.662   4.380   5.151   4.971   4.191   3.682
+  CYS367  SG6009   4.572   4.236   3.963   4.833   4.641   3.886   3.371
+  MET370  SD6054   4.236   3.920   3.689   4.766   4.475   3.947   3.190
+  CYS389  SG6383   4.929   4.743   4.681   6.087   5.557   5.635   4.375
+  MET390  SD6395   4.779   4.543   4.394   5.570   5.113   5.023   3.867
+  MET413  SD6780   3.972   3.843   3.894   5.639   5.018   5.351   3.976
+  HIS450 NE27412   3.604   3.358   3.180   4.390   3.887   3.968   2.678
+  HIS457 NE27534   3.185   2.902   2.739   4.189   3.739   3.634   2.533
+  CYS460  SG7587   3.254   2.947   2.780   4.227   3.865   3.540   2.700
+  MET477  SD7857   3.636   3.442   3.500   5.400   4.926   4.864   3.891
+  MET478  SD7874   3.585   3.308   3.214   4.790   4.422   4.094   3.291
+  MET493  SD8099   1.985   1.730   1.549   3.147   2.521   3.025   1.577
+  HIS500 NE28230   4.500   4.284   4.098   5.044   4.549   4.677   3.393
+                  HIS207  CYS210  MET227  MET228  MET243  HIS250  MET261
+                 NE23413  SG3466  SD3736  SD3753  SD3978 NE24108  SD4303
+  CYS210  SG3466   0.757
+  MET227  SD3736   1.668   1.485
+  MET228  SD3753   1.142   0.604   1.023
+  MET243  SD3978   1.548   2.004   2.740   2.464
+  HIS250 NE24108   2.109   2.793   3.339   3.068   2.554
+  MET261  SD4303   4.511   4.461   5.479   4.953   3.458   5.672
+  HIS272 NE24467   3.680   3.517   3.803   3.737   2.892   5.386   2.745
+  HIS312 NE25102   3.460   3.142   4.548   3.604   3.547   4.686   3.132
+  MET325  SD5320   2.419   2.380   3.306   2.845   1.563   3.935   2.189
+  MET328  SD5367   2.921   2.777   3.708   3.216   2.150   4.485   1.792
+  HIS339 NE25558   4.369   4.324   5.074   4.739   3.228   5.690   1.120
+  MET344  SD5623   4.181   4.235   4.699   4.585   2.925   5.451   2.170
+  MET358  SD5863   3.414   3.553   3.995   3.909   2.111   4.625   2.477
+  CYS367  SG6009   3.012   3.101   3.544   3.441   1.838   4.382   2.567
+  MET370  SD6054   2.829   2.898   3.598   3.318   1.654   4.188   2.139
+  CYS389  SG6383   4.219   4.275   5.460   4.834   3.187   5.052   1.090
+  MET390  SD6395   3.773   3.924   4.995   4.475   2.554   4.564   1.319
+  MET413  SD6780   3.686   3.603   4.942   4.157   3.095   4.694   1.819
+  HIS450 NE27412   2.609   2.822   4.001   3.405   1.603   3.404   2.289
+  HIS457 NE27534   2.103   2.109   3.213   2.639   1.367   3.532   2.409
+  CYS460  SG7587   2.075   1.935   2.806   2.353   1.541   3.813   2.674
+  MET477  SD7857   3.182   2.792   3.788   3.156   2.908   4.951   2.292
+  MET478  SD7874   2.611   2.350   3.158   2.709   2.131   4.407   2.433
+  MET493  SD8099   1.337   1.515   2.903   2.108   1.603   2.407   3.686
+  HIS500 NE28230   3.550   3.858   5.006   4.445   2.402   3.849   2.371
+                  HIS272  HIS312  MET325  MET328  HIS339  MET344  MET358
+                 NE24467 NE25102  SD5320  SD5367 NE25558  SD5623  SD5863
+  HIS312 NE25102   4.136
+  MET325  SD5320   1.851   2.700
+  MET328  SD5367   1.704   2.563   0.588
+  HIS339 NE25558   1.817   3.760   1.972   1.612
+  MET344  SD5623   1.424   4.473   2.078   1.980   1.132
+  MET358  SD5863   1.479   4.236   1.605   1.757   1.660   0.866
+  CYS367  SG6009   1.269   3.951   1.265   1.480   1.813   1.199   0.492
+  MET370  SD6054   1.536   3.383   0.740   0.981   1.625   1.422   0.871
+  CYS389  SG6383   3.431   2.763   2.263   2.072   2.010   2.818   2.840
+  MET390  SD6395   3.022   3.091   1.832   1.802   1.778   2.290   2.170
+  MET413  SD6780   3.588   1.544   2.122   1.935   2.646   3.447   3.316
+  HIS450 NE27412   3.113   2.559   1.367   1.663   2.567   2.824   2.335
+  HIS457 NE27534   2.366   2.405   0.528   0.969   2.389   2.549   2.018
+  CYS460  SG7587   1.851   2.738   0.549   0.916   2.394   2.401   1.878
+  MET477  SD7857   2.211   2.023   1.484   1.086   2.326   2.880   2.769
+  MET478  SD7874   1.546   2.683   0.781   0.679   2.114   2.274   1.961
+  MET493  SD8099   3.730   2.380   2.002   2.415   3.859   3.983   3.330
+  HIS500 NE28230   3.836   3.215   2.321   2.509   2.844   3.156   2.804
+                  CYS367  MET370  CYS389  MET390  MET413  HIS450  HIS457
+                  SG6009  SD6054  SG6383  SD6395  SD6780 NE27412 NE27534
+  MET370  SD6054   0.617
+  CYS389  SG6383   2.900   2.358
+  MET390  SD6395   2.267   1.763   0.809
+  MET413  SD6780   3.188   2.577   1.225   1.667
+  HIS450 NE27412   2.207   1.650   1.699   1.257   1.637
+  HIS457 NE27534   1.695   1.167   2.248   1.855   1.929   1.044
+  CYS460  SG7587   1.441   1.101   2.771   2.372   2.464   1.744   0.721
+  MET477  SD7857   2.441   2.031   2.609   2.629   2.019   2.391   1.628
+  MET478  SD7874   1.555   1.240   2.733   2.449   2.424   2.079   1.117
+  MET493  SD8099   2.996   2.568   3.183   2.894   2.519   1.661   1.497
+  HIS500 NE28230   2.856   2.366   1.494   1.098   1.962   1.093   2.108
+                  CYS460  MET477  MET478  MET493
+                  SG7587  SD7857  SD7874  SD8099
+  MET477  SD7857   1.451
+  MET478  SD7874   0.608   0.993
+  MET493  SD8099   1.890   2.650   2.368
+  HIS500 NE28230   2.775   3.279   3.047   2.566
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/aminoacids.arn
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/dna.arn
+Opening force field file /home/danieldh/scipion3/software/em/gromacs-2021.5/share/gromacs/top/amber03.ff/rna.arn
+Before cleaning: 21915 pairs
+Before cleaning: 22125 dihedrals
+Keeping all generated dihedrals
+
+GROMACS reminds you: "It's Against the Rules" (Pulp Fiction)
+
+                     :-) GROMACS - gmx editconf, 2021.5 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov     
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar       
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd        
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra      
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof      
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang      
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan        
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus        
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul     
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund       
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola       
+        Szilard Pall               Sander Pronk              Roland Schulz       
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers      
+       Peter Tieleman              Jon Vincent              Teemu Virolainen     
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov       
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx editconf, version 2021.5
+Executable:   /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx
+Data prefix:  /home/danieldh/scipion3/software/em/gromacs-2021.5
+Working dir:  /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/006556_GromacsSystemPrep
+Command line:
+  gmx editconf -f 1a28_processed.gro -o 1a28_newbox.gro -c -bt triclinic -d 3.0
+
+
+GROMACS reminds you: "It's Against the Rules" (Pulp Fiction)
+
+                     :-) GROMACS - gmx solvate, 2021.5 (-:
+
+                            GROMACS is written by:
+     Andrey Alekseenko              Emile Apol              Rossen Apostolov     
+         Paul Bauer           Herman J.C. Berendsen           Par Bjelkmar       
+       Christian Blau           Viacheslav Bolnykh             Kevin Boyd        
+     Aldert van Buuren           Rudi van Drunen             Anton Feenstra      
+    Gilles Gouaillardet             Alan Gray               Gerrit Groenhof      
+       Anca Hamuraru            Vincent Hindriksen          M. Eric Irrgang      
+      Aleksei Iupinov           Christoph Junghans             Joe Jordan        
+    Dimitrios Karkoulis            Peter Kasson                Jiri Kraus        
+      Carsten Kutzner              Per Larsson              Justin A. Lemkul     
+       Viveca Lindahl            Magnus Lundborg             Erik Marklund       
+        Pascal Merz             Pieter Meulenhoff            Teemu Murtola       
+        Szilard Pall               Sander Pronk              Roland Schulz       
+       Michael Shirts            Alexey Shvetsov             Alfons Sijbers      
+       Peter Tieleman              Jon Vincent              Teemu Virolainen     
+     Christian Wennberg            Maarten Wolf              Artem Zhmurov       
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2019, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx solvate, version 2021.5
+Executable:   /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx
+Data prefix:  /home/danieldh/scipion3/software/em/gromacs-2021.5
+Working dir:  /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/006556_GromacsSystemPrep
+Command line:
+  gmx solvate -cp 1a28_newbox.gro -cs spc216.gro -o 1a28_solv.gro -p topol.top
+
+Reading solute configuration
+Reading solvent configuration
+
+Initialising inter-atomic distances...
+Generating solvent configuration
+Will generate new solvent configuration of 8x8x8 boxes
+Solvent box contains 278088 atoms in 92696 residues
+Removed 20526 solvent atoms due to solvent-solvent overlap
+Removed 7608 solvent atoms due to solute-solvent overlap
+Sorting configuration
+Found 1 molecule type:
+    SOL (   3 atoms): 83318 residues
+Generated solvent containing 249954 atoms in 83318 residues
+Writing generated configuration to 1a28_solv.gro
+
+Output configuration contains 258191 atoms in 83818 residues
+Volume                 :     2610.24 (nm^3)
+Density                :     994.255 (g/l)
+Number of solvent molecules:  83318   
+
+Processing topology
+
+Back Off! I just backed up topol.top to ./#topol.top.1#
+
+GROMACS reminds you: "Lottery: A tax on people who are bad at math." (Ambrose Bierce)
+

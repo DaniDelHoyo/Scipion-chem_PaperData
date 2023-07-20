@@ -1,0 +1,24 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003228_ProtocolPainsRdkitFiltering/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003228_ProtocolPainsRdkitFiltering/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 143516
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/003228_ProtocolPainsRdkitFiltering
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: filterStep, step 1, time 2023-04-27 12:34:59.070826
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate rdkit-env && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/RDKit_PAINS_script.py /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003228_ProtocolPainsRdkitFiltering/extra/inputParams.txt[0m
+[35mFINISHED[0m: filterStep, step 1, time 2023-04-27 12:34:59.546467
+[35mSTARTED[0m: createOutputStep, step 2, time 2023-04-27 12:34:59.564173
+[35mFINISHED[0m: createOutputStep, step 2, time 2023-04-27 12:34:59.604463
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

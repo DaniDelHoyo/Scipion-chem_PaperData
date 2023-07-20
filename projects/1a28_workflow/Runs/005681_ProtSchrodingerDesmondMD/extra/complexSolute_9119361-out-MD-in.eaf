@@ -1,0 +1,225 @@
+Keywords = [
+   {RMSD = {
+       ASL = "(((protein) and backbone) and not (atom.ele H) and not (at.n 1-53))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Backbone
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "((protein) and sidechain and not (at.n 1-53))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = "Side chains"
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "(((protein) and backbone ) and ( atom.ptype ' CA ') and not (at.n 1-53))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = C-Alpha
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "((protein) and not (atom.ele H) and not (at.n 1-53))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Heavy
+       Tab = pl_rmsd_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSD = {
+       ASL = "at.n 1-53"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Ligand
+       Tab = pl_rmsd_tab
+       Type = Ligand
+       Unit = Angstrom
+       UseSymmetry = true
+    }
+   }
+
+   {RMSD = {
+       ASL = "at.n 1-53"
+       FitBy = "(protein)"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Ligand
+       Tab = pl_rmsd_tab
+       Type = Ligand
+       Unit = Angstrom
+       UseSymmetry = true
+    }
+   }
+
+   {SecondaryStructure = {
+       ASL = "((protein) and not (at.n 1-53))"
+       Legend = "-1: NONE; 0: LOOP; 1: HELIX; 2: STRAND; 3:TURN"
+       Panel = pl_interact_survey
+       SelectionType = "((protein) and not (at.n 1-53))"
+       Tab = p_sse_tab
+       Type = ASL
+    }
+   }
+
+   {RMSF = {
+       ASL = "(((protein) and backbone) and not (atom.ele H) and not (at.n 1-53))"
+       FitBy = "(((protein) and backbone) and not (atom.ele H) and not (at.n 1-53))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Backbone
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "((protein) and sidechain and not (at.n 1-53))"
+       FitBy = "(((protein) and backbone) and not (atom.ele H) and not (at.n 1-53))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = "Side chains"
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "(((protein) and backbone ) and ( atom.ptype ' CA ') and not (at.n 1-53))"
+       FitBy = "(((protein) and backbone) and not (atom.ele H) and not (at.n 1-53))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = C-Alpha
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "((protein) and not (atom.ele H) and not (at.n 1-53))"
+       FitBy = "(((protein) and backbone) and not (atom.ele H) and not (at.n 1-53))"
+       Frame = 0
+       Panel = pl_interact_survey
+       SelectionType = Heavy
+       Tab = p_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "at.n 1-53 and not atom.e H"
+       FitBy = "at.n 1-53 and not atom.e H"
+       Frame = 0
+       Panel = pl_interact_survey
+       Tab = l_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {RMSF = {
+       ASL = "at.n 1-53 and not atom.e H"
+       FitBy = "(protein)"
+       Frame = 0
+       Panel = pl_interact_survey
+       Tab = l_rmsf_tab
+       Type = ASL
+       Unit = Angstrom
+    }
+   }
+
+   {ProtLigInter = {
+       ASL = "(protein)"
+       LigandASL = "at.n 1-53"
+       Panel = pl_interact_survey
+       Tab = pl_inter_tab
+    }
+   }
+
+   {ProtProtInter = {
+       ASL = "(protein)"
+    }
+   }
+
+   {Torsion = {
+       LigandASL = "at.n 1-53"
+       Panel = pl_interact_survey
+       Tab = l_torsions_tab
+       Unit = Degrees
+       a1 = 23
+       a2 = 21
+       a3 = 4
+       a4 = 5
+    }
+   }
+
+   {LigandHBonds = {
+       ASL1 = "at.n 1-53"
+       Name = "Intramolecular Hydrogen Bonds"
+       Panel = pl_interact_survey
+       ReturnHBonds = true
+       Tab = l_properties_tab
+       Type = ASL
+       Unit = "Numb. of HBonds"
+    }
+   }
+
+   {Molecular_Surface_Area = {
+       ASL = "at.n 1-53"
+       Grid_Spacing = 0.5
+       Panel = pl_interact_survey
+       Tab = l_properties_tab
+       Unit = "Angstrom^2"
+    }
+   }
+
+   {SA_Surface_Area = {
+       ASL = "at.n 1-53"
+       Exclude_ASL = "not ((protein) or (at.n 1-53) or (ions) or (water) or (metals) or (metalloids))"
+       Panel = pl_interact_survey
+       Resolution = 0.3
+       Tab = l_properties_tab
+       Unit = "Angstrom^2"
+    }
+   }
+
+   {Polar_Surface_Area = {
+       ASL = "at.n 1-53"
+       Panel = pl_interact_survey
+       Resolution = 0.3
+       Tab = l_properties_tab
+       Unit = "Angstrom^2"
+    }
+   }
+
+   {Rad_Gyration = {
+       ASL = "at.n 1-53"
+       Panel = pl_interact_survey
+       Tab = l_properties_tab
+       Unit = Angstrom
+    }
+   }
+]
+LigandASL = "at.n 1-53"
+ProteinASL = "(protein)"
+Trajectory = "/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005681_ProtSchrodingerDesmondMD/complexSolute_9119361-out-MD.cms"

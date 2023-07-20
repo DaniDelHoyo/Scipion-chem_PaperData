@@ -1,0 +1,35 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005681_ProtSchrodingerDesmondMD/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005681_ProtSchrodingerDesmondMD/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 46608
+pyworkflow: 3.1.0
+plugin: schrodingerScipion
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/005681_ProtSchrodingerDesmondMD
+runMode: Continue
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: simulationStep, step 1, time 2023-05-03 16:25:50.908218
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/Schrodinger2021-3/utilities/multisim  -m /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005681_ProtSchrodingerDesmondMD/tmp/simulation_4264688.msj /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005617_ProtSchrodingerDesmondSysPrep/complexSolute_9119361-out.cms -o unmerged-simulation.cms -WAIT -JOBNAME simulation_4264688[0m
+WARNING: You did not specify for '-maxjob'. Remember its default value is 1.
+JobId: euclides-0-64526ef1
+[35mFINISHED[0m: simulationStep, step 1, time 2023-05-03 16:34:56.727433
+[35mSTARTED[0m: createOutputStep, step 2, time 2023-05-03 16:34:56.748329
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/Schrodinger2021-3/run /home/danieldh/scipion3/software/em/Schrodinger2021-3/internal/bin/trj_merge.py  unmerged-simulation.cms simulation_4264688_2_trj simulation_4264688_3_trj simulation_4264688_4_trj simulation_4264688_5_trj simulation_4264688_6_trj simulation_4264688_7_trj -o /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005681_ProtSchrodingerDesmondMD/complexSolute_9119361-out -concat 0 2.0[0m
+21 frames from trajectory: simulation_4264688_2_trj
+4 frames from trajectory: simulation_4264688_3_trj
+4 frames from trajectory: simulation_4264688_4_trj
+4 frames from trajectory: simulation_4264688_5_trj
+6 frames from trajectory: simulation_4264688_6_trj
+102 frames from trajectory: simulation_4264688_7_trj
+The resultant trajectory has 141 frames.
+[35mFINISHED[0m: createOutputStep, step 2, time 2023-05-03 16:35:01.786180
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

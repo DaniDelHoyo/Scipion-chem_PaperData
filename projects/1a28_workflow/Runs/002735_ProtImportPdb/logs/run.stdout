@@ -1,0 +1,21 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/002735_ProtImportPdb/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/002735_ProtImportPdb/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 126311
+pyworkflow: 3.1.0
+plugin: pwem
+plugin v: 3.0.27 (devel)
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/002735_ProtImportPdb
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: createOutputStep, step 1, time 2023-04-27 11:13:27.500443
+[35mFINISHED[0m: createOutputStep, step 1, time 2023-04-27 11:13:27.506132
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

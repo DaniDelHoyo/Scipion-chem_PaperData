@@ -1,0 +1,27 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005416_ProtocolRMSDDocking/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/005416_ProtocolRMSDDocking/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 43860
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/005416_ProtocolRMSDDocking
+runMode: Restart
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: rmsdStep, step 1, time 2023-05-03 16:07:47.900563
+Mol: g1_active_1a28-3_4.pdbqt. RMSD: 32.80003846317736
+Mol: g12_active_1a28-5_4.pdbqt. RMSD: 19.36877505342796
+Mol: active_1a28-5_3.pdb. RMSD: 19.308321903451077
+Mol: active_1a28-2_1.pdb. RMSD: 0.3464753732602198
+Mol: active_1a28-1_1.pdb. RMSD: 27.13662837493738
+[35mFINISHED[0m: rmsdStep, step 1, time 2023-05-03 16:07:48.032243
+[35mSTARTED[0m: createOutputStep, step 2, time 2023-05-03 16:07:48.050959
+[35mFINISHED[0m: createOutputStep, step 2, time 2023-05-03 16:07:48.099860
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

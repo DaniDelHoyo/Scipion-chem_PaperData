@@ -1,0 +1,6 @@
+load /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003660_ProtExtractLigands/mini_complex_1a28_STR_A_active.pdb
+load /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003660_ProtExtractLigands/mini_complex_1a28_STR_A_active_LG1-1.pdb, g1_mini_complex_1a28_STR_A_active_LG1-1_1
+disable g1_mini_complex_1a28_STR_A_active_LG1-1_1
+hide spheres, g1_mini_complex_1a28_STR_A_active_LG1-1_1
+show sticks, g1_mini_complex_1a28_STR_A_active_LG1-1_1
+zoom

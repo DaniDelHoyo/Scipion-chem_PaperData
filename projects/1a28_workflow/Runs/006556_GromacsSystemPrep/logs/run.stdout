@@ -1,0 +1,138 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/006556_GromacsSystemPrep/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/006556_GromacsSystemPrep/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 30926
+pyworkflow: 3.1.0
+plugin: gromacs
+plugin binary v: 2021.5
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/006556_GromacsSystemPrep
+runMode: Continue
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: PDB2GMXStep, step 1, time 2023-05-04 16:46:05.236148
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx  pdb2gmx -f /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/006518_ProtImportPdb/extra/1a28.pdb -o 1a28_processed.gro -water tip3p -ff amber03 -merge all[0m
+Using the Amber03 force field in directory amber03.ff
+
+going to rename amber03.ff/aminoacids.r2b
+
+going to rename amber03.ff/dna.r2b
+
+going to rename amber03.ff/rna.r2b
+Reading /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/006518_ProtImportPdb/extra/1a28.pdb...
+Read '', 8237 atoms
+
+Analyzing pdb file
+Splitting chemical chains based on TER records or chain id changing.
+
+Merged chains into joint molecule definitions at 1 places.
+
+There are 1 chains and 0 blocks of water and 500 residues with 8237 atoms
+
+  chain  #res #atoms
+
+  1 'A'   500   8237  
+
+All occupancies are one
+
+Reading residue database... (Amber03)
+
+Processing chain 1 'A' (8237 atoms, 500 residues)
+
+Identified residue GLN1 as a starting terminus.
+
+Identified residue LYS251 as a ending terminus.
+
+Identified residue LEU252 as a starting terminus.
+
+Identified residue HIS500 as a ending terminus.
+
+Checking for duplicate atoms....
+
+Generating any missing hydrogen atoms and/or adding termini.
+
+Now there are 500 residues with 8237 atoms
+
+Making bonds...
+
+Number of bonds was 8325, now 8323
+
+Generating angles, dihedrals and pairs...
+
+Making cmap torsions...
+
+There are 22125 dihedrals, 1560 impropers, 15118 angles
+          21777 pairs,     8323 bonds and     0 virtual sites
+
+Total mass 57711.135 a.m.u.
+
+Total charge 3.000 e
+
+Writing topology
+
+Writing coordinate file...
+
+		--------- PLEASE NOTE ------------
+
+You have successfully generated a topology from: /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/006518_ProtImportPdb/extra/1a28.pdb.
+
+The Amber03 force field and the tip3p water model are used.
+
+		--------- ETON ESAELP ------------
+[35mFINISHED[0m: PDB2GMXStep, step 1, time 2023-05-04 16:46:18.860035
+[35mSTARTED[0m: editConfStep, step 2, time 2023-05-04 16:46:18.871577
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx  editconf -f 1a28_processed.gro -o 1a28_newbox.gro -c -bt triclinic -d 3.0[0m
+Note that major changes are planned in future for editconf, to improve usability and utility.
+Read 8237 atoms
+Volume: 466.908 nm^3, corresponds to roughly 210100 electrons
+No velocities found
+    system size :  7.337  7.313  8.701 (nm)
+    center      :  3.638  1.819  5.234 (nm)
+    box vectors :  7.337  7.313  8.702 (nm)
+    box angles  :  90.00  90.00  90.00 (degrees)
+    box volume  : 466.91               (nm^3)
+    shift       :  3.031  4.837  2.117 (nm)
+new center      :  6.668  6.656  7.350 (nm)
+new box vectors : 13.337 13.313 14.701 (nm)
+new box angles  :  90.00  90.00  90.00 (degrees)
+new box volume  :2610.24               (nm^3)
+[35mFINISHED[0m: editConfStep, step 2, time 2023-05-04 16:46:18.906576
+[35mSTARTED[0m: solvateStep, step 3, time 2023-05-04 16:46:18.917102
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx  solvate -cp 1a28_newbox.gro -cs spc216.gro -o 1a28_solv.gro -p topol.top[0m
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+NOTE: From version 5.0 gmx solvate uses the Van der Waals radii
+from the source below. This means the results may be different
+compared to previous GROMACS versions.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+A. Bondi
+van der Waals Volumes and Radii
+J. Phys. Chem. 68 (1964) pp. 441-451
+-------- -------- --- Thank You --- -------- --------
+
+Adding line for 83318 solvent molecules with resname (SOL) to topology file (topol.top)
+[35mFINISHED[0m: solvateStep, step 3, time 2023-05-04 16:46:20.441322
+[35mSTARTED[0m: addIonsStep, step 4, time 2023-05-04 16:46:20.459552
+Running:  printf "SOL
+" | /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx  grompp -f /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/006556_GromacsSystemPrep/ions.mdp -c 1a28_solv.gro -p topol.top -o ions.tpr
+Running:  printf "SOL
+" | /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx  genion -s ions.tpr -o 1a28_solv_ions.gro -p topol.top -pname NA -nname CL -neutral  -conc 0.15
+[35mFINISHED[0m: addIonsStep, step 4, time 2023-05-04 16:46:21.879947
+[35mSTARTED[0m: createOutputStep, step 5, time 2023-05-04 16:46:21.899148
+[35mFINISHED[0m: createOutputStep, step 5, time 2023-05-04 16:46:22.017468
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

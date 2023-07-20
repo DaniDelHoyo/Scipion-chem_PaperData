@@ -1,0 +1,33 @@
+task {
+  task = "desmond:auto"
+}
+
+build_geometry {
+  #add counterion
+  add_counterion = {
+     ion = Cl
+     number = neutralize_system
+  }  
+  box = {
+     shape = orthorhombic
+     size = [5.0 5.0 5.0]
+     size_type = buffer
+  }
+  override_forcefield = S-OPLS
+  rezero_system = true
+  #add salt
+  salt = {
+     concentration = 0.15
+     negative_ion = Cl
+     positive_ion = Na
+  }  
+  #add solvent
+  solvent = SPC
+}
+
+assign_forcefield {
+  forcefield = S-OPLS
+}
+
+# command example:
+# $SCHRODINGER/utilities/multisim -HOST <hostname> -JOBNAME desmond_trial -m desmond_trial.msj desmond_trial.mae -o desmond_trial.cms

@@ -1,0 +1,32 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 135512
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/003154_ProtChemRDKitPrepareLigands
+runMode: Continue
+          MPI: 1
+      threads: 4
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: preparationStep, step 1, time 2023-04-27 12:15:26.759336
+[35mSTARTED[0m: preparationStep, step 2, time 2023-04-27 12:15:26.776349
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate rdkit-env && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/ligand_preparation_script.py /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/inputParams_0.txt[0m
+[35mSTARTED[0m: preparationStep, step 3, time 2023-04-27 12:15:26.802970
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate rdkit-env && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/ligand_preparation_script.py /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/inputParams_1.txt[0m
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate rdkit-env && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/ligand_preparation_script.py /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra/inputParams_2.txt[0m
+[35mFINISHED[0m: preparationStep, step 2, time 2023-04-27 12:15:29.001138
+[35mFINISHED[0m: preparationStep, step 1, time 2023-04-27 12:15:29.683477
+[35mFINISHED[0m: preparationStep, step 3, time 2023-04-27 12:15:31.176883
+[35mSTARTED[0m: createOutput, step 4, time 2023-04-27 12:15:31.381107
+[35mFINISHED[0m: createOutput, step 4, time 2023-04-27 12:15:31.456491
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

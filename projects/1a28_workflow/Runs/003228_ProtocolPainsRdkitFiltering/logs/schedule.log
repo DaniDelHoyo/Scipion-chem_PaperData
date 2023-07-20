@@ -1,0 +1,8 @@
+Scheduling protocol 3228, PID: 143479,prerequisites: [], works in streaming: False.
+Waiting 0 seconds before start checking inputs 
+Checking input data...
+Updated protocol: 3195 (pwchem - ADME ligand filtering)
+SetOfSmallMolecules (17 items, Standard class) is not blocking this protocol. All ready.
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/dcoid_1a28" "Runs/003228_ProtocolPainsRdkitFiltering/logs/run.db" 3228 "/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003228_ProtocolPainsRdkitFiltering/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003228_ProtocolPainsRdkitFiltering/logs/run.stderr"[0m'

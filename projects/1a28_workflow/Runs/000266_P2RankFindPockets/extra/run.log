@@ -1,0 +1,59 @@
+[INFO] Console - predicting pockets for proteins from dataset [1a28.pdb]
+[INFO] PredictRoutine - outdir: /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000266_P2RankFindPockets/extra
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Dataset - processing dataset [1a28.pdb] using 0 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [1a28.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Console - processing [1a28.pdb] (1/1)
+[INFO] Protein - loading protein [/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000266_P2RankFindPockets/extra/1a28.pdb]
+[INFO] PdbUtils - loading file [/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000266_P2RankFindPockets/extra/1a28.pdb]
+[INFO] Struct - groups in chain A: 251
+[INFO] Struct - groups in chain B: 249
+[INFO] Struct - groups in chain A: 251
+[INFO] Struct - 251 groups in chain A
+[INFO] Struct - groups in chain B: 249
+[INFO] Struct - 249 groups in chain B
+[INFO] Protein - structure atoms: 8237
+[INFO] Protein - protein   atoms: 3990
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - enabledFeatures: [chem, volsite, protrusion, bfactor, atom_table]
+[INFO] Protein - SAS points: 7265
+[INFO] Protein - exposed protein atoms: 2591 of 3990
+[INFO] InstancePredictor - Creating WekaInstancePredictor
+[INFO] SLinkClusterer - clustering [503] elements
+[INFO] SLinkClusterer - clusters: [id:0( 1 ), id:2( 1 ), id:19( 1 ), id:33( 14 ), id:66( 2 ), id:68( 1 ), id:69( 1 ), id:70( 1 ), id:77( 14 ), id:119( 1 ), id:123( 48 ), id:134( 2 ), id:137( 1 ), id:138( 1 ), id:143( 1 ), id:145( 2 ), id:146( 1 ), id:151( 1 ), id:152( 2 ), id:165( 1 ), id:166( 1 ), id:168( 2 ), id:169( 1 ), id:171( 2 ), id:173( 7 ), id:174( 1 ), id:181( 24 ), id:215( 7 ), id:218( 1 ), id:220( 2 ), id:221( 64 ), id:225( 1 ), id:233( 4 ), id:236( 9 ), id:248( 30 ), id:249( 1 ), id:253( 1 ), id:273( 7 ), id:303( 1 ), id:312( 14 ), id:341( 56 ), id:359( 6 ), id:371( 2 ), id:377( 1 ), id:381( 1 ), id:399( 11 ), id:400( 1 ), id:401( 1 ), id:403( 2 ), id:404( 1 ), id:406( 1 ), id:407( 1 ), id:408( 1 ), id:418( 46 ), id:419( 1 ), id:438( 15 ), id:444( 1 ), id:462( 1 ), id:465( 1 ), id:467( 58 ), id:475( 14 ), id:483( 2 ), id:502( 2 )]
+[INFO] SLinkClusterer - clusters together: 503 / 503
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 7265
+[INFO] PocketPredictor - LIGANDABLE POINTS: 503
+[INFO] PocketPredictor - CLUSTERS: 63
+[INFO] PocketPredictor - FILTERED CLUSTERS: 19
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  40   points:  64   score:   29.3
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  37   points:  58   score:   25.9
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  55   points:  56   score:   18.7
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  40   points:  48   score:   17.1
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  36   points:  46   score:   16.8
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  30   points:  30   score:   10.1
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  44   points:  24   score:    8.3
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  33   points:  15   score:    7.1
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  30   points:  14   score:    5.3
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  26   points:  14   score:    5.1
+[INFO] PocketPredictor - pocket11 -  surf_atoms:  16   points:  14   score:    4.7
+[INFO] PocketPredictor - pocket12 -  surf_atoms:  27   points:  14   score:    4.6
+[INFO] PocketPredictor - pocket13 -  surf_atoms:  21   points:  11   score:    4.0
+[INFO] PocketPredictor - pocket14 -  surf_atoms:  22   points:   7   score:    3.9
+[INFO] PocketPredictor - pocket15 -  surf_atoms:  24   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket16 -  surf_atoms:  17   points:   7   score:    3.2
+[INFO] PocketPredictor - pocket17 -  surf_atoms:  26   points:   6   score:    3.0
+[INFO] PocketPredictor - pocket18 -  surf_atoms:  13   points:   9   score:    2.9
+[INFO] PocketPredictor - pocket19 -  surf_atoms:  10   points:   4   score:    2.1
+[INFO] OldPymolRenderer - copying [/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000266_P2RankFindPockets/extra/1a28.pdb] to [/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000266_P2RankFindPockets/extra/visualizations/data/1a28.pdb]
+[INFO] Console - predicting pockets finished in 0 hours 0 minutes 8.598 seconds
+[INFO] Console - results saved to directory [/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000266_P2RankFindPockets/extra]
+[INFO] Console - 
+[INFO] Console - ----------------------------------------------------------------------------------------------
+[INFO] Console -  finished successfully in 0 hours 0 minutes 9.357 seconds
+[INFO] Console - ----------------------------------------------------------------------------------------------

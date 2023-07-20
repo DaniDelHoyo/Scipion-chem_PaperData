@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    23:
+HEADER 0  - Pocket Score                      : -0.0238
+HEADER 1  - Drug Score                        : 0.0016
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8251
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5208
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 16.6000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 273.6926
+HEADER 10  -Pocket volume (convex hull)       : 14.5333
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.8333
+ATOM   3978   SD MET A 243      43.857  22.829  56.233  0.00  0.00           S 0
+ATOM   7495   CG GLN B 455      45.038  27.467  51.088  0.00  0.00           C 0
+ATOM   7474   CD LYS B 454      43.929  21.100  50.540  0.00  0.00           C 0
+ATOM   7473   CG LYS B 454      43.014  22.108  49.861  0.00  0.00           C 0
+ATOM   7550  CD2 LEU B 458      39.771  25.008  54.677  0.00  0.00           C 0
+ATOM   3979   CE MET A 243      44.199  24.447  57.008  0.00  0.00           C 0
+ATOM   7491   CA GLN B 455      42.744  27.021  49.998  0.00  0.00           C 0
+ATOM   7498  NE2 GLN B 455      47.361  28.159  50.948  0.62  5.47           N 0
+ATOM   7424    O ASP B 451      46.535  25.343  48.691  0.70  2.14           O 0
+ATOM   7425   CB ASP B 451      49.270  23.575  48.553  0.00  0.00           C 0
+ATOM   7428  OD2 ASP B 451      48.997  21.237  48.921  0.69  5.36           O 0
+ATOM   7422   CA ASP B 451      47.888  23.512  47.900  0.00  0.00           C 0
+ATOM   7496   CD GLN B 455      46.136  28.504  51.327  0.00  0.00           C 0
+ATOM   7497  OE1 GLN B 455      45.884  29.602  51.832  0.04  7.50           O 0
+ATOM   7490    N GLN B 455      43.148  25.893  49.134  0.00  0.00           N 0
+ATOM   7475   CE LYS B 454      43.241  20.492  51.758  0.00  0.00           C 0
+ATOM   7476   NZ LYS B 454      44.101  19.485  52.445  0.52  2.19           N 0
+ATOM   7471    O LYS B 454      41.164  24.831  49.351  0.74  1.07           O 0
+TER
+END

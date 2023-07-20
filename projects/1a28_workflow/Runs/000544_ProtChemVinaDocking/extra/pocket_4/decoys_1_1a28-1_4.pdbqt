@@ -1,0 +1,37 @@
+REMARK INTER + INTRA:          -9.124
+REMARK INTER:                  -8.625
+REMARK INTRA:                  -0.499
+REMARK UNBOUND:                -0.499
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  N1_15 
+REMARK    2  A    between atoms: C7_9  and  C4_4 
+ROOT
+ATOM      1  C1  LG1 d5015      21.909   4.088  73.910  0.00  0.00     0.141 A 
+ATOM      2  C2  LG1 d5015      20.839   4.981  73.985  0.00  0.00     0.187 A 
+ATOM      3  C3  LG1 d5015      20.973   6.274  73.481  0.00  0.00     0.175 A 
+ATOM      4  C4  LG1 d5015      22.177   6.675  72.901  0.00  0.00     0.131 A 
+ATOM      5  C5  LG1 d5015      23.246   5.784  72.827  0.00  0.00     0.175 A 
+ATOM      6  C6  LG1 d5015      23.112   4.491  73.330  0.00  0.00     0.187 A 
+ATOM      7  F1  LG1 d5015      24.149   3.644  73.251  0.00  0.00    -0.200 F 
+ATOM      8  F2  LG1 d5015      24.408   6.162  72.271  0.00  0.00    -0.202 F 
+ATOM      9  F6  LG1 d5015      19.938   7.124  73.558  0.00  0.00    -0.202 F 
+ATOM     10  F7  LG1 d5015      19.677   4.607  74.540  0.00  0.00    -0.200 F 
+ENDROOT
+BRANCH   1  11
+ATOM     11  N1  LG1 d5015      21.777   2.806  74.410  0.00  0.00    -0.232 N 
+ATOM     12  N2  LG1 d5015      21.534   1.784  73.572  0.00  0.00    -0.172 NA
+ATOM     13  C10 LG1 d5015      21.470   0.730  74.390  0.00  0.00     0.053 A 
+ATOM     14  C9  LG1 d5015      21.670   1.076  75.740  0.00  0.00     0.055 A 
+ATOM     15  C11 LG1 d5015      21.213  -0.611  73.836  0.00  0.00     0.072 C 
+ATOM     16  C8  LG1 d5015      21.867   2.435  75.719  0.00  0.00     0.035 A 
+ATOM     17  C12 LG1 d5015      22.130   3.383  76.820  0.00  0.00     0.070 C 
+ENDBRANCH   1  11
+BRANCH   4  18
+ATOM     18  C7  LG1 d5015      22.319   8.060  72.363  0.00  0.00     0.423 C 
+ATOM     19  F4  LG1 d5015      23.343   8.764  72.928  0.00  0.00    -0.166 F 
+ATOM     20  F3  LG1 d5015      21.210   8.835  72.546  0.00  0.00    -0.166 F 
+ATOM     21  F5  LG1 d5015      22.560   8.078  71.019  0.00  0.00    -0.166 F 
+ENDBRANCH   4  18
+TORSDOF 2
+ENDMDL

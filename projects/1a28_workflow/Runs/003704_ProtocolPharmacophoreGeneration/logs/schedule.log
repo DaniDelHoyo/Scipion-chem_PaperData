@@ -1,0 +1,8 @@
+Scheduling protocol 3704, PID: 24186,prerequisites: [], works in streaming: False.
+Waiting 0 seconds before start checking inputs 
+Checking input data...
+The protocol 3660 (pwchem - Extract Ligand from structure) is up to date
+SetOfSmallMolecules (1 items, Standard class) is not blocking this protocol. All ready.
+Checking prerequisites... []
+Launching the protocol >>>>
+** Running command: '[32mpython3 /home/danieldh/scipion3/scipion-pyworkflow/pyworkflow/apps/pw_protocol_run.py "/home/danieldh/ScipionUserData/projects/dcoid_1a28" "Runs/003704_ProtocolPharmacophoreGeneration/logs/run.db" 3704 "/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003704_ProtocolPharmacophoreGeneration/logs/run.stdout" "/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003704_ProtocolPharmacophoreGeneration/logs/run.stderr"[0m'

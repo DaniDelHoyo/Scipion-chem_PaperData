@@ -1,0 +1,9 @@
+ligandFiles: /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000072_ProtChemImportSmallMolecules/extra/decoys_2_1a28.pdb
+outputDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003154_ProtChemRDKitPrepareLigands/extra
+doHydrogens: True
+doGasteiger: True
+ffMethod: MMFF94
+restrainMethod: ETKDGv3
+numConf: 5
+rmsThres: 0.5
+numAtoms: 5

@@ -1,0 +1,36 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000266_P2RankFindPockets/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000266_P2RankFindPockets/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 29041
+pyworkflow: 3.0.29
+plugin: p2rank
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/000266_P2RankFindPockets
+runMode: Continue
+          MPI: 1
+      threads: 4
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: convertInputStep, step 1, time 2023-02-07 15:18:52.891096
+[35mFINISHED[0m: convertInputStep, step 1, time 2023-02-07 15:18:52.906843
+[35mSTARTED[0m: P2RankStep, step 2, time 2023-02-07 15:18:53.423466
+[32m /home/danieldh/scipion3/software/em/p2rank-2.3/prank predict "-f" "/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000266_P2RankFindPockets/extra/1a28.pdb" "-o" "/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000266_P2RankFindPockets/extra" "-threads" "4"[0m
+----------------------------------------------------------------------------------------------
+ P2Rank 2.3
+----------------------------------------------------------------------------------------------
+
+predicting pockets for proteins from dataset [1a28.pdb]
+processing [1a28.pdb] (1/1)
+predicting pockets finished in 0 hours 0 minutes 8.598 seconds
+results saved to directory [/home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/000266_P2RankFindPockets/extra]
+
+----------------------------------------------------------------------------------------------
+ finished successfully in 0 hours 0 minutes 9.357 seconds
+----------------------------------------------------------------------------------------------
+[35mFINISHED[0m: P2RankStep, step 2, time 2023-02-07 15:19:03.558937
+[35mSTARTED[0m: createOutputStep, step 3, time 2023-02-07 15:19:03.956916
+[35mFINISHED[0m: createOutputStep, step 3, time 2023-02-07 15:19:05.914178
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

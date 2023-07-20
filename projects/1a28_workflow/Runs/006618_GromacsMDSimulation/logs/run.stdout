@@ -1,0 +1,160 @@
+Logging configured. STDOUT --> /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/logs/run.stdout , STDERR --> /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 17605
+pyworkflow: 3.1.0
+plugin: gromacs
+plugin binary v: 2021.5
+currentDir: /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow
+workingDir: Runs/006618_GromacsMDSimulation
+runMode: Restart
+          MPI: 1
+      threads: 8
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: simulateStageStep, step 1, time 2023-07-20 12:51:37.555811
+Running:  printf "1
+" | /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx  genrestr -f /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006556_GromacsSystemPrep/1a28_solv_ions.gro -n /home/danieldh/ScipionUserData/projects/1a28_paper/9627_custom_indexes.ndx -o posre_protein_stg1.itp -fc 50 50 50
+0 warnings in stage 1
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx grompp -f /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/extra/stage_1/stage_1.mdp -c /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006556_GromacsSystemPrep/1a28_solv_ions.gro -r /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006556_GromacsSystemPrep/1a28_solv_ions.gro -p /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/extra/stage_1/topol.top  -o stage_1.tpr[0m
+Setting the LD random seed to -1883766921
+
+Generated 2211 of the 2211 non-bonded parameter combinations
+
+Generated 2211 of the 2211 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+Excluding 1 bonded neighbours molecule type 'CL'
+Analysing residue names:
+There are:   500    Protein residues
+There are: 82843      Water residues
+There are:   475        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+This run will generate roughly 20 Mb of data
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx mdrun -v -deffnm stage_1 -gpu_id 0 -nt 8 -pin on -cpi -cpt 15.0[0m
+[35mFINISHED[0m: simulateStageStep, step 1, time 2023-07-20 12:52:03.168601
+[35mSTARTED[0m: simulateStageStep, step 2, time 2023-07-20 12:52:03.190370
+Running:  printf "2
+" | /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx  genrestr -f /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006556_GromacsSystemPrep/1a28_solv_ions.gro -n /home/danieldh/ScipionUserData/projects/1a28_paper/9627_custom_indexes.ndx -o posre_protein-h_stg2.itp -fc 50 50 50
+0 warnings in stage 2
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx grompp -f /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/extra/stage_2/stage_2.mdp -c /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/extra/stage_1/stage_1.gro -r /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/extra/stage_1/stage_1.gro -p /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/extra/stage_2/topol.top  -o stage_2.tpr[0m
+Setting the LD random seed to -2121729
+
+Generated 2211 of the 2211 non-bonded parameter combinations
+
+Generated 2211 of the 2211 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+
+Setting gen_seed to -4482818
+
+Velocities were taken from a Maxwell distribution at 300 K
+Analysing residue names:
+There are:   500    Protein residues
+There are: 82843      Water residues
+There are:   475        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.035 nm, buffer size 0.035 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 84x84x96, spacing 0.159 0.158 0.153
+
+Estimate for the relative computational load of the PME mesh part: 0.23
+
+This run will generate roughly 20 Mb of data
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx mdrun -v -deffnm stage_2 -gpu_id 0 -nt 8 -pin on -cpi -cpt 15.0[0m
+[35mFINISHED[0m: simulateStageStep, step 2, time 2023-07-20 12:52:39.084066
+[35mSTARTED[0m: simulateStageStep, step 3, time 2023-07-20 12:52:39.102213
+Running:  printf "2
+" | /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx  genrestr -f /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006556_GromacsSystemPrep/1a28_solv_ions.gro -n /home/danieldh/ScipionUserData/projects/1a28_paper/9627_custom_indexes.ndx -o posre_protein-h_stg3.itp -fc 50 50 50
+0 warnings in stage 3
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx grompp -f /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/extra/stage_3/stage_3.mdp -c /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/extra/stage_2/stage_2.gro -r /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/extra/stage_2/stage_2.gro -p /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/extra/stage_3/topol.top -t /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/006618_GromacsMDSimulation/extra/stage_2/stage_2.cpt -o stage_3.tpr[0m
+Setting the LD random seed to -755013389
+
+Generated 2211 of the 2211 non-bonded parameter combinations
+
+Generated 2211 of the 2211 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'Protein_chain_A'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CL'
+
+turning H bonds into constraints...
+
+The center of mass of the position restraint coord's is  6.655  6.659  7.352
+
+The center of mass of the position restraint coord's is  6.655  6.659  7.352
+Analysing residue names:
+There are:   500    Protein residues
+There are: 82843      Water residues
+There are:   475        Ion residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.035 nm, buffer size 0.035 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+Reading Coordinates, Velocities and Box size from old trajectory
+
+Will read whole trajectory
+
+Using frame at t = 10 ps
+
+Starting time for run is 0 ps
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 84x84x96, spacing 0.159 0.158 0.153
+
+Estimate for the relative computational load of the PME mesh part: 0.23
+
+This run will generate roughly 20 Mb of data
+** Running command: **
+[32m /home/danieldh/scipion3/software/em/gromacs-2021.5/bin/gmx mdrun -v -deffnm stage_3 -gpu_id 0 -nt 8 -pin on -cpi -cpt 15.0[0m

@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0182
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8764
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5657
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -1.8889
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 287.7990
+HEADER 10  -Pocket volume (convex hull)       : 13.0995
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0455
+ATOM   1633  CG1 ILE A 102      14.852  -1.062  64.291  0.00  0.00           C 0
+ATOM   1721  NH1 ARG A 107      11.909  -0.191  59.572  0.41  9.84           N 0
+ATOM   1635  CD1 ILE A 102      14.208  -2.168  65.121  0.00  0.00           C 0
+ATOM   1586    O PRO A  99      11.631   0.564  66.485  0.56  6.43           O 0
+ATOM   1632   CB ILE A 102      15.177  -1.447  62.848  0.00  0.00           C 0
+ATOM   1628    N ILE A 102      14.602   0.808  62.100  0.61  1.09           N 0
+ATOM   1609    N LEU A 101      12.853   2.836  63.908  0.00  0.00           N 0
+ATOM   1722  NH2 ARG A 107      11.302   1.820  58.650  0.73  3.28           N 0
+ATOM   1720   CZ ARG A 107      11.809   0.602  58.512  0.00  0.00           C 0
+ATOM    397    O LYS A  26       5.923   3.717  56.023  0.62  3.21           O 0
+ATOM   1719   NE ARG A 107      12.212   0.176  57.316  0.74  3.28           N 0
+ATOM    437  OD2 ASP A  28      11.292   2.681  56.021  0.00  0.00           O 0
+ATOM    369    O ASN A  24       4.368   1.803  60.508  0.00  0.00           O 0
+ATOM    372  OD1 ASN A  24       5.844   1.652  63.526  0.00  0.00           O 0
+ATOM    345  CE1 HIS A  22       8.594   4.739  59.093  0.00  0.00           C 0
+ATOM    367   CA ASN A  24       5.392   3.697  61.597  0.00  0.00           C 0
+ATOM   1600    O ASP A 100      10.907   3.585  63.055  0.67  2.14           O 0
+ATOM   1599    C ASP A 100      11.574   3.173  64.016  0.00  0.00           C 0
+ATOM   1598   CA ASP A 100      10.953   3.006  65.403  0.00  0.00           C 0
+ATOM    343  ND1 HIS A  22       8.451   5.085  60.360  0.00  0.00           N 0
+TER
+END

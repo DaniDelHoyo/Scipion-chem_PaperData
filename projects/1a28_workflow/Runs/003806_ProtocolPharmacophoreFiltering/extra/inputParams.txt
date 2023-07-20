@@ -1,0 +1,7 @@
+outputPath:: results.tsv
+pharmDic:: {1: {'type': 'Acceptor', 'coords': (22.993, 12.245, 54.695), 'radius': 1.0}, 2: {'type': 'Acceptor', 'coords': (22.22, 6.451, 65.257), 'radius': 1.0}, 3: {'type': 'Hydrophobe', 'coords': (23.302, 9.665000000000001, 59.799285714285716), 'radius': 2.1524724511735878}}
+downSample:: True
+optimize:: True
+nAlignments:: 3
+maxSSD:: 10.0
+ligandFiles:: /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_3_1a28.pdb /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_2_1a28.pdb /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/active_1a28.pdb /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003806_ProtocolPharmacophoreFiltering/extra/inputSmallMolecules/decoys_1_1a28.pdb

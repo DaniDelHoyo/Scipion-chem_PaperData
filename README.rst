@@ -143,6 +143,10 @@ Finally, this demo project also includes several examples of molecular dynamics 
     not yet released. We use this because Gromacs needs a deep preparation of the input receptor in order to run.
 
 
+Show case (1a28_workflow)
+-----------------------------------------------------------
+
+
 
 Software availability
 -----------------------------------------------------------

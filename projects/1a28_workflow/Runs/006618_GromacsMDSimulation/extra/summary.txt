@@ -1,0 +1,4 @@
+1) Minimization (steep): 5000 steps, 1000.0 objective force, restraint on Protein, 300.0 K
+2) MD simulation: 10.0 ps, NVT ensemble, restraint on Protein-H, 300.0 K
+3) MD simulation: 10.0 ps, NPT ensemble, restraint on Protein-H, 300.0 K
+4) MD simulation: 200.0 ps, NPT ensemble, 300.0 K

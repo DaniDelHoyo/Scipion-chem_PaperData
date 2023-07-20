@@ -1,0 +1,24 @@
+Logging configured. STDOUT --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003195_ProtocolADMEFiltering/logs/run.stdout , STDERR --> /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003195_ProtocolADMEFiltering/logs/run.stderr
+[32mRUNNING PROTOCOL -----------------[0m
+Protocol starts
+Hostname: euclides
+PID: 143383
+pyworkflow: 3.1.0
+plugin: pwchem
+plugin binary v: 
+currentDir: /home/danieldh/ScipionUserData/projects/dcoid_1a28
+workingDir: Runs/003195_ProtocolADMEFiltering
+runMode: Continue
+          MPI: 1
+      threads: 1
+ Starting at step: 1
+ Running steps 
+[35mSTARTED[0m: filterStep, step 1, time 2023-04-27 12:34:52.902431
+** Running command: **
+[32m eval "$(/home/danieldh/anaconda3/bin/conda shell.bash hook)"&& conda activate rdkit-env && python /home/danieldh/scipion3/scipion-chem/pwchem/scripts/ADME_script.py /home/danieldh/ScipionUserData/projects/dcoid_1a28/Runs/003195_ProtocolADMEFiltering/extra/inputParams.txt[0m
+[35mFINISHED[0m: filterStep, step 1, time 2023-04-27 12:34:54.006635
+[35mSTARTED[0m: createOutputStep, step 2, time 2023-04-27 12:34:54.024292
+[35mFINISHED[0m: createOutputStep, step 2, time 2023-04-27 12:34:54.066023
+*** Last status is finished 
+Cleaning temp folder....
+[32m------------------- PROTOCOL FINISHED[0m

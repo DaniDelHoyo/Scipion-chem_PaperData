@@ -1,0 +1,541 @@
+1 molecule converted
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 65
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 65
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 65
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 65
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 65
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 65
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 65
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 65
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 65
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 65
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 65
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    27' at line 61
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 64
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    56' at line 117
+  warnings.warn(
+/home/danieldh/anaconda3/envs/scipion3/lib/python3.8/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record '    29' at line 65
+  warnings.warn(
