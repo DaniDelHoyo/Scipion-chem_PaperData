@@ -25,8 +25,8 @@ These subworkflows are:
 
 Principal workflow that includes protocols following the "Virtual Drug Screening workflow" section:
 
-.. figure:: images/subworkflow1.png
-   :alt: vds workflow
+.. figure:: images/subworkflow1_4erf.png
+   :alt: vds workflow 4erf
 
 1) **Molecules import**
     - **Receptor import**: 4ERF structure from PDB web, a ligase from Homo Sapiens
@@ -72,8 +72,8 @@ Principal workflow that includes protocols following the "Virtual Drug Screening
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This Scipion project also includes several examples on how to determine the structural ROIs discussed in the paper.
 
-.. figure:: images/subworkflow2.png
-   :alt: rois workflow
+.. figure:: images/subworkflow2_4erf.png
+   :alt: rois workflow 4erf
 
 1) **Manual definition**
 
@@ -101,8 +101,8 @@ This Scipion project also includes several examples on how to determine the stru
 As described in the paper, Scipion-chem includes some features to perform pharmacophore-based virtual screening. In this
 project, an example is shown.
 
-.. figure:: images/subworkflow3.png
-   :alt: pharmacophore workflow
+.. figure:: images/subworkflow3_4erf.png
+   :alt: pharmacophore workflow 4erf
 
 To do so, the actual ligand of 4ERF is first extracted and a pharmacophore is generated from it. This resulting
 pharmacophore is slightly modified to be more flexible using another Scipion-chem protocol, and this modified
@@ -118,8 +118,8 @@ prepared with OpenBabel would not be parsed properly with RDKit and the protocol
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Finally, this demo project also includes several examples of molecular dynamics simulations.
 
-.. figure:: images/subworkflow4.png
-   :alt: md workflow
+.. figure:: images/subworkflow4_4erf.png
+   :alt: md workflow 4erf
 
 1) **On a docked molecule**
 
@@ -152,6 +152,10 @@ each of the protocols belongs to. In this case, the subworkflows are:
 
 1) Main VDS workflow
 ~~~~~~~~~~~~~~~~~~~~~
+Principal workflow that includes protocols following the "Show case" section:
+
+.. figure:: images/subworkflow1_1a28.png
+   :alt: vds workflow 1a28
 
 1) **Molecules import**
     - **Receptor import**: 1A28 structure from dcoid dataset, corresponding to 1A28 PDB entry, the progesterone receptor
@@ -216,6 +220,9 @@ To do so, the actual ligand of 1A28 is first extracted and a pharmacophore is ge
 is used as a filter for out set of 4 small molecules. In this example, as the pharmacophore
 features are built using RDKit, we prepared the small molecules using RDKit too. The only small molecule fitted into
 the pharmacophore is the actual ligand, the progesterone, shown in the figure of the paper related to this section.
+
+.. figure:: images/subworkflow3_1a28.png
+   :alt: pharmacophore workflow 1a28
 
 4) Molecular dynamics (MD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
