@@ -190,6 +190,8 @@ Principal workflow that includes protocols following the "Show case" section:
    combined and the most promising ones are extracted using the consensus protocol, with the different parameters
    explained in the paper. The name of the protocol specifies the parameters as: asking the clusters to contain x
    out of y input source poses (clut x/y) and with intra-cluster maximum RMSD of z (Rz).
+   An additional protocol is added in this workflow to measure the RMSD distance of each of the docking poses to the
+   actual ligand position.
 
 5) **Molecular dynamics**
 
