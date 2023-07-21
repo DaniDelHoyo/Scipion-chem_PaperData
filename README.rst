@@ -167,9 +167,9 @@ Principal workflow that includes protocols following the "Show case" section:
     - **Receptor import**: 1A28 structure from dcoid dataset, corresponding to 1A28 PDB entry, the progesterone receptor
       linked to its ligand progesterone. The ligand is removed from the original structure in order to get the receptor
       structure.
-    - **Small molecules import**: the 4 small molecule provided in the dcoid dataset are imported from local files.
-      These include the active molecule (progesterone) and 3 decoys which have been proved not to interact with the
-      receptor.
+    - **Small molecules import**: the 4 small molecule provided in the dcoid dataset (DOI: 10.17632/8czn4rxz68.1) are
+      imported from local files. These include the active molecule (progesterone) and 3 decoys which have been proved
+      not to interact with the receptor.
 
 2) **Molecules preparation**
     - **Receptor preparation**: we used Scipion-chem protocol (using biopython) to prepare the receptor, removing
