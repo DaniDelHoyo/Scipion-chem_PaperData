@@ -1,0 +1,10 @@
+#4ERF example small molecules
+C[N@H+]1CC[C@@H](C1)CN1c2ccccc2Sc2c1cccc2	ZINC00000480
+c1ccc(cc1)C1=CC(=O)c2cccc(c2O1)CC(=O)[O]	ZINC00001453
+c1cc(ccc1C(=O)[O])S(=O)(=O)N	ZINC00001099
+C[N@H+]1CC[C@@H](CC1)N1C(=O)C(=C(N1)c1ccccc1)Cc1ccccc1	ZINC00001019
+#1A28 example small molecules
+[C@H]12[C@H]3[C@]([C@H](CC3)C(=O)C)(C)CC[C@@H]1[C@@]1(C(=CC(=O)CC1)CC2)C	active_1a28
+c1(c(c(c(c(c1F)F)C(F)(F)F)F)F)n1c(cc(C)n1)C	decoys_1_1a28
+C\1(=C\c2ccsc2)/C(=O)c2cc(ccc2OC1)Br	decoys_2_1a28
+c1(c(cc(cc1C)Br)C)N1C(=O)CSC1=S	decoys_3_1a28
