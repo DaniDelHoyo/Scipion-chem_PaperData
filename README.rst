@@ -68,6 +68,7 @@ Principal workflow that includes protocols following the "Virtual Drug Screening
    - Production simulation: a second simulation protocol is executed to generate a larger production simulation
      of 5000ps of unrestricted simulation at native conditions, generating a trajectory that could be analyzed.
 
+|
 2) Structural ROIs definition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This Scipion project also includes several examples on how to determine the structural ROIs discussed in the paper.
@@ -96,6 +97,7 @@ This Scipion project also includes several examples on how to determine the stru
     From the previous subworkflow, we have already shown an example of how structural ROIs can be defined using programs
     that predict these protein concavities we call pockets.
 
+|
 3) Pharmacophore-based workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 As described in the paper, Scipion-chem includes some features to perform pharmacophore-based virtual screening. In this
@@ -114,6 +116,7 @@ We prepared the molecules using RDKit because, unfortunately, the full
 interoperability is not yet achieved in Scipion-chem, and this is an example of it. Sometimes, small molecules
 prepared with OpenBabel would not be parsed properly with RDKit and the protocols would fail.
 
+|
 4) Molecular dynamics (MD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Finally, this demo project also includes several examples of molecular dynamics simulations.
@@ -143,6 +146,10 @@ Finally, this demo project also includes several examples of molecular dynamics 
     repository). This file was obtained using PDBFixer, a software from OpenMM, using scipion-chem-scipionOpenmm, a plugin
     not yet released. We use this because Gromacs needs a deep preparation of the input receptor in order to run.
 
+
+|
+|
+|
 
 Show case (1a28_workflow)
 -----------------------------------------------------------
@@ -208,12 +215,13 @@ Principal workflow that includes protocols following the "Show case" section:
      minimized and equilibrated following the default Desmond procedure. Then, a small production simulation
      is executed, enlarging the trajectory with 24ps of unrestricted simulations.
 
-
+|
 2) Structural ROIs definition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This Scipion project also includes one example on how to determine structural ROIs based on mutations or variants
 of the original receptor sequence and known binding residues.
 
+|
 3) Pharmacophore-based workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This project includes the pharmacophore-based screening described in the paper.
@@ -226,6 +234,7 @@ the pharmacophore is the actual ligand, the progesterone, shown in the figure of
 .. figure:: images/subworkflow3_1a28.png
    :alt: pharmacophore workflow 1a28
 
+|
 4) Molecular dynamics (MD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Finally, this project also includes several examples of molecular dynamics simulations.
@@ -244,6 +253,9 @@ Finally, this project also includes several examples of molecular dynamics simul
     However, the simulation is not executed in the project, since the resulting trajectory is composed by large files
     that could not be uploaded on GitHub, but the user is free to execute it locally.
 
+|
+|
+|
 
 Software availability
 -----------------------------------------------------------
