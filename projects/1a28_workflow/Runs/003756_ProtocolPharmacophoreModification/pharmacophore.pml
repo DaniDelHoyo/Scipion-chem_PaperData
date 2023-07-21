@@ -1,10 +1,6 @@
 from pymol.cgo import *
 from pymol import cmd
 load /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/000037_ProtImportPdb/extra/1a28.pdb, receptor
-load /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/active_1a28-1_0.sdf, active_1a28-1_0
-disable active_1a28-1_0
-load /home/danieldh/Desktop/Scipion-chem_PaperData/projects/1a28_workflow/Runs/003806_ProtocolPharmacophoreFiltering/active_1a28-2_0.sdf, active_1a28-2_0
-disable active_1a28-2_0
     #ligands
 
 python
