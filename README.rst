@@ -149,7 +149,6 @@ Finally, this demo project also includes several examples of molecular dynamics 
 
 |
 |
-|
 
 Show case (1a28_workflow)
 -----------------------------------------------------------
@@ -253,7 +252,6 @@ Finally, this project also includes several examples of molecular dynamics simul
     However, the simulation is not executed in the project, since the resulting trajectory is composed by large files
     that could not be uploaded on GitHub, but the user is free to execute it locally.
 
-|
 |
 |
 
