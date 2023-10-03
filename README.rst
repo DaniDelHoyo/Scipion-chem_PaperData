@@ -294,7 +294,7 @@ refer to the moment this document is being written, but updates are constantly b
     - AutoDock-GPU (https://github.com/ccsb-scripps/AutoDock-GPU.git)
     - Vina 1.2.3 (https://github.com/ccsb-scripps/AutoDock-Vina.git)
     - ADFRSuite 1.0 (https://ccsb.scripps.edu/adfr)
-    - Meeko (pip)
+    - Meeko 0.3.3 (pip)
 
 4) `Scipion-chem-blast: <https://github.com/scipion-chem/scipion-chem-blast>`_
 
@@ -310,8 +310,8 @@ refer to the moment this document is being written, but updates are constantly b
 
 7) `Scipion-chem-lephar: <https://github.com/scipion-chem/scipion-chem-lephar>`_
 
-    - LeDock - (http://www.lephar.com)
-    - LePro - (http://www.lephar.com)
+    - LeDock - (http://www.lephar.com as in 2023/04/14)
+    - LePro - (http://www.lephar.com as in 2023/04/14)
 
 8) `Scipion-chem-modeller: <https://github.com/scipion-chem/scipion-chem-modeller>`_
 
